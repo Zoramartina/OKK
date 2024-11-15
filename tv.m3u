@@ -626,21 +626,21 @@ http://211.72.65.236:8559/.m3u8
 http://211.72.65.236:8582/.m3u
 #EXTINF:-1 tvg-name="东森_新闻" tvg-logo="https://live.fanmingming.com/tv/东森_新闻.png" group-title="港澳台",东森_新闻
 http://37.27.111.214:8080/live/20/hls.m3u8
-#EXTINF:-1 tvg-name="民视_第一" tvg-logo="https://live.fanmingming.com/tv/民视_第一.png",民视_第一
+#EXTINF:-1 tvg-name="民视_第一" tvg-logo="https://live.fanmingming.com/tv/民视_第一.png" group-title="港澳台",民视_第一
 http://37.27.111.214:8080/live/4/hls.m3u8
-#EXTINF:-1 tvg-name="民视_台湾" tvg-logo="https://live.fanmingming.com/tv/民视_台湾.png",民视_台湾
+#EXTINF:-1 tvg-name="民视_台湾" tvg-logo="https://live.fanmingming.com/tv/民视_台湾.png" group-title="港澳台",民视_台湾
 http://37.27.111.214:8080/live/5/hls.m3u8
-#EXTINF:-1 tvg-name="三立_综合" tvg-logo="https://live.fanmingming.com/tv/三立_综合.png",三立_综合
+#EXTINF:-1 tvg-name="三立_综合" tvg-logo="https://live.fanmingming.com/tv/三立_综合.png" group-title="港澳台",三立_综合
 http://37.27.111.214:8080/live/31/hls.m3u8
-#EXTINF:-1 tvg-name="TVBS_欢乐" tvg-logo="https://live.fanmingming.com/tv/TVBS_欢乐.png",TVBS_欢乐
+#EXTINF:-1 tvg-name="TVBS_欢乐" tvg-logo="https://live.fanmingming.com/tv/TVBS_欢乐.png" group-title="港澳台",TVBS_欢乐
 http://37.27.111.214:8080/live/24/hls.m3u8
-#EXTINF:-1 tvg-name="龙华_电影" tvg-logo="https://live.fanmingming.com/tv/龙华_电影.png",龙华_电影
+#EXTINF:-1 tvg-name="龙华_电影" tvg-logo="https://live.fanmingming.com/tv/龙华_电影.png" group-title="港澳台",龙华_电影
 http://37.27.111.214:8080/live/19/hls.m3u8
-#EXTINF:-1 tvg-name="猪哥亮歌厅" tvg-logo="https://live.fanmingming.com/tv/猪哥亮歌厅.png",猪哥亮歌厅
+#EXTINF:-1 tvg-name="猪哥亮歌厅" tvg-logo="https://live.fanmingming.com/tv/猪哥亮歌厅.png" group-title="港澳台",猪哥亮歌厅
 http://37.27.111.214:8080/live/35/hls.m3u8
-#EXTINF:-1 tvg-name="亚洲_旅游" tvg-logo="https://live.fanmingming.com/tv/亚洲_旅游.png",亚洲_旅游
+#EXTINF:-1 tvg-name="亚洲_旅游" tvg-logo="https://live.fanmingming.com/tv/亚洲_旅游.png" group-title="港澳台",亚洲_旅游
 http://37.27.111.214:8080/live/10/hls.m3u8
-#EXTINF:-1 tvg-name="幸福_空间" tvg-logo="https://live.fanmingming.com/tv/幸福_空间.png",幸福_空间
+#EXTINF:-1 tvg-name="幸福_空间" tvg-logo="https://live.fanmingming.com/tv/幸福_空间.png" group-title="港澳台",幸福_空间
 http://37.27.111.214:8080/live/26/hls.m3u8
 #EXTINF:-1 tvg-name="Hakka_TV" tvg-logo="https://live.fanmingming.com/tv/Hakka_TV.png",Hakka_TV
 http://37.27.111.214:8080/live/1/hls.m3u8
@@ -661,22 +661,22 @@ http://37.27.111.214:8080/live/14/hls.m3u8
 #EXTINF:-1 tvg-name="博斯_无限" tvg-logo="https://live.fanmingming.com/tv/博斯_无限.png",博斯_无限
 http://37.27.111.214:8080/live/15/hls.m3u8
 
-#EXTINF:-1 tvg-name="之江记录" tvg-logo="https://live.fanmingming.com/tv/之江记录.png",之江记录
+#EXTINF:-1 tvg-name="之江记录" tvg-logo="https://live.fanmingming.com/tv/之江记录.png" group-title="浙江",之江记录
 http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 tvg-name="浙江国际" tvg-logo="https://live.fanmingming.com/tv/浙江国际.png",浙江国际
+#EXTINF:-1 tvg-name="浙江国际" tvg-logo="https://live.fanmingming.com/tv/浙江国际.png" group-title="浙江",浙江国际
 https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
-#EXTINF:-1 tvg-name="浙江少儿" tvg-logo="https://live.fanmingming.com/tv/浙江少儿.png",浙江少儿
+#EXTINF:-1 tvg-name="浙江少儿" tvg-logo="https://live.fanmingming.com/tv/浙江少儿.png" group-title="浙江",浙江少儿
 https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-#EXTINF:-1 tvg-name="公共新闻" tvg-logo="https://live.fanmingming.com/tv/公共新闻.png",公共新闻
+#EXTINF:-1 tvg-name="公共新闻" tvg-logo="https://live.fanmingming.com/tv/公共新闻.png" group-title="浙江",公共新闻
 https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-#EXTINF:-1 tvg-name="民生休闲" tvg-logo="https://live.fanmingming.com/tv/民生休闲.png",民生休闲
+#EXTINF:-1 tvg-name="民生休闲" tvg-logo="https://live.fanmingming.com/tv/民生休闲.png" group-title="浙江",民生休闲
 http://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-#EXTINF:-1 tvg-name="浙江影视" tvg-logo="https://live.fanmingming.com/tv/浙江影视.png",浙江影视
+#EXTINF:-1 tvg-name="浙江影视" tvg-logo="https://live.fanmingming.com/tv/浙江影视.png" group-title="浙江",浙江影视
 https://ali-m-l.cztv.com/channels/lantian/channel005/1080p.m3u8
-#EXTINF:-1 tvg-name="教科影视" tvg-logo="https://live.fanmingming.com/tv/教科影视.png",教科影视
+#EXTINF:-1 tvg-name="教科影视" tvg-logo="https://live.fanmingming.com/tv/教科影视.png" group-title="浙江",教科影视
 https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-#EXTINF:-1 tvg-name="经济生活" tvg-logo="https://live.fanmingming.com/tv/经济生活.png",经济生活
+#EXTINF:-1 tvg-name="经济生活" tvg-logo="https://live.fanmingming.com/tv/经济生活.png" group-title="浙江",经济生活
 http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
-#EXTINF:-1 tvg-name="浙江钱江" tvg-logo="https://live.fanmingming.com/tv/浙江钱江.png",浙江钱江
+#EXTINF:-1 tvg-name="浙江钱江" tvg-logo="https://live.fanmingming.com/tv/浙江钱江.png" group-title="浙江",浙江钱江
 http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
 
