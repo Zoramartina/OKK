@@ -1,0 +1,66 @@
+{
+  "inputs": [
+    "source"
+  ],
+  "_remote_说明": "自动搜集的补充源，每天跟着跑一遍。走 gh-proxy 是因为 raw.githubusercontent.com 国内直连不稳。",
+  "remote": [
+    "https://gh-proxy.com/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
+    "https://gh-proxy.com/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province.m3u8",
+    "https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+  ],
+  "output_dir": "dist",
+  "_primary_output_说明": "根目录的 tv.m3u 是订阅地址，只放 source/ 里手工挑选的源，保持原文件名不变。",
+  "primary_output": "tv.m3u",
+  "group_headers": true,
+  "concurrency": 64,
+  "per_host": 4,
+  "timeout": 6,
+  "probe_seconds": 4,
+  "dns_timeout": 5,
+  "retries": 1,
+  "mode": "strict",
+  "_keep_ipv6_说明": "纯 IPv6 源在 GitHub Actions 上必然探测失败，保留不判死。",
+  "keep_ipv6": true,
+  "_max_per_channel_说明": "只限制自动搜集来的源，主源里手工挑的多线路全部保留。",
+  "max_per_channel": 3,
+  "epg_url": "http://epg.51zmt.top:8000/e.xml",
+  "categories": [
+    {
+      "file": "cctv.m3u",
+      "match": [
+        "CCTV",
+        "央视",
+        "CGTN"
+      ]
+    },
+    {
+      "file": "weishi.m3u",
+      "match": [
+        "卫视"
+      ]
+    },
+    {
+      "file": "gangao.m3u",
+      "match": [
+        "港澳",
+        "翡翠",
+        "明珠",
+        "凤凰",
+        "台视",
+        "中视",
+        "华视"
+      ]
+    },
+    {
+      "file": "difang.m3u",
+      "match": [
+        "四川",
+        "地方",
+        "城市",
+        "省内"
+      ]
+    }
+  ],
+  "group_files": false,
+  "_group_files_说明": "按原始分组再拆一份到 dist/groups/。分组太碎的话会产出几十个文件，自用仓库建议关掉。"
+}
