@@ -8,10 +8,6 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
 #EXTINF:-1 tvg-name="韩国电影2" tvg-logo="https://live.fanmingming.cn/tv/韩国电影2.png" group-title="港澳台频道",韩国电影2
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
 
-#电视剧频道
-#EXTINF:-1 tvg-name="特种兵之火凤凰" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/特种兵之火凤凰.png" group-title="电视剧频道",特种兵之火凤凰
-https://live.metshop.top/huya/29982636
-
 #APTV专享
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/TVB翡翠台.png" group-title="APTV专享" http-user-agent="AptvPlayer-UA",TVB翡翠台
 http://101.35.240.114:88/live.php?id=翡翠台
@@ -347,6 +343,16 @@ http://live-hls.macaulotustv.com/lotustv/macaulotustv.m3u8
 http://live4play.uk/livehttpplay?channel_id=12037
 #EXTINF:-1 tvg-id="非凡新闻" tvg-name="非凡新闻" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Unique1.png" group-title="港澳台频道",非凡新闻
 rtmp://f13h.mine.nu/sat/tv581
+#EXTINF:-1 tvg-name="龙华偶像" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV6.png" group-title="港澳台频道",龙华偶像
+https://cdn8.163189.xyz/live/lhox/stream.m3u8
+#EXTINF:-1 tvg-name="龙华卡通" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV8.png" group-title="港澳台频道",龙华卡通
+https://cdn8.163189.xyz/live/lhkt/stream.m3u8
+#EXTINF:-1 tvg-name="龙华经典" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV7.png" group-title="港澳台频道",龙华经典
+https://cdn8.163189.xyz/live/lhjd/stream.m3u8
+
+#电视剧频道
+#EXTINF:-1 tvg-name="特种兵之火凤凰" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/特种兵之火凤凰.png" group-title="电视剧频道",特种兵之火凤凰
+https://live.metshop.top/huya/29982636
 
 #🌊港·澳·台
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://www.xn--rgv465a.top/tvlogo/凤凰中文.png" group-title="🌊港·澳·台",凤凰中文

@@ -64,6 +64,7 @@ DEFAULTS = {
     "mode": "strict",
     "probe_bytes": 262144,
     "retries": 1,
+    "liveness_gap": 90,
     "keep_ipv6": True,
     "max_per_channel": 5,
     "min_kbps": 0,
@@ -100,6 +101,10 @@ class Entry:
     kbps: float = 0.0
     res: str = ""
     note: str = ""
+    seq: int = -1               # 播放列表媒体序列号，用于判断是否还在前进
+    seg: str = ""               # 最后一个分片名，同上
+    media_url: str = ""         # 真正承载分片列表的地址（master 会往下解析一层）
+    checked_at: float = 0.0
 
     @property
     def ok(self) -> bool:
@@ -464,19 +469,20 @@ def _probe(entry: Entry, cfg: dict) -> Entry:
                 vbody, _ = _read_capped(resp, 65536, cfg["probe_seconds"])
             text = vbody.decode("utf-8", errors="ignore")
 
-        seg = ""
-        for line in text.splitlines():
-            line = line.strip()
-            if not line or line.startswith("#"):
-                continue
-            seg = line
-            break
-        if not seg:
+        segs = [l.strip() for l in text.splitlines() if l.strip() and not l.startswith("#")]
+        if not segs:
             entry.state, entry.ms = "dead", int((time.perf_counter() - t0) * 1000)
             entry.note = "播放列表为空"
             return entry
 
-        seg_url = _abs_url(media_url, seg)
+        # 记下序列号和末尾分片，稍后用来判断这张列表是不是冻住的
+        entry.media_url = media_url
+        mseq = re.search(r"#EXT-X-MEDIA-SEQUENCE:(\d+)", text)
+        entry.seq = int(mseq.group(1)) if mseq else -1
+        entry.seg = segs[-1].rsplit("/", 1)[-1]
+        entry.checked_at = time.time()
+
+        seg_url = _abs_url(media_url, segs[0])
         with _open(seg_url, cfg, min(cfg["timeout"], cfg["probe_seconds"] + 3), ua, ref) as resp:
             data, elapsed = _read_capped(resp, cfg["probe_bytes"], cfg["probe_seconds"])
 
@@ -556,6 +562,44 @@ def preflight_dns(entries: list[Entry], cfg: dict) -> None:
         print(f"  {len(bad)} 个域名解析失败，{hit} 条转为保留未校验（不判死，可能是本地 DNS 问题）")
 
 
+def verify_liveness(entries: list[Entry], cfg: dict) -> None:
+    """分片能下载，不代表是活直播。播放列表冻住的话，播放器会把最后几十秒
+    画面无限循环——这就是「一直重复播放以前的内容」的成因。隔一段时间再抓一次，
+    序列号没前进、末尾分片也没变，判定为停滞。"""
+    gap = float(cfg.get("liveness_gap", 90))
+    cand = [e for e in entries
+            if e.state == "verified" and e.seq >= 0 and e.media_url
+            and time.time() - e.checked_at >= gap]
+    if not cand:
+        return
+
+    print(f"  活性复检 {len(cand)} 条（距首次探测已 ≥{gap:.0f}s）")
+
+    def work(e: Entry):
+        try:
+            with _open(e.media_url, cfg, cfg["timeout"], e.ua or None, e.referer or None) as resp:
+                body, _ = _read_capped(resp, 65536, cfg["probe_seconds"])
+        except Exception:
+            return
+        text = body.decode("utf-8", errors="ignore")
+        if "#EXT-X-ENDLIST" in text:
+            e.state = "unverified"
+            e.note = "点播列表（非直播）"
+            return
+        segs = [l.strip() for l in text.splitlines() if l.strip() and not l.startswith("#")]
+        mseq = re.search(r"#EXT-X-MEDIA-SEQUENCE:(\d+)", text)
+        seq = int(mseq.group(1)) if mseq else -1
+        last = segs[-1].rsplit("/", 1)[-1] if segs else ""
+        if seq == e.seq and last == e.seg:
+            e.state = "unverified"
+            e.note = "播放列表停滞（循环回放）"
+
+    with ThreadPoolExecutor(max_workers=int(cfg["concurrency"])) as pool:
+        list(pool.map(work, cand))
+    stale = sum(1 for e in cand if e.state == "unverified")
+    print(f"  其中停滞/点播 {stale} 条")
+
+
 def run_probes(entries: list[Entry], cfg: dict) -> None:
     preflight_dns(entries, cfg)
 
@@ -589,6 +633,8 @@ def run_probes(entries: list[Entry], cfg: dict) -> None:
     # 403/429 不做批量复测。实测冷却 6 秒后复测一条都救不回来，
     # 真正的恢复窗口是几分钟级，批量重打只会再次触发限流。
     # 这类源统一按「保留未校验」处理，不删除。
+
+    verify_liveness(entries, cfg)
 
     print(f"  探测用时 {time.perf_counter() - t0:.1f}s")
 
@@ -798,10 +844,26 @@ def main() -> int:
             safe = re.sub(r'[\\/:*?"<>|\s]+', "_", g)[:40]
             write_m3u(out_dir / "groups" / f"{safe}.m3u", sub, cfg)
 
+    # 分类以「分组」为单位整体判定。之前按频道名做子串匹配，
+    # 会把同一个分组拆散：比如「浙江频道」里的「浙江教科影视」命中"影视"
+    # 跑进 difang.m3u，「浙江新闻」却留在 other.m3u。
+    group_owner: dict[str, str] = {}
+    for cat in cfg.get("categories", []):
+        keys = [k.lower() for k in cat.get("match", [])]
+        for g in groups:
+            if g in group_owner or not g:
+                continue
+            if any(k in g.lower() for k in keys):
+                group_owner[g] = cat["file"]
+
     matched: set[str] = set()
     for cat in cfg.get("categories", []):
         keys = [k.lower() for k in cat.get("match", [])]
-        sub = [e for e in good if any(k in (e.group + " " + e.name).lower() for k in keys)]
+        sub = [
+            e for e in good
+            if group_owner.get(e.group) == cat["file"]
+            or (e.group not in group_owner and any(k in e.name.lower() for k in keys))
+        ]
         if sub:
             write_m3u(out_dir / cat["file"], sub, cfg)
             matched.update(e.url for e in sub)
