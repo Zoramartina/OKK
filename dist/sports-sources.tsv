@@ -1,0 +1,9 @@
+名称	状态	字节	条目	地址
+iptvorg_sports	OK	119618	479	https://iptv-org.github.io/iptv/categories/sports.m3u
+iptvorg_us	OK	156684	1102	https://gh-proxy.com/https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u
+iptvorg_uk	OK	39088	221	https://gh-proxy.com/https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uk.m3u
+iptvorg_tw	OK	6663	56	https://gh-proxy.com/https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u
+guovin	OK	396412	1619	https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
+bestk_iptv	FAIL	0	0	https://gh-proxy.com/https://raw.githubusercontent.com/bestK/iptv/master/live.m3u
+epg_sports	FAIL	0	0	https://epg.pw/streams/sports.m3u
+joev_pt	FAIL	0	0	https://gh-proxy.com/https://raw.githubusercontent.com/erdesigns-eu/AIPTV/main/playlists/sports.m3u

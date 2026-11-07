@@ -22,6 +22,18 @@
   "epg_url": "http://epg.51zmt.top:8000/e.xml",
   "categories": [
     {
+      "file": "sports.m3u",
+      "match": [
+        "体育",
+        "NBA",
+        "UFC",
+        "ESPN",
+        "FightBox",
+        "DAZN",
+        "格斗"
+      ]
+    },
+    {
       "file": "cctv.m3u",
       "match": [
         "CCTV",
@@ -39,6 +51,8 @@
       "file": "gangao.m3u",
       "match": [
         "港澳",
+        "中国香港",
+        "中国台湾",
         "翡翠",
         "明珠",
         "凤凰",

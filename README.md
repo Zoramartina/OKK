@@ -2,6 +2,8 @@
 
 本地跑清洗时会把实测失败的源从订阅里删掉；GitHub Actions 每天凌晨跑一遍保守校验，只更新报告和分类，不覆盖订阅。手工维护的部分放在 `source/`，根目录的 `tv.m3u` 是机器生成的，别手改。
 
+**根目录 `tv.m3u` 是唯一完整订阅**：央视港台专用、在线新增、体育专用这几份都只是它的子集视图，内容已经全部并入主订阅，播放器只填根目录这一份就能看全。
+
 ## 订阅地址
 
 ```
@@ -20,14 +22,25 @@ https://gh-proxy.com/https://raw.githubusercontent.com/Zoramartina/OKK/main/tv.m
 | --- | --- |
 | `source/` | **手工维护区**，改了这里才算数 |
 | `config.json` / `verify_config.json` / `recheck_config.json` | 常态配置 / 全量核实配置 / 低速补核配置 |
-| `tv.m3u` | 生成物，只含实测通过的主源，订阅用的就是它 |
+| `tv.m3u` | 生成物，只含实测通过的主源，订阅用的就是它，**185 条** |
 | `dist/all.m3u` | 主源 + 自动搜集的合并版 |
-| `dist/cctv.m3u` `weishi.m3u` `gangao.m3u` `difang.m3u` | 分类版 |
+| `dist/*.m3u`（分类） | `cctv` / `weishi` / `gangao` / `difang` / `sports` / `other` 六份分类版 |
 | `dist/report.md` | 本次报告：剔了多少、为什么剔，附交叉验证结论 |
 | `dist/crosscheck.tsv` | 2026-11-07 抽查快照，38 条逐条结果（不随每日清洗更新） |
 | `dist/detail.tsv` | 全量逐条明细，含响应时间、速度、判定原因 |
 | `dist/removed.tsv` | **从订阅移出的完整清单**，想找回某条源来这里翻 |
 | `dist/pending.m3u` | 未通过校验但没判死的源（IPv6、rtmp、加密流、分片反盗链），可自行加回 |
+| `dist/cctv-hk-tw.m3u` | **央视 / 中国香港 / 中国台湾专用订阅**，62 条，全部实测通过 |
+| `dist/online-new.m3u` | **本次在线新找到的 44 条**，独立订阅，不含任何旧归档地址 |
+| `source/online-new.m3u` | 新源的手工维护文件，与 `source/tv.m3u` 旧归档分开 |
+| `dist/online-probe.tsv` | 786 条在线候选的逐条判定 |
+| `dist/online-sources.tsv` | 本次拉取的 29 个在线源地址与状态 |
+| `dist/three-archive.m3u` | 上一轮旧归档的港台澳候选恢复包，278 条，标注 `[未验证]`，不进主订阅 |
+| `dist/hk-probe.tsv` | 上一轮 160 条旧香港候选的逐条判定 |
+| `dist/sports.m3u` | **NBA / 格斗 / 赛事台体育专用订阅**，49 条，全部实测通过 |
+| `source/sports.m3u` | 体育源的手工维护文件，与旧归档分开 |
+| `dist/sports-probe.tsv` | 182 条体育候选的逐条判定 |
+| `dist/sports-sources.tsv` | 本轮拉取的 8 个体育公开列表地址与状态 |
 
 ## 怎么加源
 
@@ -62,7 +75,7 @@ GitHub Actions 每天北京时间 03:00 跑：
 | 本地（国内 IP） | `drop_unverified: true` — 只把实测通过的写进订阅，其余全部移出 |
 | GitHub Actions | `drop_unverified_in_ci: false` — 保守模式，只删确认失效的，不删存疑的，**且不覆盖根目录 `tv.m3u`** |
 
-本地那份干净订阅推上去之后，Actions **不会**拿境外 IP 的结论覆盖根目录 `tv.m3u`。但 `dist/` 里的 `all.m3u`、`all_status.m3u` 和五个分类文件会被 CI 按保守模式重写，条数会比本地版多不少——多出来的是「境外连不上、境内未必不能播」的源。**播放器只订阅根目录 `tv.m3u`，别用 `dist/all.m3u`。** 每次本地重跑清洗会把这些文件同步回本地结论。
+本地那份干净订阅推上去之后，Actions **不会**拿境外 IP 的结论覆盖根目录 `tv.m3u`。但 `dist/` 里的 `all.m3u`、`all_status.m3u` 和六个分类文件会被 CI 按保守模式重写，条数会比本地版多不少——多出来的是「境外连不上、境内未必不能播」的源。**播放器只订阅根目录 `tv.m3u`，别用 `dist/all.m3u`。** 每次本地重跑清洗会把这些文件同步回本地结论。
 
 想要长期自动剔除，最靠谱的是在国内网络（本机、NAS、软路由）给 `scripts/clean.py` 挂个定时任务。真要让 CI 也执行剔除，把 `drop_unverified_in_ci` 改成 `true`，代价是可能误删只允许大陆访问的源。
 
@@ -101,8 +114,99 @@ CCTV 全系、CGTN、各卫视 4K 整批消失主要是这个原因，不是频�
 被删掉的那部分只代表本机连不到**。换个网络或直接用播放器，其中一些大概率还能看。
 
 想找回某条，去 `dist/removed.tsv` 翻完整地址和原始 UA／Referer，
-抄回 `source/tv.m3u` 就行。`source/tv.m3u` 里 1287 条原始归档一直没动过。
+抄回 `source/tv.m3u` 就行。`source/tv.m3u` 原有 1287 条归档一条没删，
+末尾追加过 13 条，现 1300 条；在线新源另放 `source/online-new.m3u`（44 条），
+体育源另放 `source/sports.m3u`（49 条），三份互不覆盖。
 详见 `dist/report.md` 的「交叉验证」和「判定边界」两节。
+
+## 央视、香港、台湾频道（在线新源）
+
+上一轮一直围着 `source/tv.m3u` 那批旧地址复核，香港源怎么试都被本机网络挡住。
+这一轮改成**在线重新找**：搜了 29 个仍在自动更新的公开列表，成功拉到 22 个
+（bestK/iptv 每小时检测、MercuryZz/IPTVN 港澳台专题、epg.pw 分地区列表、
+live.zbds.top、YueChan、Kimentanm、iptv-org 网站版等），只从这批新列表里提取三类频道。
+**旧归档一条没读、一条没改**，已经在订阅里的地址也全部排除。
+
+| 步骤 | 数量 |
+| --- | --- |
+| 成功拉取的在线列表 | 22 / 29 |
+| 提取出的全新候选 | 786（央视 303 / 香港 243 / 台湾 240） |
+| TCP 可建连进入 HTTP 复核 | 284 |
+| 拿到有效播放列表 | 147 |
+| 两轮活性判定通过 | 67 |
+| 严格归类、每频道 2 条线路 | 48 |
+| 剔掉与旧归档撞车的 6 条，加香港补测 2 条 | **44 条新增** |
+
+44 条全新线路：央视 28（CCTV2/5/8/12/15/16、CGTN 多语种、央视数字付费频道、央广）、
+中国台湾 13（台视新闻、民视新闻、TVBS 亚洲、东森超视、TTV News、Dali TV）、
+中国香港 3（Jade 翡翠台、Asian Drama、美亚电影台）。
+每条都过了「追到分片 + 隔 20 秒序列号前进」两关，不是循环回放的僵尸列表。
+
+订阅地址：
+
+```
+https://raw.githubusercontent.com/Zoramartina/OKK/main/tv.m3u              主订阅 185 条（全量）
+https://raw.githubusercontent.com/Zoramartina/OKK/main/dist/cctv-hk-tw.m3u  央视 / 港 / 台专用 62 条
+https://raw.githubusercontent.com/Zoramartina/OKK/main/dist/online-new.m3u  在线新增 44 条
+https://raw.githubusercontent.com/Zoramartina/OKK/main/dist/sports.m3u       NBA / 格斗 / 赛事台 49 条
+```
+
+新源单独放在 `source/online-new.m3u`，和 `source/tv.m3u` 那 1300 条旧归档分开，
+清洗脚本会同时读这两个文件。要删这批源，只动 `online-new.m3u` 就行。
+
+**归类有个坑**：`freetv`、`bigbig` 是国际聚合源，靠短关键词会把
+AlphaTV（希腊）、Knesset（以色列）、RadioItaliaTV（意大利）当成港台，
+TVBS 也会因为名字含 `tvb` 被误判成香港。终审后加了严格品牌词白名单重新归类，
+剔掉 16 条外国台，判定顺序也改成台湾优先。逐条结果见 `dist/online-probe.tsv`，
+源地址见 `dist/online-sources.tsv`。
+
+香港仍然受地区限制：243 条候选里 153 条跨境 TCP 未建连，RTHK 全系返回真实地区限制 403。
+把「拿到列表但追分片超时」的挑出来用 6 秒超时单独补测，又捞回 2 条。
+上一轮那份 `dist/three-archive.m3u` 是旧归档的备选地址，本次没有再碰，
+需要时仍可自行导入试；`dist/hk-probe.tsv` 是它的逐条判定。
+
+## 体育频道：看 NBA 和格斗
+
+这一轮同样**只从在线公开列表里找**，旧归档 `source/tv.m3u` 一条没读。
+新拉了 5 份列表：iptv-org 网站版 `categories/sports.m3u`（479 条）、
+iptv-org 的 us / uk / tw 分区列表、Guovin/iptv-api 的每日结果；
+加上上一轮已缓存的 22 份在线列表，共 27 份作为候选来源。
+源地址与状态在 `dist/sports-sources.tsv`。
+
+| 阶段 | 条数 |
+| --- | --- |
+| 严格归类的全新候选 | 182（赛事台 149 / 格斗 27 / 篮球 6） |
+| TCP 预筛：86 个 host，可建连 67 | 进入 HTTP 复核 121 |
+| 拿到有效播放列表 | 70 |
+| 两轮活性指纹通过 | 48 |
+| 长超时补测（追 variant）再捞回 | +5 |
+| 合并去重、语义清洗剔 1 条误判 | **49 条新增** |
+
+主订阅 136 → **185 条**，体育单独出一份 `dist/sports.m3u`，分三组：
+
+| 分组 | 条数 | 代表频道 |
+| --- | --- | --- |
+| `体育·NBA` | 1 | NBA TV (720p) |
+| `体育·格斗` | 7 | FightBox / FightBox HD / FightBox Poland、DAZN 3 Portugal、MMA-TV.com、Persiana Fight、TVS Boxing |
+| `体育·赛事台` | 41 | CCTV-5 / 5+ / 16、五星体育、广东体育、山东体育、天津体育、ESPN 系列、TNT Sports、beIN SPORTS XTRA、Eurosport、Eleven Sports、Arena Sport |
+
+**看比赛要挑台**：NBA TV 是全天篮球台；国内看 NBA 主要靠 CCTV-5 / 5+、五星体育、广东体育，
+境外靠 ESPN、TNT Sports。格斗（UFC、拳击、MMA、踢拳）靠 `体育·格斗` 那 7 条，
+另外 DAZN、TNT Sports 这类赛事台在有大赛时也会转播。这些都是转播台而非赛事专场，
+有没有比赛要看当日节目表，不是点开就有 NBA 或 UFC。
+
+体育源独立放在 `source/sports.m3u`，配置里新增了 `sports.m3u` 分类文件并放在匹配顺序第一位，
+这样 CCTV-5 这类名称含「CCTV」的体育台不会被归到央视频道分类去。
+
+顺手修了 `scripts/clean.py` 的一个解析 bug：`#EXTINF` 属性里的 UA 常带逗号
+（`(KHTML, like Gecko)`），原来按第一个逗号切分会把它后半截当成频道名，
+产出一批 `Chrome/149.0.0.0 Safari/...` 这样的乱码条目；现在改成按**引号外的第一个逗号**切。
+归类也换成品牌词白名单 + 英文短词边界，避免 `pinball` 里藏着 `nba`、
+`Drammatico` 里藏着 `mma` 这种误判，并剔掉了误入的 His Glory TV（宗教台）。
+逐条判定见 `dist/sports-probe.tsv`。
+
+判定边界和前几轮一样：这里的「可用」只代表跑清洗这台机器能拉到流且序列号在前进，
+不保证节目内容、也不保证换网络后仍然可播。
 
 ## 另外两条
 

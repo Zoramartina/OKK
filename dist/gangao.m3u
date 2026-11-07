@@ -7,3 +7,51 @@ https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
 #EXTINF:-1 tvg-name="韩国电影2" tvg-logo="https://live.fanmingming.cn/tv/韩国电影2.png" group-title="港澳台频道",韩国电影2
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
+
+#中国台湾频道
+#EXTINF:-1 tvg-id="Beautiful Life TV" tvg-name="Beautiful Life TV" group-title="中国台湾频道",Beautiful Life TV
+https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
+#EXTINF:-1 tvg-id="CGNTV Chinese" tvg-name="CGNTV Chinese" group-title="中国台湾频道",CGNTV Chinese
+https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
+#EXTINF:-1 tvg-id="唯心電視" tvg-name="唯心電視" group-title="中国台湾频道",唯心電視
+https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
+#EXTINF:-1 tvg-id="Taiwan Indigenous TV" tvg-name="Taiwan Indigenous TV" group-title="中国台湾频道",Taiwan Indigenous TV
+https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
+#EXTINF:-1 tvg-id="TVBS Asia" tvg-name="TVBS Asia" group-title="中国台湾频道",TVBS Asia
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲" group-title="中国台湾频道",TVBS亚洲
+http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
+#EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲" group-title="中国台湾频道",TVBS亚洲
+http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
+#EXTINF:-1 tvg-id="台视新闻" tvg-name="台视新闻" group-title="中国台湾频道",台视新闻
+http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
+#EXTINF:-1 tvg-id="民视新闻" tvg-name="民视新闻" group-title="中国台湾频道",民视新闻
+http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
+
+#中国香港频道
+#EXTINF:-1 tvg-id="Jade" tvg-name="Jade" group-title="中国香港频道",Jade
+http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8
+
+#中国台湾频道
+#EXTINF:-1 tvg-id="TTV News" tvg-name="TTV News" group-title="中国台湾频道",TTV News
+https://live.wcetv.com/hls/master-ttvnews.m3u8
+#EXTINF:-1 tvg-id="民视新闻 HD" tvg-name="民视新闻 HD" group-title="中国台湾频道",民视新闻 HD
+http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
+#EXTINF:-1 tvg-id="民视新闻 HD" tvg-name="民视新闻 HD" group-title="中国台湾频道",民视新闻 HD
+http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
+#EXTINF:-1 tvg-id="台视新闻 HD" tvg-name="台视新闻 HD" group-title="中国台湾频道",台视新闻 HD
+http://38.64.72.148/hls/modn/list/4013/playlist.m3u8
+#EXTINF:-1 tvg-id="台视新闻 HD" tvg-name="台视新闻 HD" group-title="中国台湾频道",台视新闻 HD
+http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
+#EXTINF:-1 tvg-id="TVBS亞洲" tvg-name="TVBS亞洲" group-title="中国台湾频道",TVBS亞洲
+http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
+#EXTINF:-1 tvg-id="TVBS亞洲" tvg-name="TVBS亞洲" group-title="中国台湾频道",TVBS亞洲
+http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
+#EXTINF:-1 tvg-id="东森超视34.5" tvg-name="东森超视34.5" group-title="中国台湾频道",东森超视34.5
+http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
+
+#中国香港频道
+#EXTINF:-1 tvg-id="Asian Drama" tvg-name="Asian Drama" group-title="中国香港频道",Asian Drama
+http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8
+#EXTINF:-1 tvg-id="Mei Ah Movie Channel" tvg-name="Mei Ah Movie Channel" group-title="中国香港频道",Mei Ah Movie Channel
+http://103.172.187.30:12000/stream/mytv/null-2/master.m3u8

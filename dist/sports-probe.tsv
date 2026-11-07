@@ -1,0 +1,183 @@
+类别	频道	地址	来源	结果	HTTP	响应ms	备注
+体育综合	CCTV-5+	https://iptv.catvod.com/live.php?id=CCTV5%2B&line=2	bestK_cctv.m3u	BAD	200	1564	点播列表（非直播）
+体育综合	CCTV-5+	http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009	guovin.m3u	OK	200	0	活跃
+体育综合	山东体育	https://stream1.freetv.fun/shan-dong-ti-yu-8.m3u8	bestK_iptv.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	山东体育	http://livealone302.iqilu.com/iqilu/typd.m3u8	guovin.m3u	SOFT	403	26	限流/地区限制
+体育综合	广东体育	http://r.jdshipin.com/LiYdg	bestK_iptv.m3u	DEAD	0	4758	连接超时
+体育综合	广东体育	http://38.75.136.137:98/gslb/dsdqpub/gdty.m3u8?auth=testpub	guovin.m3u	OK	200	0	列表无分片
+体育综合	江苏体育休闲	https://stream1.freetv.fun/af1087a1c24fff7af556ac8e6c5c623303d52966f67a998cefb52c17811b09a2.ctv	bestK_iptv.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	纬来精采	http://61.221.215.25:8800/hls/48/index.m3u8	bestK_iptv.m3u	OK	200	0	循环回放
+格斗·拳击	UFC	https://yang-1989.eu.org/live/huya/880223	bigbig.m3u	DEAD	404	2445	HTTP 404
+体育综合	J SPORTS 1	https://stream01.willfonk.com/live_playlist.m3u8?cid=BS242&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1	bigbig.m3u	DEAD	0	3038	RemoteDisconnected
+体育综合	J SPORTS 2	https://stream01.willfonk.com/live_playlist.m3u8?cid=BS243&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1	bigbig.m3u	DEAD	0	609	RemoteDisconnected
+体育综合	J SPORTS 3	https://stream01.willfonk.com/live_playlist.m3u8?cid=BS244&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1	bigbig.m3u	DEAD	0	817	RemoteDisconnected
+体育综合	J Sports 4	https://stream01.willfonk.com/live_playlist.m3u8?cid=BS245&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1	bigbig.m3u	DEAD	0	711	RemoteDisconnected
+体育综合	Trace Sports Stars	https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8?checkedby:iptvcat.com	bigbig.m3u	OK	200	0	活跃
+格斗·拳击	[BD]dazn 3 portugal	https://stream1.freetv.fun/bb7e81667fe95be504a7870b2520ff90be4330bf656618906102d7b0320847a6.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]arena sport 1 premium	https://stream1.freetv.fun/e750c9a9396d7e248dc4c2b330b1d0ea0a0560e0218c0a3884c3afc4d8d348a9.ctv	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]bein sports xtra	https://stream1.freetv.fun/51e2e9c866bb816bed1e2aad22d993ace203fb56d83fb23d0adb2cc254c2fd2a.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[VGA]bein sports usa	https://stream1.freetv.fun/0c7dbf0b21e496c2a7eb094bdd355ccc3326cfd7bf1826f7f2cecc225baacdde.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]cctv16	https://stream1.freetv.fun/c51293ed5353c05ee288e7463ff3574ed2f5d916a9355fc683ef4d3ac497a748.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]cctv5	https://stream1.freetv.fun/8ca3e123a0d74e87f21a305af77f712600ac07ae33200d2c5c017f8d01751f36.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]cctv5 plus	https://stream1.freetv.fun/307cd85c74b975219efe568ba329232587e9296f1ed29772d494179210b4ce08.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[SD]cctv5 plus	https://stream1.freetv.fun/dc20d0b380867cfe9203ed4b2115109f793029d61ee897b0cffb0e770e5ee32c.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]espn	https://stream1.freetv.fun/9e07f79f7a52802ee6a2de2f1e6ebe82b472dfc04c1dc72db5c275c051d7c32d.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[HD]espn	https://stream1.freetv.fun/9d689b0d3de3f6471d1be7af46e6e83c463d90b6912b8af8a090a2db1b257808.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]eurosport 1 portugal	https://stream1.freetv.fun/ccb3d44a5176a7de65eacd570b318bea2f6a9e40d1d78e02522568cfc193e7b1.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]eurosport 2 portugal	https://stream1.freetv.fun/afcc6253d80801a2257fb238d5f939c80cbab24aa540cde54169ff3764a45573.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]eurosport	https://stream1.freetv.fun/672fc0528808836f408e06de819dbe5c41284c1f77cc0f3518ce9bea6858d22d.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[SD]eurosport 1 germany	https://stream1.freetv.fun/3fafd364bd457c722907284ae221aa0585563a228ed1374f4e0631000283d823.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]eurosport 1 czechia	https://stream1.freetv.fun/e3434b6cbf1ed064d7e36ffe40dd5bd1879851a3104f9b994b8e23e600e84c7b.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]eurosport 1 russia	https://stream1.freetv.fun/0af1ff210722cef8523dd6a383a56712ca036083ea44fa53d26db0cd3351020d.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]eurosport 2 czechia	https://stream1.freetv.fun/364a72581857129433aa36895e8a5cd4d65663c89479f41d376c0c74891c681d.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]eurosport 2 russia	https://stream1.freetv.fun/049d2df4af23d6ab477a363ab93b6b1d84144486ef889ece0937dde333f7e8e9.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+格斗·拳击	[BD]fightbox	https://stream1.freetv.fun/df2e75fa714ed4a56594c6594a87967597e781b0b2aea8920668b94e55c95896.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]m4 sport	https://stream1.freetv.fun/d3d8b9c0f1c6527c41769c75436d902da250b2f57194c5999f1d8915cd6151e8.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[VGA]tnt sports	https://stream1.freetv.fun/08bc500e42ac671fa06696abd4dc1d1936e63cc57051ede99e14660fe7417deb.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]咪咕体育	https://stream1.freetv.fun/5304fe86c861d305cf26028aae3766670ec77200f1fc2282c11332261c971beb.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]广东体育	https://stream1.freetv.fun/1b51eaf416ee4be8045ce160c21c2b956788a652e03c78ea0db462d925c09459.m3u8	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	[BD]广东体育高清	https://stream1.freetv.fun/1d745ba426234a1728a7e03a4cf5f378ca61126a5c1115b9f9e9c44b0859d71f.ctv	epg_cn.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	M4 Sport Ⓖ	http://141.94.193.53:80/M4_Sport_HD/index.m3u8	freetv.m3u	OK	200	0	活跃
+体育综合	Sportitalia Plus	https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8	freetv.m3u	SOFT	403	436	限流/地区限制
+体育综合	Sportitalia SOLOCALCIO Ⓖ	https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8	freetv.m3u	SOFT	403	1721	限流/地区限制
+体育综合	QazSport	http://stream.mcquack.net/72/index.m3u8	freetv.m3u	SOFT	403	500	限流/地区限制
+体育综合	MNB Sport	https://live.mnb.mn/hls/mnb_sport.stream.m3u8	freetv.m3u	OK	200	0	活跃
+体育综合	Eleven Sports 1 Ⓢ	http://92.114.85.87:8002/play/a00e/index.m3u8	freetv.m3u	OK	200	0	活跃
+体育综合	Eleven Sports 2 (1080p)	http://92.114.85.87:8002/play/a00f/index.m3u8	freetv.m3u	OK	200	0	活跃
+体育综合	Eleven Sports 3 (1080p)	http://92.114.85.87:8002/play/a00g/index.m3u8	freetv.m3u	OK	200	0	活跃
+体育综合	Eleven Sports 4 (1080p)	http://92.114.85.87:8002/play/a00h/index.m3u8	freetv.m3u	OK	200	0	活跃
+格斗·拳击	FightBox Poland (576i) Ⓢ	http://92.114.85.87:8003/play/a00b/index.m3u8	freetv.m3u	OK	200	0	活跃
+格斗·拳击	Glory Kickboxing Poland (720p)	https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8	freetv.m3u	SOFT	403	1460	限流/地区限制
+格斗·拳击	Hard Knocks Fighting Championship Ⓢ	https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883037	freetv.m3u	TCP_SKIP	0	0	TCP 未建连
+格斗·拳击	PFL MMA (720p)	https://jmp2.uk/plu-64f6180130ab3300083d896b.m3u8	freetv.m3u	OK	200	0	列表无分片
+格斗·拳击	TNA Wrestling Channel (720p)	https://jmp2.uk/plu-59b722526996084038c01e1b.m3u8	freetv.m3u	OK	200	0	列表无分片
+体育综合	Abu Dhabi Sports 1	https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8	freetv.m3u	DEAD	0	402	TLS 握手失败
+体育综合	Abu Dhabi Sports 2	https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel2/HLS/index.m3u8	freetv.m3u	DEAD	0	449	TLS 握手失败
+体育综合	Dubai Sports 1	https://dmitnthfr.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8	freetv.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	Dubai Sports 2	https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8	freetv.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	Dubai Sports 3	https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8	freetv.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	Sportitalia LIVE24	https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/silive24.smil/playlist.m3u8	freetv.m3u	DEAD	404	5383	HTTP 404
+格斗·拳击	PFL MMA – Pluto TV	https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/654a299cab05240008a12639/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel	freetv.m3u	DEAD	400	1048	HTTP 400
+格斗·拳击	Ultimate Classic Wrestling – Pluto TV	https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/652516fb7971630008a58e74/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel	freetv.m3u	DEAD	400	1635	HTTP 400
+体育综合	CCTV-5+ (1080p)	https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p	iptvorg_cn.m3u	DEAD	0	215	连接被重置
+体育综合	CCTV-16 HD (1080p)	http://74.91.26.218:82/live/cctv16hd.m3u8	iptvorg_cn.m3u	OK	200	0	活跃
+体育综合	CCTV5	http://101.35.240.114:88/live.php?id=CCTV5	kimentanm.m3u	OK	200	0	列表无分片
+体育综合	CCTV5+	http://101.35.240.114:88/live.php?id=CCTV5p	kimentanm.m3u	OK	200	0	列表无分片
+体育综合	CCTV5+	http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0	zbds.m3u	OK	200	0	列表无分片
+体育综合	CCTV16	http://101.35.240.114:88/live.php?id=CCTV16	kimentanm.m3u	DEAD	0	3033	连接超时
+体育综合	五星体育	http://101.35.240.114:88/live.php?id=五星体育	kimentanm.m3u	OK	200	0	活跃
+体育综合	五星体育	https://zby.130519.xyz/PLTV/11/224/3221225732/index.m3u8	guovin.m3u	DEAD	0	511	TLS 握手失败
+篮球·NBA	睛彩篮球「移动」	http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011529&livemode=1&stbId=YanG-1989	yang_gather.m3u	SOFT	403	643	限流/地区限制
+篮球·NBA	纬来体育	https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8	zbds.m3u	OK	200	0	点播列表
+篮球·NBA	纬来体育	https://smart.pendy.dpdns.org/Smart.php?id=videolandsport	guovin.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	CCTV-5	http://107.150.60.122/live/cctv5hd.m3u8	guovin.m3u	OK	200	0	活跃
+体育综合	CCTV-5	http://207.56.13.146:81/cdnlive/cctv5.m3u8	guovin.m3u	OK	200	0	活跃
+体育综合	CCTV-16	http://207.56.13.146:81/cdnlive/cctv16.m3u8	guovin.m3u	OK	200	0	活跃
+体育综合	CCTV-16	http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009	guovin.m3u	OK	200	0	活跃
+体育综合	江苏体育	https://stream1.freetv.fun/af1087a1c24fff7af556ac8e6c5c623303d52966f67a998cefb52c17811b09a2.ctv	guovin.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	江苏体育	https://live.chinacert.cftest5.cn/cnmg/live/626064707	guovin.m3u	DEAD	0	3026	连接超时
+体育综合	纬来育乐	https://hls-gateway.vpstv.net/streams/477081.m3u8	guovin.m3u	SOFT	403	1957	限流/地区限制
+体育综合	纬来电影	https://hls-gateway.vpstv.net/streams/477063.m3u8	guovin.m3u	SOFT	403	851	限流/地区限制
+体育综合	劲爆体育	http://t.061899.xyz/tl/tl.php?id=jbty	guovin.m3u	DEAD	0	58	连接被重置
+体育综合	天津体育	http://63.141.230.178:82/gslb/zbdq5.m3u8?id=tjtv5	guovin.m3u	OK	200	0	列表无分片
+体育综合	天津体育	http://38.75.136.137:98/gslb/dsdqpub/tjtv5.m3u8?auth=testpub	guovin.m3u	OK	200	0	活跃
+篮球·NBA	睛彩篮球	https://zby.130519.xyz/PLTV/11/224/3221226118/index.m3u8	guovin.m3u	DEAD	0	179	TLS 握手失败
+体育综合	Arena Sport 1	http://88.212.15.50/live/test_arenasport/playlist.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	Arena Sport 1 Premium (Serbia) (360p)	http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vmRdlEHaaMaQAQw3LRAakpnghBMtR57sXXgLEXZF8gVD	iptvorg_sports.m3u	DEAD	0	3246	连接超时
+体育综合	Arena Sport 1 Premium (Slovenia)	http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vhWLdkJ_3C0RZgs4W19uhl8S3kU0l__4SxERjFMDgcT6	iptvorg_sports.m3u	OK	200	0	循环回放
+体育综合	Arena Sport 2	http://88.212.15.50/live/test_arenasport_dva/playlist.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	Arena Sport Premium M1	http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vgvje3t-Jiqa5d94ZBmKAqQgIFxl-Ch6B37eGpkVDb28	iptvorg_sports.m3u	OK	200	0	循环回放
+体育综合	Arena Sport Premium M2	http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vgvje3t-Jiqa5d94ZBmKAqR25sVNOuyj97sUY8aJBFf4	iptvorg_sports.m3u	OK	200	0	循环回放
+体育综合	Arena Sport Premium M3	http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vgvje3t-Jiqa5d94ZBmKAqSVr5S9_a_TNo_sg7gE1yvH	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	beIN Sports USA (576p)	https://tvsen6.aynaott.com/beinsports/index.m3u8	iptvorg_sports.m3u	DEAD	0	3005	连接超时
+体育综合	beIN SPORTS XTRA (1080p)	https://bein-xtra-bein.amagi.tv/playlist.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	beIN SPORTS XTRA en Espanol (1080p)	https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+格斗·拳击	Bellator MMA	https://jmp2.uk/plu-5ebc8688f3697d00072f7cf8.m3u8	iptvorg_sports.m3u	OK	200	0	列表无分片
+格斗·拳击	DAZN 1 Portugal	http://50.7.120.34:8080/DAZN1/index.m3u8	iptvorg_sports.m3u	DEAD	404	544	HTTP 404
+格斗·拳击	DAZN 3 Portugal (720p)	http://23.237.104.106:8080/DAZN_3/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+格斗·拳击	DAZN 4 (540p)	http://23.237.104.106:8080/DAZN_4/index.m3u8	iptvorg_sports.m3u	DEAD	0	4254	连接超时
+格斗·拳击	DAZN 5 (720p)	http://23.237.104.106:8080/DAZN_5/index.m3u8	iptvorg_sports.m3u	DEAD	404	1492	HTTP 404
+格斗·拳击	DAZN Combat (684p)	https://jmp2.uk/plu-64d626ac9b414d000820e2fc.m3u8	iptvorg_sports.m3u	OK	200	0	列表无分片
+体育综合	Eleven Sports 1	http://92.114.85.87:8002/play/a00e/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	ESPN 2 (Netherlands) (360p)	https://lb.iptvnetwork.net/ls28/10042/playlist.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN 2 (United States) HD (720p)	http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	ESPN 2 Latin America (1080p)	https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN 2 Latin America Argentina	https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn2-mux/playlist.m3u8	iptvorg_sports.m3u	SOFT	403	2337	限流/地区限制
+体育综合	ESPN 2 Latin America Colombia (1080p)	http://190.61.47.54:8000/play/a005/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	ESPN 3 (Brazil) (1080p)	http://190.83.2.182:8090/ESPN3/index.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN 3 (Netherlands)	https://lb.iptvnetwork.net/ls28/10043/playlist.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN 3 Latin America (1080p)	https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN 3 Latin America Argentina	https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn3-mux/playlist.m3u8	iptvorg_sports.m3u	SOFT	403	2598	限流/地区限制
+体育综合	ESPN 4 (Brazil) (1080p)	http://181.78.197.59:8000/play/a07n/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	ESPN 4 (Netherlands)	https://lb.iptvnetwork.net/ls28/10044/playlist.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN 4 Latin America (1080p)	https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN 5 Latin America (1080p)	https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN 6 Latin America (1080p)	https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN 7 Latin America (1080p)	https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN (Brazil) (1080p)	http://181.78.197.59:8000/play/a07z/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	ESPN (Netherlands) (360p)	https://lb.iptvnetwork.net/ls28/10041/playlist.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN (United States) (432p)	http://tvsen7.aynascope.net/espn/index.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN (United States) HD (720p)	http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	ESPN Deportes HD (720p)	http://168.228.44.241:9998/play/a0dz/index.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN Extra Latin America (1080p)	https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN Latin America (1080p)	https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN Latin America Argentina	https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn-mux/chunks.m3u8	iptvorg_sports.m3u	SOFT	403	2455	限流/地区限制
+体育综合	ESPN Latin America Colombia (1080p)	http://190.61.47.54:8000/play/a004/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	ESPN Latin America Mexico (1080p)	http://168.228.44.241:9997/play/a06p/index.m3u8	iptvorg_sports.m3u	OK	200	0	列表无分片
+体育综合	ESPN Premium HD (1080p)	http://158.172.155.130:8000/play/a0ao/index.m3u8	iptvorg_sports.m3u	OK	200	0	列表无分片
+体育综合	Eurosport 1 Czechia	http://88.212.7.14/live/test_esp1_hevc_tizen/playlist.m3u8	iptvorg_sports.m3u	OK	200	0	列表无分片
+体育综合	Eurosport 1 Germany	http://90.183.52.46:4000/play/a06v/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	Eurosport 1 Hungary	http://88.212.7.14/live/esp1_hun/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	Eurosport 1 Portugal	http://185.228.163.146:8000/play/a03z/index.m3u8	iptvorg_sports.m3u	OK	200	0	列表无分片
+体育综合	Eurosport 1 Russia (1080p)	https://s7.iptv-24.net/1439/playlist.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	Eurosport 1 Spain (576p)	http://45.134.141.161:2200/ARG/Eurosport_1_HD/index.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	Eurosport 1 Turkiye	https://andro.mangeinde4.lat/checklist/androstreamlivees1.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	Eurosport 1 Polska (1080p)	http://57.128.210.196:8080/264/index.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	Eurosport 2 Czechia	http://88.212.7.14/live/test_esp2_hevc_tizen/playlist.m3u8	iptvorg_sports.m3u	OK	200	0	列表无分片
+体育综合	Eurosport 2 Hungary	http://88.212.7.14/live/esp2_hun/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	Eurosport 2 Portugal	http://185.228.163.146:8000/play/a048/index.m3u8	iptvorg_sports.m3u	OK	200	0	列表无分片
+体育综合	Eurosport 2 Russia (1080p)	https://s7.iptv-24.net/1452/playlist.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	Eurosport 2 Spain (1080p)	http://45.134.141.161:2200/ARG/Eurosport_2_HD/index.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	Eurosport 2 Turkiye	https://andro.mangeinde4.lat/checklist/androstreamlivees2.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	Eurosport 2 Polska (1080p)	http://57.128.210.196:8080/263/index.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	Eurosport 3 Polska	http://91.228.35.249:8001/1:0:1:3D:1964:13E:820000:0:0:0	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	Eurosport 4K Czechia	http://88.212.15.50/live/esp_4k_atk/playlist.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	Eurosport (720p)	https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	Eurosport HD (1080p)	https://livetv.shamon-cable.net:8443/Eurosport-HD/index.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+格斗·拳击	Fight Network (1080p)	https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8	iptvorg_sports.m3u	DEAD	0	5327	连接超时
+格斗·拳击	FightBox	https://webtvstream.bhtelecom.ba/fightbox.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+格斗·拳击	FightBox HD	https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+格斗·拳击	FightBox Poland (576i)	http://92.114.85.87:8003/play/a00b/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+格斗·拳击	Hard Knocks (1080p)	https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Hard-Knocks-DistroTV/109.m3u8?ads.vf=6pOF6kgy418	iptvorg_sports.m3u	DEAD	404	671	HTTP 404
+体育综合	M4 Sport (1080p)	http://88.212.7.14/live/uatlmvixrr/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+格斗·拳击	MMA TV (576p)	http://31.148.48.15/M1_Global/index.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+格斗·拳击	MMA-TV.com (1080p)	https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	MNB Sport (1080p)	https://live.mnb.mn/hls/mnb_sport.stream.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+篮球·NBA	NBA TV (720p)	http://23.237.104.106:8080/USA_NBA/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+篮球·NBA	NBA TV (720p)	http://198.58.104.90:8989/nba/index.m3u8	iptvorg_us.m3u	TCP_SKIP	0	0	TCP 未建连
+格斗·拳击	Persiana Fight	https://fighthls.persiana.live/hls/stream.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	QazSport (1080p)	http://stream.mcquack.net/72/index.m3u8	iptvorg_sports.m3u	SOFT	403	500	限流/地区限制
+体育综合	Sky Sports 1 (1080p)	http://45.228.234.9:8000/play/a06b/index.m3u8	iptvorg_sports.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	Sky Sports F1 (720p)	https://cdn.stmify.com/out/v1/SKY_SPORTS_F1/index.m3u8	iptvorg_sports.m3u	SOFT	403	1835	限流/地区限制
+体育综合	Sky Sports NFL (720p)	https://cdn.stmify.com/out/v1/SKY_SPORTS_ACTION/index.m3u8	iptvorg_sports.m3u	SOFT	403	703	限流/地区限制
+体育综合	Sportitalia 24 (720p) [Geo-blocked]	https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:silive24.smil/playlist.m3u8	iptvorg_sports.m3u	SOFT	403	2146	限流/地区限制
+体育综合	Sportitalia (1080p)	https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	Sportitalia Motori (720p) [Geo-blocked]	https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8	iptvorg_sports.m3u	SOFT	403	360	限流/地区限制
+体育综合	Sportitalia Solocalcio (1080p)	https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8	iptvorg_sports.m3u	SOFT	403	1721	限流/地区限制
+体育综合	TNT Sports 1	http://37.49.224.5/stream/1/index.m3u8	iptvorg_sports.m3u	DEAD	404	424	HTTP 404
+体育综合	TNT Sports 2	http://37.49.224.5/stream/2/index.m3u8	iptvorg_sports.m3u	DEAD	404	394	HTTP 404
+体育综合	TNT Sports 3	http://37.49.224.5/stream/3/index.m3u8	iptvorg_sports.m3u	DEAD	404	446	HTTP 404
+体育综合	TNT Sports 4	http://37.49.224.5/stream/4/index.m3u8	iptvorg_sports.m3u	DEAD	404	340	HTTP 404
+体育综合	TNT Sports (Argentina)	http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/86.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	TNT Sports (Argentina) SD (576p)	http://181.78.79.131:8000/play/a0mo	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	TNT Sports (Chile) (480p)	http://209.45.101.130:8040/play/a03s/index.m3u8	iptvorg_sports.m3u	OK	200	0	活跃
+体育综合	TNT Sports Premium ArgentinaHD (1080p)	http://181.78.79.131:8000/play/a0q9	iptvorg_sports.m3u	OK	200	0	活跃
+格斗·拳击	TVS Boxing (360p)	https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8	iptvorg_sports.m3u	OK	200	0	列表无分片
+格斗·拳击	WWE Network (1080p)	http://103.151.60.162:2122/play/a00p/index.m3u8?hls	iptvorg_sports.m3u	SOFT	403	1505	限流/地区限制
+体育综合	ESPN (432p)	http://tvsen7.aynascope.net/espn/index.m3u8	iptvorg_us.m3u	TCP_SKIP	0	0	TCP 未建连
+体育综合	ESPN (720p) [Geo-blocked]	http://212.5.144.156:8080/espn/index.m3u8	iptvorg_us.m3u	SOFT	403	373	限流/地区限制
+体育综合	ESPN 2 HD (720p)	http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8	iptvorg_us.m3u	OK	200	0	活跃
+体育综合	ESPN 5 Latin America (720p)	https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn5-mux/playlist.m3u8	iptvorg_us.m3u	SOFT	403	1132	限流/地区限制
+体育综合	ESPN 6 Latin America (720p)	https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn6-mux/playlist.m3u8	iptvorg_us.m3u	SOFT	403	1137	限流/地区限制
+体育综合	ESPN HD (720p)	http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8	iptvorg_us.m3u	OK	200	0	活跃
+格斗·拳击	His Glory TV (1080p)	https://customer-6itfaqopbksp5p0q.cloudflarestream.com/3972e89fb79bf6d6dd2a16c75455087a/manifest/video.m3u8	iptvorg_us.m3u	OK	200	0	活跃

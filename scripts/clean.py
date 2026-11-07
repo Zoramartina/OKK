@@ -82,9 +82,11 @@ DEFAULTS = {
         "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
     ),
     "categories": [
+        {"file": "sports.m3u", "match": ["体育", "NBA", "UFC", "ESPN",
+                                          "FightBox", "DAZN", "格斗"]},
         {"file": "cctv.m3u", "match": ["CCTV", "央视", "CGTN"]},
         {"file": "weishi.m3u", "match": ["卫视"]},
-        {"file": "difang.m3u", "match": ["地方", "城市", "省内", "影视", "体育", "少儿"]},
+        {"file": "difang.m3u", "match": ["地方", "城市", "省内", "影视", "少儿"]},
     ],
 }
 
@@ -143,6 +145,21 @@ class Entry:
 # ---------------------------------------------------------------- 解析输入
 
 
+def _split_extinf(line: str) -> tuple[str, str]:
+    """按「引号外的第一个逗号」切分 EXTINF 属性区与频道名。
+
+    属性值里的 UA 常含逗号（如 "(KHTML, like Gecko)"），
+    直接 partition(",") 会把 UA 后半段误当成频道名。
+    """
+    in_quote = False
+    for i, ch in enumerate(line):
+        if ch == '"':
+            in_quote = not in_quote
+        elif ch == "," and not in_quote:
+            return line[:i], line[i + 1:].strip()
+    return line, ""
+
+
 def parse_m3u(text: str, src: str, origin: str = "local") -> Iterable[Entry]:
     pending = None
     for raw in text.splitlines():
@@ -150,7 +167,7 @@ def parse_m3u(text: str, src: str, origin: str = "local") -> Iterable[Entry]:
         if not line:
             continue
         if line.upper().startswith("#EXTINF"):
-            head, _, tail = line.partition(",")
+            head, tail = _split_extinf(line)
             attrs = dict(ATTR_RE.findall(head))
             name = tail.strip() or attrs.get("tvg-name", "").strip()
             pending = (name, attrs)
