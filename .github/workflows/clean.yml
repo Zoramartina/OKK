@@ -1,0 +1,59 @@
+name: 清理直播源
+
+on:
+  schedule:
+    # 每天 UTC 19:00 = 北京时间 03:00
+    - cron: "0 19 * * *"
+  workflow_dispatch: {}
+  push:
+    paths:
+      - "source/**"
+      - "scripts/**"
+      - "config.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: clean-iptv
+  cancel-in-progress: false
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    # 首轮探测 + 403 低速复核，条目多时需要留足时间
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 纯标准库，不需要 pip install
+      - name: 校验并生成
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python scripts/clean.py
+
+      - name: 提交结果
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tv.m3u dist
+          if git diff --cached --quiet; then
+            echo "本次无变化，跳过提交"
+          else
+            git commit -m "chore: 更新直播源 $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - name: 写入任务摘要
+        if: always()
+        run: |
+          {
+            echo "### 本次清洗结果"
+            echo
+            sed -n '1,16p' dist/report.md 2>/dev/null || echo "未生成报告"
+          } >> "$GITHUB_STEP_SUMMARY"
