@@ -1,0 +1,63 @@
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
+
+#港澳台频道
+#EXTINF:-1 tvg-id="民视" tvg-name="民视 [非 http(s) 协议（rtmp）]" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/民视.png" group-title="港澳台频道",民视 [非 http(s) 协议（rtmp）]
+rtmp://f13h.mine.nu/sat/tv051
+#EXTINF:-1 tvg-id="台视" tvg-name="台视 [非 http(s) 协议（rtmp）]" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/台视.png" group-title="港澳台频道",台视 [非 http(s) 协议（rtmp）]
+rtmp://f13h.mine.nu/sat/tv071
+#EXTINF:-1 tvg-id="中视" tvg-name="中视 [非 http(s) 协议（rtmp）]" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/CTV.png" group-title="港澳台频道",中视 [非 http(s) 协议（rtmp）]
+rtmp://f13h.mine.nu/sat/tv091
+#EXTINF:-1 tvg-id="华视" tvg-name="华视 [非 http(s) 协议（rtmp）]" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CTS.png" group-title="港澳台频道",华视 [非 http(s) 协议（rtmp）]
+rtmp://f13h.mine.nu/sat/tv111
+#EXTINF:-1 tvg-id="非凡新闻" tvg-name="非凡新闻 [非 http(s) 协议（rtmp）]" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Unique1.png" group-title="港澳台频道",非凡新闻 [非 http(s) 协议（rtmp）]
+rtmp://f13h.mine.nu/sat/tv581
+#EXTINF:-1 tvg-id="东森超视" tvg-name="东森超视 [非 http(s) 协议（rtmp）]" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/EBC2.png" group-title="港澳台频道",东森超视 [非 http(s) 协议（rtmp）]
+rtmp://f13h.mine.nu/sat/tv331
+#EXTINF:-1 tvg-id="MOMOTV" tvg-name="MOMO TV [非 http(s) 协议（rtmp）]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/logo/MOMOTV.png" group-title="港澳台频道",MOMO TV [非 http(s) 协议（rtmp）]
+rtmp://f13h.mine.nu/sat/tv761
+#EXTINF:-1 tvg-id="纬来日本" tvg-name="纬来日本 [非 http(s) 协议（rtmp）]" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gangaotai/Weilai3.png" group-title="港澳台频道",纬来日本 [非 http(s) 协议（rtmp）]
+rtmp://f13h.mine.nu/sat/tv771
+#EXTINF:-1 tvg-id="纬来体育" tvg-name="纬来体育 [非 http(s) 协议（rtmp）]" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gangaotai/Weilai5.png" group-title="港澳台频道",纬来体育 [非 http(s) 协议（rtmp）]
+rtmp://f13h.mine.nu/sat/tv721
+#EXTINF:-1 tvg-id="纬来育乐" tvg-name="纬来育乐 [非 http(s) 协议（rtmp）]" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gangaotai/Weilai6.png" group-title="港澳台频道",纬来育乐 [非 http(s) 协议（rtmp）]
+rtmp://f13h.mine.nu/sat/tv701
+#EXTINF:-1 tvg-name="DAZN体育1 [非 http(s) 协议（rtmp）]" tvg-logo="https://live.fanmingming.cn/tv/DAZN体育1.png" group-title="港澳台频道",DAZN体育1 [非 http(s) 协议（rtmp）]
+rtmp://f13h.mine.nu/sat/tv731
+#EXTINF:-1 tvg-name="DAZN体育2 [非 http(s) 协议（rtmp）]" tvg-logo="https://live.fanmingming.cn/tv/DAZN体育2.png" group-title="港澳台频道",DAZN体育2 [非 http(s) 协议（rtmp）]
+rtmp://f13h.mine.nu/sat/tv741
+
+#动画频道
+#EXTINF:-1 tvg-name="精灵宝可梦 [点播列表（非直播）]" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/精灵宝可梦.png" group-title="动画频道",精灵宝可梦 [点播列表（非直播）]
+https://live.metshop.top/huya/23749096
+
+#电视剧频道
+#EXTINF:-1 tvg-name="亮剑 [点播列表（非直播）]" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/亮剑.png" group-title="电视剧频道",亮剑 [点播列表（非直播）]
+https://live.metshop.top/huya/30080238
+#EXTINF:-1 tvg-name="特种兵之火凤凰 [点播列表（非直播）]" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/特种兵之火凤凰.png" group-title="电视剧频道",特种兵之火凤凰 [点播列表（非直播）]
+https://live.metshop.top/huya/29982636
+
+#埋堆堆频道
+#EXTINF:-1 tvg-name="使徒行者 [点播列表（非直播）]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="埋堆堆频道",使徒行者 [点播列表（非直播）]
+https://live.metshop.top/huya/23734256
+
+#☘️四川频道
+#EXTINF:-1 tvg-name="沐川综合 [非 http(s) 协议（rtmp）]" tvg-logo="https://live.fanmingming.cn/tv/沐川综合.png" group-title="☘️四川频道",沐川综合 [非 http(s) 协议（rtmp）]
+rtmp://tv.mcrm.org.cn:1935/channellive/tv01
+#EXTINF:-1 tvg-name="石棉综合 [非 http(s) 协议（rtmp）]" tvg-logo="https://live.fanmingming.cn/tv/石棉综合.png" group-title="☘️四川频道",石棉综合 [非 http(s) 协议（rtmp）]
+rtmp://tv.yunxya.com:1937/channellive/shimian
+
+#☘️河北频道
+#EXTINF:-1 tvg-name="邢台生活 [播放列表停滞（循环回放）]" tvg-logo="https://live.fanmingming.cn/tv/邢台生活.png" group-title="☘️河北频道",邢台生活 [播放列表停滞（循环回放）]
+https://jwcdnqx.hebyun.com.cn/live/xtcsshpd/1500k/tzwj_video.m3u8
+
+#春晚频道
+#EXTINF:-1 tvg-id="1987年春晚" tvg-name="1987年春晚 [播放列表停滞（循环回放）]" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1987年春晚 [播放列表停滞（循环回放）]
+https://txmov2.a.kwimgs.com/bs3/video-hls/5195746663405928031_hlsb.m3u8
+#EXTINF:-1 tvg-id="1988年春晚" tvg-name="1988年春晚 [播放列表停滞（循环回放）]" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1988年春晚 [播放列表停滞（循环回放）]
+https://txmov2.a.kwimgs.com/bs3/video-hls/5216575810935394655_hlsb.m3u8
+#EXTINF:-1 tvg-id="1989年春晚" tvg-name="1989年春晚 [播放列表停滞（循环回放）]" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1989年春晚 [播放列表停滞（循环回放）]
+https://txmov2.a.kwimgs.com/bs3/video-hls/5194620763762726260_hlsb.m3u8
+#EXTINF:-1 tvg-id="2024年春晚" tvg-name="2024年春晚 [播放列表停滞（循环回放）]" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",2024年春晚 [播放列表停滞（循环回放）]
+https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
+#EXTINF:-1 tvg-id="2025年春晚" tvg-name="2025年春晚 4K [播放列表停滞（循环回放）]" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",2025年春晚 4K [播放列表停滞（循环回放）]
+https://svip.high24-playback.com/20250129/17159_7bca93c4/2000k/hls/mixed.m3u8

@@ -2,20 +2,16 @@
   "inputs": [
     "source"
   ],
-  "_remote_说明": "自动搜集的补充源，每天跟着跑一遍。走 gh-proxy 是因为 raw.githubusercontent.com 国内直连不稳。",
-  "remote": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
-    "https://gh-proxy.com/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province.m3u8",
-    "https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
-  ],
+  "_remote_说明": "补充源当前关闭。混入后单次扫描量翻倍，出口 IP 会被限流，403 误判率飙升；需要时再往数组里填地址。",
+  "remote": [],
   "output_dir": "dist",
   "_primary_output_说明": "根目录的 tv.m3u 是订阅地址，只放 source/ 里手工挑选的源，保持原文件名不变。",
   "primary_output": "tv.m3u",
   "group_headers": true,
-  "concurrency": 64,
-  "per_host": 4,
+  "concurrency": 8,
+  "per_host": 2,
   "timeout": 6,
-  "probe_seconds": 4,
+  "probe_seconds": 2,
   "dns_timeout": 5,
   "retries": 1,
   "mode": "strict",
@@ -63,6 +59,19 @@
   ],
   "group_files": false,
   "_group_files_说明": "按原始分组再拆一份到 dist/groups/。分组太碎的话会产出几十个文件，自用仓库建议关掉。",
-  "liveness_gap": 90,
-  "_liveness_说明": "分片能下载≠活直播。间隔这么久再抓一次列表，序列号不前进就判为循环回放。"
+  "liveness_gap": 100,
+  "_liveness_说明": "分片能下载≠活直播。间隔这么久再抓一次列表，序列号不前进就判为循环回放。",
+  "_drop_说明": "只把实测通过的源写进订阅。403/429 会先低速复核，复核仍失败才删除。",
+  "drop_unverified": true,
+  "_drop_ci_说明": "Actions 出口 IP 在境外，会把只允许大陆访问的源误判为失败。CI 上自动保持保守策略，不删除。",
+  "drop_unverified_in_ci": false,
+  "_recheck_说明": "整轮结束后冷却，用条目自带 UA/Referer 低速复核软失败。浏览器 UA 反而更差，不能换。",
+  "soft_recheck_rounds": 1,
+  "soft_recheck_workers": 4,
+  "soft_recheck_cool": 45,
+  "batch_size": 50,
+  "batch_pause": 5,
+  "probe_bytes": 65536,
+  "_限速_说明": "每批 50 条、批间冷却 5 秒。连续打几千条会让出口 IP 被限流，之后所有源都返回 403，是误判的最大来源。",
+  "_本次核实_说明": "2026-11-07 用 verify_config.json 只核实主源 1287 条；本文件是常态配置。"
 }

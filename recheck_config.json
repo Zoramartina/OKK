@@ -1,0 +1,78 @@
+{
+  "inputs": [
+    "source"
+  ],
+  "_remote_说明": "自动搜集的补充源，每天跟着跑一遍。走 gh-proxy 是因为 raw.githubusercontent.com 国内直连不稳。",
+  "remote": [],
+  "output_dir": "dist",
+  "_primary_output_说明": "根目录的 tv.m3u 是订阅地址，只放 source/ 里手工挑选的源，保持原文件名不变。",
+  "primary_output": "tv.m3u",
+  "group_headers": true,
+  "concurrency": 2,
+  "per_host": 2,
+  "timeout": 6,
+  "probe_seconds": 2,
+  "dns_timeout": 5,
+  "retries": 1,
+  "mode": "strict",
+  "_keep_ipv6_说明": "纯 IPv6 源在 GitHub Actions 上必然探测失败，保留不判死。",
+  "keep_ipv6": true,
+  "_max_per_channel_说明": "只限制自动搜集来的源，主源里手工挑的多线路全部保留。",
+  "max_per_channel": 0,
+  "epg_url": "http://epg.51zmt.top:8000/e.xml",
+  "categories": [
+    {
+      "file": "cctv.m3u",
+      "match": [
+        "CCTV",
+        "央视",
+        "CGTN"
+      ]
+    },
+    {
+      "file": "weishi.m3u",
+      "match": [
+        "卫视"
+      ]
+    },
+    {
+      "file": "gangao.m3u",
+      "match": [
+        "港澳",
+        "翡翠",
+        "明珠",
+        "凤凰",
+        "台视",
+        "中视",
+        "华视"
+      ]
+    },
+    {
+      "file": "difang.m3u",
+      "match": [
+        "四川",
+        "地方",
+        "城市",
+        "省内"
+      ]
+    }
+  ],
+  "group_files": false,
+  "_group_files_说明": "按原始分组再拆一份到 dist/groups/。分组太碎的话会产出几十个文件，自用仓库建议关掉。",
+  "liveness_gap": 100,
+  "_liveness_说明": "分片能下载≠活直播。间隔这么久再抓一次列表，序列号不前进就判为循环回放。",
+  "_drop_说明": "只把实测通过的源写进订阅。403/429 会先低速复核，复核仍失败才删除。",
+  "drop_unverified": true,
+  "_drop_ci_说明": "Actions 出口 IP 在境外，会把只允许大陆访问的源误判为失败。CI 上自动保持保守策略，不删除。",
+  "drop_unverified_in_ci": false,
+  "_recheck_说明": "整轮结束后冷却，用条目自带 UA/Referer 低速复核软失败。浏览器 UA 反而更差，不能换。",
+  "soft_recheck_rounds": 1,
+  "soft_recheck_workers": 4,
+  "soft_recheck_cool": 45,
+  "batch_size": 50,
+  "batch_pause": 5,
+  "probe_bytes": 65536,
+  "recheck_workers": 1,
+  "recheck_batch": 25,
+  "recheck_pause": 3
+}

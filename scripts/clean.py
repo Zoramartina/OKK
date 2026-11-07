@@ -69,6 +69,14 @@ DEFAULTS = {
     "max_per_channel": 5,
     "min_kbps": 0,
     "epg_url": "",
+    # 只把「实测通过」的源写进订阅，其余一律剔除。
+    # CI 上默认关闭：Actions 是境外 IP，会把只允许大陆访问的源整批误删。
+    "drop_unverified": True,
+    "drop_unverified_in_ci": False,
+    # 403/429 半数其实是高并发限流误判，整轮结束后冷却再低速复核。
+    "soft_recheck_rounds": 2,
+    "soft_recheck_workers": 6,
+    "soft_recheck_cool": 20,
     "user_agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
@@ -388,6 +396,21 @@ def _host_slot(netloc: str, limit: int) -> threading.Semaphore:
         return sem
 
 
+def _capture(entry: Entry, url: str, body: bytes) -> None:
+    """记下播放列表指纹，供稍后的活性复检比对。master 列表没有分片，跳过。"""
+    text = body.decode("utf-8", errors="ignore")
+    if "#EXT-X-STREAM-INF" in text:
+        return
+    segs = [l.strip() for l in text.splitlines() if l.strip() and not l.startswith("#")]
+    if not segs:
+        return
+    mseq = re.search(r"#EXT-X-MEDIA-SEQUENCE:(\d+)", text)
+    entry.media_url = url
+    entry.seq = int(mseq.group(1)) if mseq else -1
+    entry.seg = segs[-1].rsplit("/", 1)[-1]
+    entry.checked_at = time.time()
+
+
 def probe(entry: Entry, cfg: dict) -> Entry:
     netloc = urlparse(entry.url).netloc if SCHEME_RE.match(entry.url) else ""
     if not netloc:
@@ -414,7 +437,8 @@ def _probe(entry: Entry, cfg: dict) -> Entry:
     try:
         with _open(entry.url, cfg, cfg["timeout"], ua, ref) as resp:
             entry.code = resp.status
-            head, _ = _read_capped(resp, 8192, 2)
+            # 一次读全列表，strict 阶段直接用，不重复请求一遍
+            head, _ = _read_capped(resp, 65536, 2)
             final_url = resp.geturl()
             ctype = (resp.headers.get("Content-Type") or "").lower()
     except urllib.error.HTTPError as e:
@@ -447,12 +471,13 @@ def _probe(entry: Entry, cfg: dict) -> Entry:
     if cfg["mode"] != "strict":
         entry.state, entry.ms = "verified", int((time.perf_counter() - t0) * 1000)
         entry.note = "loose"
+        _capture(entry, final_url, head)
         return entry
 
     # ---- strict: 往下追一层，真下一段分片
     try:
-        with _open(final_url, cfg, cfg["timeout"], ua, ref) as resp:
-            body, _ = _read_capped(resp, 65536, cfg["probe_seconds"])
+        # 上面那次请求已经把列表读全了，直接复用，省掉一次往返
+        body = head
         text = body.decode("utf-8", errors="ignore")
 
         if "#EXT-X-KEY" in text and "METHOD=NONE" not in text:
@@ -594,31 +619,161 @@ def verify_liveness(entries: list[Entry], cfg: dict) -> None:
             e.state = "unverified"
             e.note = "播放列表停滞（循环回放）"
 
-    with ThreadPoolExecutor(max_workers=int(cfg["concurrency"])) as pool:
-        list(pool.map(work, cand))
+    bs = max(1, int(cfg.get("batch_size", 0) or 0) or 100)
+    bp = max(0.0, float(cfg.get("batch_pause", 0) or 0))
+    for i in range(0, len(cand), bs):
+        with ThreadPoolExecutor(max_workers=int(cfg["concurrency"])) as pool:
+            list(pool.map(work, cand[i:i + bs]))
+        if bp and i + bs < len(cand):
+            time.sleep(bp)
     stale = sum(1 for e in cand if e.state == "unverified")
     print(f"  其中停滞/点播 {stale} 条")
+
+
+def recheck_soft(entries: list[Entry], cfg: dict) -> None:
+    """403/429 这类软失败，高并发下约一半是限流误判：取 16 个不同宿主串行复查，
+    7 个能通、9 个真死。整轮结束后冷却，用条目自带的 UA/Referer 低速复核，
+    能通就转正，多轮都不通才真正删除。换成浏览器 UA 反而更差（2/14 通，
+    自带 UA 是 7/14），所以这里绝不能改 UA。
+    复核只验连通性和 m3u8 头，不追分片，否则两千条要跑半小时。"""
+    rounds = int(cfg.get("soft_recheck_rounds", 2))
+    workers = max(1, int(cfg.get("soft_recheck_workers", 6)))
+    cool = float(cfg.get("soft_recheck_cool", 20))
+    if rounds <= 0:
+        return
+
+    def is_soft(e: Entry) -> bool:
+        if e.state != "unverified":
+            return False
+        return (e.code in (403, 408, 429)
+                or e.note in ("域名解析失败", "TimeoutError", "连接被重置")
+                or e.note.startswith("分片探测失败"))
+
+    # 信号量按宿主缓存，首轮是 per_host=4，复核要压到 1，先清掉旧的那批
+    with _HOST_LOCK:
+        _HOST_SEMS.clear()
+    loose = dict(cfg)
+    loose["mode"] = "loose"
+    loose["per_host"] = 1
+    loose["concurrency"] = workers
+
+    for r in range(rounds):
+        cand = [e for e in entries if is_soft(e)]
+        if not cand:
+            break
+        wait = cool * (r + 1)
+        print(f"  低速复核 {r + 1}/{rounds}：{len(cand)} 条，冷却 {wait:.0f}s 后并发 {workers}", flush=True)
+        time.sleep(wait)
+
+        def work(e: Entry) -> Entry:
+            e.state, e.code, e.note = "pending", 0, ""
+            return probe(e, loose)
+
+        bs = max(1, int(cfg.get("batch_size", 0) or 0) or 100)
+        bp = max(0.0, float(cfg.get("batch_pause", 0) or 0))
+        for i in range(0, len(cand), bs):
+            with ThreadPoolExecutor(max_workers=workers) as pool:
+                list(pool.map(work, cand[i:i + bs]))
+            if bp and i + bs < len(cand):
+                time.sleep(bp)
+        back = sum(1 for e in cand if e.state == "verified")
+        print(f"    复核通过 {back} 条", flush=True)
+        for e in cand:
+            if e.state == "verified":
+                e.note = "低速复核通过"
+
+    still = [e for e in entries if is_soft(e)]
+    for e in still:
+        e.note = f"复核仍失败（{e.note}）"
+        e.state = "dead"
+    if still:
+        print(f"  多轮复核仍失败 {len(still)} 条，判为失效", flush=True)
+
+
+def load_state(path: Path) -> dict[str, tuple[str, str]]:
+    """读上一轮的 detail.tsv，恢复每条的判定，供补核模式使用。"""
+    if not path.exists():
+        return {}
+    out: dict[str, tuple[str, str]] = {}
+    for line in path.read_text(encoding="utf-8").splitlines()[1:]:
+        cols = line.split("\t")
+        if len(cols) >= 7:
+            out[cols[6]] = (cols[0], cols[5])
+    return out
+
+
+def recheck_slow(entries: list[Entry], cfg: dict) -> None:
+    """连续扫完几千条后，出口 IP 会进入限流状态，之后所有请求都是 403，
+    秒级冷却救不回来，恢复窗口是分钟级。等网络空闲后，用极低速率把失败
+    队列单独再过一遍，这一轮的结论才可信。"""
+    cand = [e for e in entries if e.state != "verified"
+            and e.url.startswith(("http://", "https://"))]
+    if not cand:
+        return
+    slow = dict(cfg)
+    slow["mode"] = "loose"
+    slow["per_host"] = 1
+    size = max(1, int(cfg.get("recheck_batch", 25)))
+    pause = max(0.0, float(cfg.get("recheck_pause", 8)))
+    workers = max(1, int(cfg.get("recheck_workers", 2)))
+    with _HOST_LOCK:
+        _HOST_SEMS.clear()
+    print(f"  低速补核 {len(cand)} 条：并发 {workers}，每批 {size}，批间 {pause:.0f}s", flush=True)
+    t0 = time.perf_counter()
+    for i in range(0, len(cand), size):
+        chunk = cand[i:i + size]
+
+        def work(e: Entry) -> Entry:
+            e.state, e.code, e.note = "pending", 0, ""
+            e.seq, e.seg, e.media_url = -1, "", ""
+            return probe(e, slow)
+
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            list(pool.map(work, chunk))
+        for e in chunk:
+            if e.state == "verified":
+                e.note = "低速复核通过"
+            elif e.state == "unverified":
+                e.state = "dead"
+                e.note = f"复核仍失败（{e.note}）"
+        if (i // size) % 5 == 0 or i + size >= len(cand):
+            print(f"  进度 {min(i + size, len(cand))}/{len(cand)}", flush=True)
+        if pause and i + size < len(cand):
+            time.sleep(pause)
+    back = sum(1 for e in cand if e.state == "verified")
+    print(f"  补核通过 {back} 条，用时 {time.perf_counter() - t0:.0f}s", flush=True)
 
 
 def run_probes(entries: list[Entry], cfg: dict) -> None:
     preflight_dns(entries, cfg)
 
     todo = [e for e in entries if e.state == "pending"]
-    total = len(todo)
-    done = 0
     t0 = time.perf_counter()
-    step = max(1, total // 10)
 
     def work(e: Entry) -> Entry:
         return probe(e, cfg)
 
-    with ThreadPoolExecutor(max_workers=cfg["concurrency"]) as pool:
-        futures = [pool.submit(work, e) for e in todo]
-        for fut in futures:
-            fut.result()
-            done += 1
-            if done % step == 0 or done == total:
-                print(f"  进度 {done}/{total}", flush=True)
+    def run_batch(items: list[Entry], label: str, workers: int | None = None) -> None:
+        """连续打几千条会把出口 IP 打成 403，之后所有源都看起来是死的。
+        小批量 + 批间冷却是唯一能拿到真实结果的办法。"""
+        if not items:
+            return
+        n = len(items)
+        size = batch or n
+        done = 0
+        for i in range(0, n, size):
+            with ThreadPoolExecutor(max_workers=workers or cfg["concurrency"]) as pool:
+                list(pool.map(work, items[i:i + size]))
+            done += len(items[i:i + size])
+            print(f"  {label} {done}/{n}", flush=True)
+            if pause and i + size < n:
+                time.sleep(pause)
+
+    batch = max(0, int(cfg.get("batch_size", 0) or 0))
+    pause = max(0.0, float(cfg.get("batch_pause", 0) or 0))
+    if batch:
+        print(f"  限速：每批 {batch} 条，批间冷却 {pause:.0f}s，并发 {cfg['concurrency']}")
+    run_batch(todo, "进度")
 
     # 第二轮：只重试第一轮因为网络抖动失败的，降低偶发超时造成的误杀
     retries = int(cfg.get("retries", 0))
@@ -627,12 +782,11 @@ def run_probes(entries: list[Entry], cfg: dict) -> None:
         if not dead:
             break
         print(f"  重试第 {r + 1} 轮，{len(dead)} 条")
-        with ThreadPoolExecutor(max_workers=cfg["concurrency"]) as pool:
-            list(pool.map(work, dead))
+        run_batch(dead, "重试")
 
-    # 403/429 不做批量复测。实测冷却 6 秒后复测一条都救不回来，
-    # 真正的恢复窗口是几分钟级，批量重打只会再次触发限流。
-    # 这类源统一按「保留未校验」处理，不删除。
+    # 首轮结束后才复核。之前试过冷却 6 秒后用 8 并发立刻重打，一条都救不回来：
+    # 恢复窗口是分钟级，而且并发一高又把自己打成 403。
+    recheck_soft(entries, cfg)
 
     verify_liveness(entries, cfg)
 
@@ -689,12 +843,17 @@ def write_m3u(path: Path, entries: list[Entry], cfg: dict, with_status: bool = F
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def write_report(path: Path, entries: list[Entry], cfg: dict) -> None:
+def write_report(path: Path, entries: list[Entry], cfg: dict,
+                 kept: list[Entry] | None = None) -> None:
     verified = [e for e in entries if e.state == "verified"]
     unverified = [e for e in entries if e.state == "unverified"]
     dead = [e for e in entries if e.state == "dead"]
 
-    names = {e.name for e in entries if e.ok}
+    basis = kept if kept is not None else [e for e in entries if e.ok]
+    names = {e.name for e in basis}
+    drop = bool(cfg.get("drop_unverified", False)) and (
+        not IS_CI or bool(cfg.get("drop_unverified_in_ci", False))
+    )
     now = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M (UTC+8)")
 
     out = [
@@ -705,9 +864,10 @@ def write_report(path: Path, entries: list[Entry], cfg: dict) -> None:
         "| 指标 | 数值 |",
         "| --- | --- |",
         f"| 原始条目 | {len(entries)} |",
-        f"| 已验证可播 | {len(verified)} |",
-        f"| 保留未校验 | {len(unverified)} |",
-        f"| 已剔除 | {len(dead)} |",
+        f"| 实测通过 | {len(verified)} |",
+        f"| 未通过校验（{'已移出订阅' if drop else '保留待核'}） | {len(unverified)} |",
+        f"| 本机判定不可达 | {len(dead)} |",
+        f"| 写入订阅 | {len(basis)} |",
         f"| 有效频道数 | {len(names)} |",
     ]
     if verified:
@@ -715,16 +875,41 @@ def write_report(path: Path, entries: list[Entry], cfg: dict) -> None:
         out.append(f"| 平均响应 | {avg:.0f} ms |")
 
     if unverified:
-        out += ["", "## 保留但未校验", "", "| 频道 | 原因 |", "| --- | --- |"]
+        heading = "未通过校验（已移出订阅）" if drop else "保留但未校验"
+        out += ["", f"## {heading}", "", "| 频道 | 原因 |", "| --- | --- |"]
         for e in unverified[:30]:
             out.append(f"| {e.name} | {e.note} |")
 
     if dead:
-        out += ["", "## 已剔除", "", "| 频道 | 状态 | 地址 |", "| --- | --- | --- |"]
+        out += ["", "## 本机判定不可达（节选）", "", "| 频道 | 状态 | 地址 |", "| --- | --- | --- |"]
         for e in dead[:60]:
             out.append(f"| {e.name} | {e.note} | `{e.url[:70]}` |")
         if len(dead) > 60:
             out.append(f"| … | 另有 {len(dead) - 60} 条 | |")
+
+    kept_urls = {e.url for e in basis}
+    removed = [e for e in entries if e.url not in kept_urls]
+    if removed:
+        tally: dict[str, int] = {}
+        for e in removed:
+            key = e.note or ("每频道线路上限" if e.state == "verified" else "未通过校验")
+            key = key.replace("|", "／")
+            tally[key] = tally.get(key, 0) + 1
+        out += ["", "## 移出订阅的原因", "", "| 原因 | 条数 |", "| --- | --- |"]
+        for k, v in sorted(tally.items(), key=lambda x: -x[1])[:15]:
+            out.append(f"| {k} | {v} |")
+        out += ["", f"完整逐条清单见 `removed.tsv`（{len(removed)} 条）。",
+                "未通过校验但未判死的源另存于 `pending.m3u`，需要时可自行加回。"]
+
+    out += [
+        "",
+        "## 判定边界",
+        "",
+        "报告只反映**跑清洗那台机器的网络**能连到什么，不是源站的最终状态。",
+        "403/429 里常混着出口 IP 限流或网络策略拦截——典型特征是 1ms 返回、空响应体、",
+        "没有 Server 头，TCP 甚至从未真正建连。这类不算源站判死，换个网络或播放器可能照样能播。",
+        "移出的条目都在 `removed.tsv` 留了完整地址和原始属性，确认某条其实能播时可直接加回。",
+    ]
 
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(out) + "\n", encoding="utf-8")
@@ -787,6 +972,8 @@ def main() -> int:
     ap.add_argument("--concurrency", type=int, default=None)
     ap.add_argument("--timeout", type=float, default=None)
     ap.add_argument("--limit", type=int, default=0, help="只测前 N 条，调试用")
+    ap.add_argument("--recheck", action="store_true",
+                    help="读上一轮 detail.tsv，网络恢复后低速补核失败队列，不重跑主探测")
     args = ap.parse_args()
 
     root = Path.cwd()
@@ -820,22 +1007,62 @@ def main() -> int:
         entries = entries[: args.limit]
     print(f"  去重后 {len(entries)} 条")
 
-    print("\n[2/4] 探测可用性")
-    run_probes(entries, cfg)
+    out_dir = root / cfg["output_dir"]
+    if args.recheck:
+        print("\n[2/4] 网络恢复后低速补核（不重跑主探测）")
+        state = load_state(out_dir / "detail.tsv")
+        hit = 0
+        for e in entries:
+            if e.url in state:
+                e.state, e.note = state[e.url]
+                if e.state == "pending":
+                    e.state = "unverified"
+                hit += 1
+        print(f"  从 detail.tsv 恢复 {hit}/{len(entries)} 条判定")
+        recheck_slow(entries, cfg)
+        verify_liveness(entries, cfg)
+    else:
+        print("\n[2/4] 探测可用性")
+        run_probes(entries, cfg)
 
     print("\n[3/4] 整理输出")
-    good = sorted([e for e in entries if e.ok], key=lambda e: e.sort_key)
+    drop = bool(cfg.get("drop_unverified", False)) and (
+        not IS_CI or bool(cfg.get("drop_unverified_in_ci", False))
+    )
+    good = sorted(
+        [e for e in entries if (e.state == "verified" if drop else e.ok)],
+        key=lambda e: e.sort_key,
+    )
     good = apply_limit_per_channel(good, int(cfg.get("max_per_channel", 0)))
+    print(f"  策略：{'只留实测通过，失败即剔除' if drop else '保守模式，保留未校验'}")
+    if IS_CI and cfg.get("drop_unverified") and not cfg.get("drop_unverified_in_ci"):
+        print("  Actions 是境外 IP，自动切保守模式，避免把只允许大陆访问的源整批误删")
 
-    out_dir = root / cfg["output_dir"]
     write_m3u(out_dir / "all.m3u", good, cfg)
     write_m3u(out_dir / "all_status.m3u", good, cfg, with_status=True)
+
+    if drop:
+        held = [e for e in entries if e.state == "unverified"]
+        if held:
+            write_m3u(out_dir / "pending.m3u", held, cfg, with_status=True)
+        kept_urls = {g.url for g in good}
+        removed = [e for e in entries if e.url not in kept_urls]
+        if removed:
+            write_detail(out_dir / "removed.tsv", removed)
+        print(f"  移出订阅 {len(removed)} 条 → removed.tsv；"
+              f"其中未判死的 {len(held)} 条另存 → pending.m3u")
 
     # 主订阅：只含 source/ 里手工挑选的源，保持原文件名不变，订阅地址不受影响
     local = [e for e in good if e.origin == "local"]
     if cfg.get("primary_output") and local:
-        write_m3u(root / cfg["primary_output"], local, cfg)
-        print(f"  主订阅 {cfg['primary_output']}：{len(local)} 条")
+        # CI 上跑的是保守模式，结果里混着大量「境外连不上、境内能播」的源。
+        # 用它覆盖本地确认过的订阅，等于把好源又塞回去，所以直接跳过。
+        if IS_CI and cfg.get("drop_unverified") and not cfg.get("drop_unverified_in_ci"):
+            print(f"  Actions 保守模式：跳过主订阅 {cfg['primary_output']}，"
+                  "避免用境外 IP 的结果覆盖本地确认版")
+        else:
+            write_m3u(root / cfg["primary_output"], local, cfg)
+            print(f"  主订阅 {cfg['primary_output']}：{len(local)} 条")
 
     groups = sorted({e.group for e in good if e.group})
     if cfg.get("group_files", True):
@@ -871,14 +1098,14 @@ def main() -> int:
     if rest:
         write_m3u(out_dir / "other.m3u", rest, cfg)
 
-    write_report(out_dir / "report.md", entries, cfg)
+    write_report(out_dir / "report.md", entries, cfg, good)
     write_detail(out_dir / "detail.tsv", entries)
 
     print("\n[4/4] 完成")
     v = sum(1 for e in entries if e.state == "verified")
     u = sum(1 for e in entries if e.state == "unverified")
     d = sum(1 for e in entries if e.state == "dead")
-    print(f"  已验证 {v}　保留未校验 {u}　剔除 {d}　输出 {len(good)} 条")
+    print(f"  实测通过 {v}　未通过校验 {u}　本机不可达 {d}　写入订阅 {len(good)} 条")
     print(f"  → {out_dir}")
     return 0
 

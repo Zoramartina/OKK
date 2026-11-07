@@ -1,0 +1,39 @@
+类别	判定	HTTP	响应ms	备注	频道	地址
+KEEP	OK	200	107		东莞新闻综合	https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
+KEEP	OK	200	99		2001年春晚	https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMDFfMF8z_b_B70592cb7c4054e9cabb675e849bbf4bd.mp4
+KEEP	OK	200	1288		人在囧途之泰囧	https://vip.ffzy-play.com/20221018/1951_47e1adc8/index.m3u8
+KEEP	OK	200	360		宁夏少儿	https://hls.ningxiahuangheyun.com/live/nxse1M.m3u8
+KEEP	OK	200	145		CGTN记录	https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
+KEEP	OK	200	127		苏州文化生活	https://live-auth.51kandianshi.com/szgd/csztv3.m3u8
+KEEP	OK	200	1377		耀才财经	https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
+KEEP	OK	200	2224		RT Español（西语）	https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8
+KEEP	OK	200	64		山东教育	https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
+KEEP	OK	200	1307		CGTN纪录	https://0472.org/hls/cgtnd.m3u8
+KEEP	OK	200	188		南国都市4K	https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
+KEEP	OK	200	370		宁夏公共	https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8
+KEEP	OK	200	235		浙江国际	https://ali-xwl.cztv.com/live/channel101080Plxw.m3u8
+KEEP	OK	200	219		广元综合	https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8
+KEEP	OK	200	202		昌黎综合	https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8
+KEEP	OK	200	112		2000年春晚	https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxMTNfMF8z_b_Bdddf4e7ef0ff6cfd477857bb40e78419.mp4
+KEEP	OK	200	923		人在囧途	https://vip.ffzy-play.com/20221018/1953_2d6ba500/index.m3u8
+KEEP	OK	200	278		浙江少儿	https://ali-xwl.cztv.com/live/channel081080Plxw.m3u8
+REMOVED	DEAD	404	765		CCTV1	https://www.wmviv.com/iptv/bc2t.php?id=cctv1
+REMOVED	DEAD	404	135		CCTV5	https://www.wmviv.com/iptv/bc2t.php?id=cctv5
+REMOVED	SOFT	403	1		浙江卫视4K	http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
+REMOVED	SOFT	403	1		河北卫视	http://120.76.248.139/live/bfgd/4200000108.m3u8
+REMOVED	SOFT	403	1		CGTN英语	http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
+REMOVED	SOFT	403	1		中国天气	http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8
+REMOVED	SOFT	403	1		CCTV1	http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+REMOVED	SOFT	403	1		东方卫视4K	http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+REMOVED	SOFT	403	2789		金庸武侠	https://live.metshop.top/huya/11342435
+REMOVED	SOFT	403	1		河南乡村	http://1.94.31.214/php/hntv.php?id=hnxc
+REMOVED	DEAD	0	233	TLS 握手失败	Stadium	https://i.mjh.nz/SamsungTVPlus/USAJ3504705A.m3u8
+REMOVED	SOFT	403	1		东方卫视	http://www.wmviv.com/iptv/bc2t.php?id=dfws
+REMOVED	SOFT	403	1		邢台综合	http://jwplay.hebyun.com.cn/live/xtsrmtzs/1500k/tzwj_video.m3u8
+REMOVED	SOFT	403	2		翡翠台	http://r.jdshipin.com/qClQf
+REMOVED	DEAD	0	8	URLError	NHK World	https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+REMOVED	DEAD	0	191	TLS 握手失败	CCTV-6	https://zby.130519.xyz/PLTV/11/224/3221225741/index.m3u8
+REMOVED	SOFT	403	1		咪咕赛事播21	http://vip.lqcc.xyz:35455/itv/3000000010000006658.m3u8?cdn=FifastbLive
+REMOVED	SOFT	403	1		四川妇女儿童	http://wouu.net:9977/udp/239.93.0.219:5140
+REMOVED	SOFT	403	1		ViuTV	http://r.jdshipin.com/vSJvl
+REMOVED	SOFT	403	1		梨园频道	http://www.lizhinas.top:1009/rtp/239.252.220.179:5140
