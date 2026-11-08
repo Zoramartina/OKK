@@ -1,0 +1,29 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="AXN Black" group-title="电影频道",AXN Black
+http://85.14.32.26:8800/udp/239.100.10.17:5000
+#EXTINF:-1 tvg-name="CHC动作电影" group-title="电影频道",CHC动作电影
+http://198.204.228.26/live/chcdz.m3u8
+#EXTINF:-1 tvg-name="CHC家庭影院" group-title="电影频道",CHC家庭影院
+http://107.150.60.122/live/chcjt.m3u8
+#EXTINF:-1 tvg-name="CHC电影" group-title="电影频道",CHC电影
+http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="Cinemax Classics (1080p)" group-title="电影频道",Cinemax Classics (1080p)
+http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
+#EXTINF:-1 tvg-name="Cinemax Hits (1080p)" group-title="电影频道",Cinemax Hits (1080p)
+http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
+#EXTINF:-1 tvg-name="Cinemax West (720p)" group-title="电影频道",Cinemax West (720p)
+http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8
+#EXTINF:-1 tvg-name="FILMBOX+ Action (720p)" group-title="电影频道",FILMBOX+ Action (720p)
+http://92.114.85.87:8008/play/a007/index.m3u8
+#EXTINF:-1 tvg-name="FILMBOX+ Comedy (720p)" group-title="电影频道",FILMBOX+ Comedy (720p)
+http://92.114.85.87:8008/play/a009/index.m3u8
+#EXTINF:-1 tvg-name="FILMBOX+ Emotion (720p)" group-title="电影频道",FILMBOX+ Emotion (720p)
+http://92.114.85.87:8008/play/a008/index.m3u8
+#EXTINF:-1 tvg-name="Paramount Network (1080p)" group-title="电影频道",Paramount Network (1080p)
+http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
+#EXTINF:-1 tvg-name="Showtime Family Zone (720p)" group-title="电影频道",Showtime Family Zone (720p)
+http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8
+#EXTINF:-1 tvg-name="Universal Cinema (1080p)" group-title="电影频道",Universal Cinema (1080p)
+http://168.196.127.137:6001/play/a09b/index.m3u8
+#EXTINF:-1 tvg-name="美亚电影" group-title="电影频道",美亚电影
+http://iptv.4666888.xyz/iptv2A.php?id=30

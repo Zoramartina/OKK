@@ -1,39 +1,42 @@
 # source/ 手工维护区
 
-这里放你自己挑的源。根目录的 `tv.m3u` 是从这里生成的，改那边没用，下次跑会被覆盖。
+只有 `curated.m3u` 一个文件参与清洗，根目录 `tv.m3u` 和 `dist/` 都是从它生成的。改 `tv.m3u` 没用，下次跑会被覆盖。
+
+旧的 1300 条归档已经移到 `../archive/`，不参与清洗，只在需要找回某个源时查。
 
 ## 格式
 
-m3u 和 txt 都认，子目录也会递归扫描，重复地址自动去掉。
-
-**m3u**（就是你原来的写法，原样搬进来即可）
+标准 M3U。每条 `#EXTINF` 后跟一行地址，需要 UA 或 Referer 时写成属性：
 
 ```m3u
-#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://.../东方卫视4K.png" http-user-agent="aliplayer" group-title="4K频道",东方卫视4K
-http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+#EXTINF:-1 tvg-name="CCTV-1" group-title="央视频道",CCTV-1
+http://example.com/cctv1.m3u8
+
+#EXTINF:-1 tvg-name="某频道" group-title="地方·浙江" http-user-agent="Mozilla/5.0" http-referer="https://example.com/",某频道
+http://example.com/live.m3u8
 ```
 
-**txt**
+## 分组命名
 
-```
-央视频道,#genre#
-CCTV1,http://example.com/cctv1.m3u8
-CCTV1,http://example.com/cctv1-b.m3u8
-```
+分组名决定它进哪个分类文件，不要随便改：
 
-## 会被保留的属性
+| group-title | 进哪个文件 |
+| --- | --- |
+| `央视频道` | `dist/cctv.m3u` |
+| `卫视频道` | `dist/weishi.m3u` |
+| `地方·浙江`（按省） | `dist/difang.m3u` |
+| `体育·赛事台` | `dist/sports.m3u` |
+| `电影频道` | `dist/movie.m3u` |
+| `凤凰卫视` | `dist/gangao.m3u` |
 
-`tvg-id`、`tvg-name`、`tvg-logo`、`group-title`、`http-user-agent`、`http-referer`、`http-header`、`catchup`、`catchup-source`、`playseek`，以及任何其他 `key="value"`，清洗后原样写回。
+省级卫视统一放 `卫视频道`，省内地市、县级台放 `地方·省份`。`clean.py` 先按分组整体归类，分组认不出来才按频道名匹配，所以分组写对比名字写对更重要。
 
-`http-user-agent` 和 `http-referer` 不只是带过去，探测时也真的会用它们去请求。这点很关键——你这份源里 42 条靠特定 UA 才能播，不按各自的 UA 去测就会误判成失效。
+## 加源前先自己测
 
-## 注释掉的行
+清洗脚本会重测，但放进来的死源会拖慢整轮探测，也会让报告变脏。加之前至少确认：
 
-以 `#` 开头的地址行（比如 `#http://101.35.240.114:88/live.php?id=北京卫视`）视为停用，不会参与清洗，也不会出现在输出里。想恢复就去掉行首的 `#`。
+1. 能拉到 `#EXTM3U`，不是网页或 403、404
+2. 列表里有分片，而且是直播列表（没有 `#EXT-X-ENDLIST`）
+3. 隔十几秒再抓一次，序列号在前进
 
-## 怎么加新源
-
-直接在文件末尾追加，提交，工作流会自动跑一遍验证。加错了不会进订阅，原因记在 `dist/removed.tsv`。
-
-本地执行「只留实测通过」时，`source/tv.m3u` 会同步清掉未通过的条目——下次就不用再花时间扫几千条死链了。被删的原始内容备份在 `archive/tv.原始备份.m3u`，想找回直接复制回来；`dist/pending.m3u` 里也留着那些没判死、只是暂时没验成的源。
+只要一条源在多个网络下都不稳，宁可不放。

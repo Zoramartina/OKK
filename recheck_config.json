@@ -24,50 +24,39 @@
     {
       "file": "sports.m3u",
       "match": [
-        "体育",
-        "NBA",
-        "UFC",
-        "ESPN",
-        "FightBox",
-        "DAZN",
-        "格斗"
+        "体育"
+      ]
+    },
+    {
+      "file": "movie.m3u",
+      "match": [
+        "电影"
       ]
     },
     {
       "file": "cctv.m3u",
       "match": [
-        "CCTV",
         "央视",
-        "CGTN"
+        "CCTV"
       ]
     },
     {
       "file": "weishi.m3u",
       "match": [
-        "卫视"
+        "卫视频道"
       ]
     },
     {
       "file": "gangao.m3u",
       "match": [
-        "港澳",
-        "中国香港",
-        "中国台湾",
-        "翡翠",
-        "明珠",
         "凤凰",
-        "台视",
-        "中视",
-        "华视"
+        "港澳"
       ]
     },
     {
       "file": "difang.m3u",
       "match": [
-        "四川",
-        "地方",
-        "城市",
-        "省内"
+        "地方"
       ]
     }
   ],
