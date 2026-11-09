@@ -49,14 +49,26 @@
     {
       "file": "gangao.m3u",
       "match": [
-        "凤凰",
-        "港澳"
+        "港澳台",
+        "凤凰"
       ]
     },
     {
       "file": "difang.m3u",
       "match": [
         "地方"
+      ]
+    },
+    {
+      "file": "haiwai.m3u",
+      "match": [
+        "海外"
+      ]
+    },
+    {
+      "file": "other.m3u",
+      "match": [
+        "其他"
       ]
     }
   ],

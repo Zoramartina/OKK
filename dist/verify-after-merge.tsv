@@ -1,0 +1,347 @@
+分组	频道	地址	结果	状态码	耗时	备注
+央视频道	CCTV-1	http://74.91.26.218:82/live/cctv1hd.m3u8	OK	200	736	
+央视频道	CCTV-2	http://74.91.26.218:82/live/cctv2hd.m3u8	OK	200	1703	
+央视频道	CCTV-3	http://107.150.60.122/live/cctv3hd.m3u8	OK	200	727	
+央视频道	CCTV-4	https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8	OK	200	664	
+央视频道	CCTV-5	http://107.150.60.122/live/cctv5hd.m3u8	OK	200	743	
+央视频道	CCTV-6	http://198.204.228.26/live/cctv6hd.m3u8	OK	200	4834	
+央视频道	CCTV-7	http://107.150.60.122/live/cctv7hd.m3u8	OK	200	778	
+央视频道	CCTV-8	http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0	OK	200	1080	
+央视频道	CCTV-9	https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d36275c9189f29010cf90345a0b78c5a	OK	200	300	
+央视频道	CCTV-10	https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8	OK	200	444	
+央视频道	CCTV-11	http://74.91.26.218:82/live/cctv11hd.m3u8	OK	200	737	
+央视频道	CCTV-12	http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0	OK	200	590	
+央视频道	CCTV-13	http://74.91.26.218:82/live/cctv13hd.m3u8	OK	200	1876	
+央视频道	CCTV-14	http://198.204.228.26/live/cctv14hd.m3u8	OK	200	797	
+央视频道	CCTV-15	http://gmxw.7766.org:808/hls/102/index.m3u8	OK	200	59	
+央视频道	CCTV-16	http://74.91.26.218:82/live/cctv16hd.m3u8	OK	200	789	
+央视频道	CCTV-17	http://74.91.26.218:82/live/cctv17hd.m3u8	OK	200	820	
+央视频道	CCTV-5+	http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009	OK	200	676	
+央视频道	CCTV4K真4K	http://vip1.xinketongxun.fun:8082/tsfile/live/1026_1.m3u8	OK	200	84	
+央视频道	CEC国际健康	http://play.cec-tv.com.cn/channel/cec-tv4.m3u8	OK	200	130	
+央视频道	CEC国际教育	http://play.cec-tv.com.cn/channel/cec-tv3.m3u8	OK	200	117	
+央视频道	CEC国际旅游	http://play.cec-tv.com.cn/channel/cec-tv2.m3u8	OK	200	111	
+央视频道	CEC汉语文化	http://play.cec-tv.com.cn/channel/cec-tv1.m3u8	OK	200	120	
+央视频道	CGTN法语	http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8	OK	200	94	
+央视频道	CGTN纪录	https://0472.org/hls/cgtnd.m3u8	OK	200	669	
+央视频道	CGTN英语	https://0472.org/hls/cgtn.m3u8	OK	200	716	
+央视频道	CGTN西语	https://0472.org/hls/cgtnx.m3u8	OK	200	2123	
+央视频道	CGTN阿语	https://0472.org/hls/cgtna.m3u8	OK	200	721	
+卫视频道	三沙卫视	http://107.150.60.122/live/ssws.m3u8	OK	200	3268	
+卫视频道	东南卫视	http://107.150.60.122/live/dnwshd.m3u8	DEAD	0	0	TCP 未建连
+卫视频道	东方卫视	http://107.150.60.122/live/dfwshd.m3u8	OK	200	777	
+卫视频道	东方卫视4K	https://bp-resource-dfl.bestv.cn/148/3/video.m3u8	OK	200	75	
+卫视频道	云南卫视	http://107.150.60.122/live/ynwshd.m3u8	OK	200	714	
+卫视频道	内蒙古卫视	http://120.76.248.139/live/bfgd/4200000110.m3u8	OK	200	63	
+卫视频道	农林卫视	http://120.76.248.139/live/bfgd/4200000122.m3u8	OK	200	173	
+卫视频道	北京卫视	http://107.150.60.122/live/bjwshd.m3u8	OK	200	767	
+卫视频道	吉林卫视	http://107.150.60.122/live/jlwshd.m3u8	OK	200	756	
+卫视频道	四川卫视	http://107.150.60.122/live/scwshd.m3u8	OK	200	728	
+卫视频道	天津卫视	http://107.150.60.122/live/tjwshd.m3u8	OK	200	1435	
+卫视频道	宁夏卫视	http://120.76.248.139/live/bfgd/4200000118.m3u8	OK	200	54	
+卫视频道	安多卫视	https://liveout.xntv.tv/a65jur/96iln2.m3u8	OK	200	192	
+卫视频道	安徽卫视	http://107.150.60.122/live/ahwshd.m3u8	OK	200	782	
+卫视频道	山东卫视	http://107.150.60.122/live/sdwshd.m3u8	OK	200	773	
+卫视频道	山西卫视	http://107.150.60.122/live/sxwshd.m3u8	OK	200	1678	
+卫视频道	广东卫视	http://107.150.60.122/live/gdwshd.m3u8	OK	200	737	
+卫视频道	广西卫视	http://107.150.60.122/live/gxwshd.m3u8	OK	200	1278	
+卫视频道	延边卫视	https://srs.iyb983.cn/video/CYS/index.m3u8	OK	200	45	
+卫视频道	江苏卫视	http://107.150.60.122/live/jswshd.m3u8	DEAD	0	0	TCP 未建连
+卫视频道	江苏卫视4K	http://8.138.7.223/tv/jsws4k.php	OK	200	337	
+卫视频道	江西卫视	http://107.150.60.122/live/jxwshd.m3u8	OK	200	731	
+卫视频道	河北卫视	https://event.pull.hebtv.com/live/live101.m3u8	OK	200	85	
+卫视频道	河南卫视	http://107.150.60.122/live/hawshd.m3u8	OK	200	728	
+卫视频道	浙江卫视	https://ali-xwl.cztv.com/live/channel011080Plxw.m3u8	OK	200	34	
+卫视频道	浙江卫视4K	http://101.35.240.114:88/live.php?id=浙江卫视4K	OK	200	91	
+卫视频道	海南卫视	http://nn.7x9d.cn/地方台8563/海南.php?id=hnws	OK	200	243	
+卫视频道	深圳卫视	http://107.150.60.122/live/szwshd.m3u8	OK	200	699	
+卫视频道	深圳卫视4K	http://101.35.240.114:88/live.php?id=深圳卫视4K	OK	200	112	
+卫视频道	湖北卫视	http://107.150.60.122/live/hbwshd.m3u8	OK	200	709	
+卫视频道	湖南卫视	http://107.150.60.122/live/hnwshd.m3u8	OK	200	730	
+卫视频道	湖南卫视4K	http://101.35.240.114:88/live.php?id=湖南卫视4K	OK	200	131	
+卫视频道	甘肃卫视	http://107.150.60.122/live/gswshd.m3u8	OK	200	717	
+卫视频道	贵州卫视	http://107.150.60.122/live/gzwshd.m3u8	OK	200	738	
+卫视频道	辽宁卫视	http://107.150.60.122/live/lnwshd.m3u8	OK	200	741	
+卫视频道	重庆卫视	http://107.150.60.122/live/cqwshd.m3u8	OK	200	2746	
+卫视频道	陕西卫视	http://107.150.60.122/live/snwshd.m3u8	OK	200	1720	
+卫视频道	青海卫视	http://107.150.60.122/live/qhws.m3u8	OK	200	831	
+卫视频道	黑龙江卫视	https://idclive.hljtv.com:4430/live/hljws_own.m3u8	OK	200	4316	
+地方·北京	北京科教	http://120.76.248.139/live/bfgd/4200000113.m3u8	OK	200	64	
+地方·重庆	重庆新闻	http://38.75.136.137:98/gslb/dsdqpub/cqxw.m3u8?auth=testpub	OK	200	693	
+地方·河北	任丘综合	https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8	OK	200	113	
+地方·河北	兴隆综合	https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8	OK	200	77	
+地方·河北	平泉综合	https://jwcdnqx.hebyun.com.cn/live/pqzh/1500k/tzwj_video.m3u8	OK	200	119	
+地方·河北	昌黎综合	https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8	OK	200	94	
+地方·河北	河北4K	https://event.pull.hebtv.com:443/live/live101.m3u8	OK	200	123	
+地方·河北	河北公共	http://1.94.31.214/php/hebei.php?id=hbgg	OK	200	316	
+地方·河北	河北农民	http://1.94.31.214/php/hebei.php?id=nmpd	OK	200	273	
+地方·河北	河北少儿	http://1.94.31.214/php/hebei.php?id=sekj	OK	200	249	
+地方·河北	河北影视	http://1.94.31.214/php/hebei.php?id=hbys	OK	200	305	
+地方·河北	河北经济	http://1.94.31.214/php/hebei.php?id=jjsh	OK	200	270	
+地方·河北	河北都市	http://1.94.31.214/php/hebei.php?id=hbds	OK	200	329	
+地方·河北	清河经济综艺	https://jwcdnqx.hebyun.com.cn/live/qinghe1/1500k/tzwj_video.m3u8	OK	200	136	
+地方·河北	邯郸公共频道	https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8	OK	200	132	
+地方·河北	邯郸新闻	https://jwcdnqx.hebyun.com.cn/live/hdxwzh/1500k/tzwj_video.m3u8	OK	200	121	
+地方·河北	邯郸科技教育	https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8	OK	200	92	
+地方·山西	太谷新闻综合	https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0	OK	200	151	
+地方·山西	汾西综合	https://qmmqvzoz.live.sxmty.com/live/hls/f24f8a390c084386a564074c9260100c/be3fdf07606145739ab2c4b80fe0136a.m3u8?zshanxd	OK	200	132	
+地方·辽宁	朝阳新闻综合	http://120.76.248.139/live/bfgd/4200000282.m3u8	OK	200	190	
+地方·辽宁	辽宁公共	http://dassby.qqff.top:99/live/辽宁公共/index.m3u8	OK	200	104	
+地方·辽宁	辽宁北方	http://dassby.qqff.top:99/live/辽宁北方/index.m3u8	OK	200	108	
+地方·辽宁	辽宁影视	http://dassby.qqff.top:99/live/辽宁影视剧/index.m3u8	OK	200	117	
+地方·辽宁	辽宁影视剧	http://120.76.248.139/live/bfgd/4200000070.m3u8	OK	200	57	
+地方·辽宁	辽宁教育青少	http://120.76.248.139/live/bfgd/4200000075.m3u8	OK	200	72	
+地方·辽宁	辽宁生活	http://dassby.qqff.top:99/live/辽宁生活/index.m3u8	OK	200	103	
+地方·辽宁	辽宁经济	http://dassby.qqff.top:99/live/辽宁经济/index.m3u8	OK	200	93	
+地方·辽宁	辽宁都市	http://120.76.248.139/live/bfgd/4200000068.m3u8	OK	200	179	
+地方·辽宁	辽宁青少	http://dassby.qqff.top:99/live/辽宁教育青少/index.m3u8	OK	200	95	
+地方·吉林	延边2	http://stream5.jlntv.cn/wq/playlist.m3u8	OK	200	105	
+地方·黑龙江	七台河新闻综合	http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8	OK	200	237	
+地方·黑龙江	哈尔滨娱乐	https://stream.hrbtv.net/ylpd/sd/live.m3u8	OK	200	263	
+地方·黑龙江	哈尔滨影视	http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild	OK	200	105	
+地方·黑龙江	哈尔滨新闻综合	http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild	OK	200	106	
+地方·黑龙江	哈尔滨生活	http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild	OK	200	109	
+地方·黑龙江	哈尔滨资讯	http://stream.hrbtv.net/zxpd/sd/live.m3u8	OK	200	112	
+地方·黑龙江	哈尔滨都市咨询	http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild	OK	200	129	
+地方·黑龙江	黑龙江农业科教频道	https://idclive.hljtv.com:4430/live/hljgg_hd.m3u8	OK	200	4191	
+地方·黑龙江	黑龙江文体	https://idclive.hljtv.com:4430/live/hljwy_hd.m3u8	OK	200	4224	
+地方·黑龙江	黑龙江都市	https://idclive.hljtv.com:4430/live/dushi_hd.m3u8	OK	200	4215	
+地方·江苏	南京教科	http://nklive.nbs.cn/hls/75b3c462-b831-4de7-a34b-5d3221db2069/index.m3u8	OK	200	35	
+地方·江苏	南京新闻综合	http://nklive.nbs.cn/hls/d511bc9d-a694-4453-b3a2-4fc842cc97a1/index.m3u8	OK	200	57	
+地方·江苏	南京眼	https://nklive2.nbs.cn/hls/2496cb32-fa2a-469b-bfd7-2d1991d671d5/index.m3u8	OK	200	49	
+地方·江苏	苏州4K	https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8	OK	200	67	
+地方·江苏	苏州文化生活	https://live-auth.51kandianshi.com/szgd/csztv3.m3u8	OK	200	131	
+地方·江苏	苏州新闻综合	https://live-auth.51kandianshi.com/szgd/csztv1.m3u8	OK	200	232	
+地方·江苏	苏州生活资讯	https://live-auth.51kandianshi.com/szgd/csztv5.m3u8	OK	200	180	
+地方·江苏	苏州社会经济	https://live-auth.51kandianshi.com/szgd/csztv2.m3u8	OK	200	124	
+地方·浙江	云和新闻综合	http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8	OK	200	73	
+地方·浙江	浙江国际	https://ali-xwl.cztv.com/live/channel101080Plxw.m3u8	OK	200	136	
+地方·浙江	浙江教科	https://ali-xwl.cztv.com/live/channel041080Plxw.m3u8	OK	200	30	
+地方·浙江	浙江教科影视	http://ali-xwl.cztv.com/live/channel041080Plxw.m3u8	OK	200	20	
+地方·浙江	浙江新闻	https://ali-xwl.cztv.com/live/channel071080Plxw.m3u8	OK	200	253	
+地方·浙江	浙江民生	https://ali-xwl.cztv.com/live/channel061080Plxw.m3u8	OK	200	20	
+地方·浙江	浙江经济	https://ali-xwl.cztv.com/live/channel031080Plxw.m3u8	OK	200	78	
+地方·浙江	浙江钱江	https://ali-xwl.cztv.com/live/channel021080Plxw.m3u8	OK	200	96	
+地方·浙江	海宁新闻综合	https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8	OK	200	245	
+地方·浙江	绍兴电视台公共	http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]	OK	200	156	
+地方·浙江	萧山生活	https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8	OK	200	33	
+地方·浙江	萧山综合	http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8	OK	200	24	
+地方·浙江	诸暨新闻综合	https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8	OK	200	77	
+地方·浙江	象山新闻综合	http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8	OK	200	31	
+地方·浙江	青田电视台	http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8	OK	200	43	
+地方·浙江	龙泉新闻综合	http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8	OK	200	22	
+地方·安徽	广德生活	https://live.gdtv.ah.cn/live/newsTV.m3u8	OK	200	105	
+地方·福建	云霄综合	http://live.zzyxxw.com:85/live/xwzh.m3u8	OK	200	4050	
+地方·福建	福州少儿	http://live.zohi.tv/video/s10001-fztv-4/index.m3u8	OK	200	236	
+地方·福建	福州生活	http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8	OK	200	261	
+地方·山东	山东教育	https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8	OK	200	63	
+地方·河南	新野综合	http://tvpull.dxhmt.cn:9081/tv/11329-1.m3u8	OK	200	95	
+地方·河南	永城综合	http://tvpull.dxhmt.cn:9081/tv/11481-1.m3u8	OK	200	111	
+地方·河南	荥阳综合	http://tvpull.dxhmt.cn:9081/tv/10182-1.m3u8	OK	200	87	
+地方·湖北	江夏新闻综合	http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd	OK	200	95	
+地方·广东	东莞新闻综合	https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8	OK	200	131	
+地方·广东	南国都市	http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4	OK	200	179	
+地方·广东	南国都市4K	https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de	OK	200	170	
+地方·广东	广东民生	http://183.11.239.36:808/hls/18/index.m3u8	DEAD	0	0	TCP 未建连
+地方·广东	广东珠江	http://r.jdshipin.com/sE5vO	OK	200	1149	
+地方·广东	广州新闻	http://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=d2c2db0b598c02ec1b5623728434d367&txTime=18d57929bd3	OK	200	383	
+地方·广东	广州综合	https://tencentplaybusiness.gztv.com/live/zonghes.m3u8	OK	200	145	
+地方·广西	南宁影视娱乐	http://hls.nntv.cn/nnlive/YSYL_244.m3u8	OK	200	30	
+地方·广西	广西国际	https://hlscdn.liangtv.cn/live/0234c48e0bc24fe1b41b9999a253e581/1075ee38e04f490690f6a36a16e09c79.m3u8	OK	200	132	
+地方·广西	广西新闻	http://198.204.228.26/live/gxxw.m3u8	OK	200	1502	
+地方·海南	海南公共	http://nn.7x9d.cn/地方台8563/海南.php?id=ggpd	OK	200	243	
+地方·海南	海南少儿	http://nn.7x9d.cn/地方台8563/海南.php?id=sepd	OK	200	395	
+地方·海南	海南文旅	http://nn.7x9d.cn/地方台8563/海南.php?id=wlpd	OK	200	244	
+地方·海南	海南新闻	http://nn.7x9d.cn/地方台8563/海南.php?id=xwpd	OK	200	210	
+地方·海南	海南自贸	http://nn.7x9d.cn/地方台8563/海南.php?id=jjpd	OK	200	256	
+地方·四川	乐至综合	http://175.155.106.72:89/live1/live1.m3u8?zsicd	OK	200	89	
+地方·四川	剑阁综合	https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8	OK	200	182	
+地方·四川	名山综合	https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8	OK	200	164	
+地方·四川	四川科教	http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8	OK	200	157	
+地方·四川	广元公共	https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8	OK	200	198	
+地方·四川	广元综合	https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8	OK	200	179	
+地方·四川	广安公共	http://live1.gatv.com.cn:85/live/GGPD.m3u8	OK	200	4098	
+地方·四川	旺苍新闻综合	http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8	OK	200	4122	
+地方·四川	朝天综合	https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8	OK	200	1181	
+地方·四川	松潘新闻综合	http://live.spccmc.com:90/live/spxwzh.m3u8	OK	200	124	
+地方·四川	汶川新闻综合	http://live.iwcmt.cn:90/live/zhxw.m3u8	OK	200	2426	
+地方·四川	泸县新闻综合	https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8	OK	200	175	重试通过
+地方·四川	荥经综合	https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8	OK	200	107	
+地方·四川	金川乡村	http://live.jinchuanrmt.com:90/live/jcxc.m3u8?zsicd	OK	200	108	
+地方·四川	金川新闻综合	http://139.203.180.9:90/live/zhxw.m3u8	OK	200	123	
+地方·四川	雅安新闻综合	https://play.yunxya.com/channellive/xinwen.m3u8	OK	200	70	
+地方·四川	青川综合	http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8	OK	200	97	
+地方·云南	云南娱乐	https://hwapi.yntv.net/62hdvf/q9vs1b.m3u8	OK	200	145	
+地方·云南	云南都市	https://hwapi.yntv.net/62hdvf/rjwt14.m3u8	OK	200	127	
+地方·云南	易门综合	https://zb-live.ynurl.com/yimen/3b75a2f9-7941-46b7-992d-a9796fbca5fe.m3u8	OK	200	167	
+地方·云南	通海电视台	https://zb-live.ynurl.com/tonghai/3bfe3a9e-48e6-4c1e-8770-1df66447cc6c.m3u8	OK	200	160	
+地方·甘肃	天祝综合	https://play.kankanlive.com/live/1656487214793905.m3u8	OK	200	86	
+地方·甘肃	永昌综合	https://play.kankanlive.com/live/1652755738635915.m3u8	OK	200	46	
+地方·甘肃	西峰综合	https://play.kankanlive.com/live/1683944827526991.m3u8	OK	200	50	
+地方·青海	西宁新闻综合	https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd	OK	200	183	
+地方·宁夏	宁夏公共	https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8	OK	200	473	
+地方·宁夏	宁夏文旅	https://hls.ningxiahuangheyun.com/live/nxwl1M.m3u8	OK	200	464	
+港澳台频道	Astro AEC	http://cdn3.123.rr.kg/stream/live/aec/	OK	200	847	
+港澳台频道	Astro欢喜台	https://cdn3.indevs.in/stream/live/hxt/	OK	200	5134	
+港澳台频道	HOY TV	http://cdn.123.rr.kg/163189/hoy	OK	200	2861	
+港澳台频道	HOY国际财经台	https://cdn11.163189.xyz/163189/hoy76	OK	200	996	
+港澳台频道	HOY资讯台	http://cdn.123.rr.kg/163189/hoy78	OK	200	1303	
+港澳台频道	LIVE三立	https://d2jc41c1shgcol.cloudfront.net/live/setnewsrtmp/playlist.m3u8	OK	200	1364	
+港澳台频道	NOW新闻台	http://cdn.123.rr.kg/163189/now	OK	200	3947	
+港澳台频道	RTHK31	http://cdn.123.rr.kg/163189/rthk31	OK	200	1371	
+港澳台频道	RTHK32	http://cdn.123.rr.kg/163189/rthk32	OK	200	2404	
+港澳台频道	TVB Plus(WebVTT字幕)	http://cdn10.123.rr.kg/163189/tvbp/	OK	200	3509	
+港澳台频道	TVB1	http://cdn6.123.rr.kg/163189/tvb1	OK	200	1896	
+港澳台频道	TVBJ1	http://cdn6.123.rr.kg/163189/j1	OK	200	909	
+港澳台频道	TVBS Asia	http://38.64.72.148/hls/modn/list/4005/playlist.m3u8	OK	200	305	
+港澳台频道	TVBS新闻	https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8	OK	200	2388	
+港澳台频道	TVB亚洲武侠	http://cdn6.123.rr.kg/163189/yzwx	OK	200	1919	
+港澳台频道	TVB星河	https://cdn3.indevs.in/stream/live/tvbxh/	OK	200	764	
+港澳台频道	TVB星河1	http://cdn3.123.rr.kg/stream/live/tvbxh/	OK	200	1821	
+港澳台频道	TVB星河2	http://cdn6.123.rr.kg/163189/tvbxh	OK	200	2992	
+港澳台频道	TVB星河3	http://cdn10.123.rr.kg/163189/xinghe/	OK	200	2195	
+港澳台频道	ViuTVsix	http://cdn10.123.rr.kg/163189/viu6/	OK	200	2060	
+港澳台频道	三立新闻	https://d2jc41c1shgcol.cloudfront.net/live/iNEWS/playlist.m3u8	OK	200	1740	
+港澳台频道	东森新闻	https://d2jc41c1shgcol.cloudfront.net/live/EBCNews/playlist.m3u8	OK	200	1561	
+港澳台频道	中天新闻	https://d2jc41c1shgcol.cloudfront.net/live/CtiNEWS1/playlist.m3u8	OK	200	1328	
+港澳台频道	中视新闻	https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8	OK	200	1336	
+港澳台频道	人间卫视	https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8	OK	200	3530	
+港澳台频道	千禧经典台	http://cdn3.123.rr.kg/stream/live/tvbc/	OK	200	3663	
+港澳台频道	华丽翡翠台(新加坡)	http://cdn3.123.rr.kg/stream/live/jade/	OK	200	1136	
+港澳台频道	华丽翡翠台1	http://cdn6.123.rr.kg/163189/hlfct	OK	200	892	
+港澳台频道	华视新闻	https://d2jc41c1shgcol.cloudfront.net/live/ctsnewsqt/playlist.m3u8	OK	200	1536	
+港澳台频道	台视新闻	http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8	OK	200	313	
+港澳台频道	唯心電視	https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8	OK	200	414	
+港澳台频道	大立电视台	http://www.dalitv.com.tw:4568/live/dali/index.m3u8	OK	200	134	
+港澳台频道	好消息综合台	https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8	OK	200	1062	
+港澳台频道	娱乐新闻台	http://cdn6.123.rr.kg/163189/ylxw	OK	200	1928	
+港澳台频道	无线新闻台	http://cdn6.123.rr.kg/163189/wxxw	OK	200	2131	
+港澳台频道	无线新闻台2	http://cdn6.123.rr.kg/163189/wxxwt	OK	200	3751	
+港澳台频道	明珠台(WebVTT字幕)	http://cdn10.123.rr.kg/163189/mzt/	OK	200	1208	
+港澳台频道	欢喜台	http://cdn3.123.rr.kg/stream/live/hxt/	OK	200	3242	
+港澳台频道	民视新闻	https://d2jc41c1shgcol.cloudfront.net/live/ftvnewsqt/playlist.m3u8	OK	200	866	
+港澳台频道	澳视卫星	http://cdn6.123.rr.kg/163189/as	OK	200	2904	
+港澳台频道	澳视澳门	http://cdn6.123.rr.kg/163189/asam	OK	200	981	
+港澳台频道	澳门体育	http://cdn6.123.rr.kg/163189/amty	OK	200	3692	
+港澳台频道	澳门综艺	http://cdn6.123.rr.kg/163189/amzy	OK	200	879	
+港澳台频道	澳门莲花	http://cdn6.123.rr.kg/163189/amlh	OK	200	965	
+港澳台频道	纬来体育	https://hlsz.yjjcfw.com/live/vl.m3u8?expire=1786948372&sign=2e4a56b89fe644db147552011f972714	OK	200	159	
+港澳台频道	翡翠剧集台	http://cdn6.123.rr.kg/163189/tvbd	OK	200	945	
+港澳台频道	翡翠台	http://cdn6.123.rr.kg/163189/fct	OK	200	1861	
+港澳台频道	翡翠台4K字幕	https://cdn3.indevs.in/stream/tvb/fct4k/	OK	200	1763	
+港澳台频道	耀才财经	https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8	DEAD	0	0	TCP 未建连
+港澳台频道	香港卫视	http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8	OK	200	135	
+凤凰卫视	凤凰中文	http://zmgd.zyrnet.com:8888/hls/110/index.m3u8	OK	200	73	
+凤凰卫视	凤凰资讯	http://zmgd.zyrnet.com:8888/hls/109/index.m3u8	OK	200	74	
+凤凰卫视	凤凰香港	http://122.152.202.33/s/81a8a44f/index.m3u8?id=fhhk	OK	200	2011	
+体育·赛事台	ACI Sport TV	https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8	OK	200	1685	
+体育·赛事台	Africa 24 Sport	https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8	OK	200	3957	
+体育·赛事台	BEK TV Sports West	https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8	OK	200	1484	
+体育·赛事台	Bahrain Sports 1	https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8	OK	200	1414	
+体育·赛事台	Bein Sports Extra 2	https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8	OK	200	622	
+体育·赛事台	Cricket Gold (1080p)	https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8	OK	200	1313	
+体育·赛事台	EuroSport1	http://141.94.193.53:80/Eurosport_1_HD/index.m3u8	OK	200	1414	
+体育·赛事台	Fox Sports (1080p)	http://138.59.227.20:8000/play/a085/index.m3u8	DEAD	0	0	TCP 未建连
+体育·赛事台	Fox Sports News (1080p)	https://skynewsau-live-premium.akamaized.net/hls/live/2105307/foxsportsnews/live_1080p.m3u8	OK	200	1507	
+体育·赛事台	Golf Channel (United States) (576p)	https://tvsen6.aynaott.com/golfchannel/index.m3u8	OK	200	881	
+体育·赛事台	KTV Sport Plus	https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8	OK	200	602	
+体育·赛事台	NBC Sports	https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8	OK	200	891	
+体育·赛事台	NBC Sports NOW (1080p)	https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008	OK	200	759	
+体育·赛事台	NHL FAST	https://nhl-firetv.amagi.tv/playlist1080p.m3u8	OK	200	1096	
+体育·赛事台	NHL Network (1080p)	https://nhl-firetv.amagi.tv/playlist.m3u8	OK	200	678	
+体育·赛事台	Oman Sports TV	https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8	OK	200	391	
+体育·赛事台	Sports Fishing TV	https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8	OK	200	2419	
+体育·赛事台	Trace Sports	https://lightning-tracesport-samsungau.amagi.tv/playlist1080p.m3u8	OK	200	621	
+体育·赛事台	Willow Sports (1080p)	https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8	OK	200	751	
+体育·赛事台	beIN SPORTS XTRA (1080p)	https://bein-xtra-bein.amagi.tv/playlist.m3u8	OK	200	546	
+体育·赛事台	辽宁体育	http://dassby.qqff.top:99/live/辽宁体育/index.m3u8	OK	200	111	
+电影频道	AXN Black	http://85.14.32.26:8800/udp/239.100.10.17:5000	OK	200	1536	
+电影频道	CCTV怀旧剧场	http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub	OK	200	703	
+电影频道	CCTV第一剧场	http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub	OK	200	1670	
+电影频道	CCTV风云剧场	http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub	OK	200	671	
+电影频道	CHC动作电影	http://198.204.228.26/live/chcdz.m3u8	OK	200	820	
+电影频道	CHC家庭影院	http://107.150.60.122/live/chcjt.m3u8	OK	200	2725	
+电影频道	CHC影迷电影	http://38.75.136.137:98/gslb/dsdqpub/chchd.m3u8?auth=testpub	OK	200	698	
+电影频道	CHC电影	http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0	OK	200	79	
+电影频道	Cine Nanar	https://zylo-cinenanar-rakuten.amagi.tv/playlist480p.m3u8	OK	200	1131	
+电影频道	Cinemax Classics (1080p)	http://23.237.104.106:8080/USA_5STARMAX/index.m3u8	OK	200	456	
+电影频道	Cinemax Hits (1080p)	http://23.237.104.106:8080/USA_MOREMAX/index.m3u8	OK	200	495	
+电影频道	Cinemax West (720p)	http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8	OK	200	488	
+电影频道	FILMBOX+ Action (720p)	http://92.114.85.87:8008/play/a007/index.m3u8	DEAD	0	0	TCP 未建连
+电影频道	FILMBOX+ Comedy (720p)	http://92.114.85.87:8008/play/a009/index.m3u8	OK	200	384	
+电影频道	FILMBOX+ Emotion (720p)	http://92.114.85.87:8008/play/a008/index.m3u8	OK	200	1444	
+电影频道	NewTV古装剧场	http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c58_fast_947_1080P_t10/c58_fast_947_1080P_t10.m3u8?d	OK	200	428	
+电影频道	NewTV大家剧场	http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c58_fast_975_1080P_t10/c58_fast_975_1080P_t10.m3u8?d	OK	200	526	
+电影频道	NewTV家庭剧场	http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c59_fast_999_1080P_t10/c59_fast_999_1080P_t10.m3u8?d	OK	200	407	
+电影频道	NewTV泰语剧场	http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c58_fast_949_1080P_t10/c58_fast_949_1080P_t10.m3u8?d	OK	200	458	
+电影频道	NewTV爱情剧场	http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c59_fast_967_1080P_t10/c59_fast_967_1080P_t10.m3u8?d	OK	200	262	
+电影频道	Paramount Network (1080p)	http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8	OK	200	467	
+电影频道	Showtime Family Zone (720p)	http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8	OK	200	473	
+电影频道	Universal Cinema (1080p)	http://168.196.127.137:6001/play/a09b/index.m3u8	OK	200	540	
+电影频道	华数动作影院	http://113.25.252.226:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0	OK	200	159	
+电影频道	周星驰2专场	https://cfss.cc/Qs/hy.php	OK	200	3782	
+电影频道	天映	https://cdn3.indevs.in/stream/live/typd/	OK	200	928	
+电影频道	天映新加坡	http://cdn10.123.rr.kg/163189/typd/	OK	200	1157	
+电影频道	天映经典	https://cdn3.indevs.in/stream/live/ccm/	OK	200	846	
+电影频道	天映经典台	http://cdn3.123.rr.kg/stream/live/ccm/	OK	200	1010	
+电影频道	天映经典台2	http://cdn10.123.rr.kg/163189/ccm/	OK	200	3635	
+电影频道	天映频道	http://cdn3.123.rr.kg/stream/live/typd/	OK	200	1598	
+电影频道	湖南电影	https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNDYMPP360.m3u8	OK	200	103	
+电影频道	美亚C+	http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8	OK	200	168	
+电影频道	美亚电影	http://iptv.4666888.xyz/iptv2A.php?id=30	OK	200	407	
+电影频道	重温经典	http://8.138.7.223/tv/cwjd.php	OK	200	172	
+电影频道	长影频道	http://tpc.x3322.net:9901/tsfile/live/1010_1.m3u8	OK	200	123	
+电影频道	韩国电影1	https://stream.ads.ottera.tv/playlist.m3u8?network_id=595	OK	200	953	
+电影频道	韩国电影2	https://stream.ads.ottera.tv/playlist.m3u8?network_id=743	OK	200	1492	
+电影频道	黄金华剧台(WebVTT字幕)	http://cdn10.123.rr.kg/163189/hjhjt/	OK	200	864	
+海外频道	20 Minutes TV	https://live-20minutestv.digiteka.com/1961167769/tracks-v2a1/mono.ts.m3u8	OK	200	1706	
+海外频道	ABC News Live	https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991626	OK	200	846	
+海外频道	Arirang	https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8	OK	200	1598	
+海外频道	Belarus-5	http://178.124.179.122:8080/BT5/index.m3u8	DEAD	0	0	TCP 未建连
+海外频道	CBC News	https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276	OK	200	626	
+海外频道	CGN中文台	https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8	OK	200	1288	
+海外频道	CNA	https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8	OK	200	579	
+海外频道	Caillou	https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8	OK	200	1679	
+海外频道	DLTV2	https://cdn-live.dltv.ac.th/smil:origin01-dltv-02-adaptive.smil/chunklist_b3128000_slth.m3u8	OK	200	1253	
+海外频道	DLTV9	https://cdn-live.dltv.ac.th/smil:origin02-dltv-09-adaptive.smil/chunklist_b3128000_slth.m3u8	OK	200	684	
+海外频道	Desi Plus	http://cdn2.live247stream.com/desiplus/tv/playlist.m3u8	OK	200	1551	
+海外频道	Horse & Country	https://hncfree-samsungau.amagi.tv/playlist.m3u8	OK	200	717	
+海外频道	ISTV	https://livefta.malimarcdn.com/ftaedge00/ichannel.sdp/playlist.m3u8	OK	200	821	
+海外频道	Mr. Bean Anime Italy	https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8	OK	200	723	
+海外频道	Newsmax	http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8	OK	200	615	
+海外频道	Oh Muang Lao TV	https://livefta.malimarcdn.com/ftaedge00/ohmuanglao.stream/chunklist.m3u8	OK	200	5487	
+海外频道	PBS Kids Pacific	https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8	OK	200	1018	
+海外频道	Pet Club TV	https://petclub-samsungaus.amagi.tv/playlist.m3u8	OK	200	1286	
+海外频道	RT Arabic（阿语）	https://rt-arb.rttv.com/dvr/rtarab/playlist_4500Kb.m3u8	OK	200	991	
+海外频道	RT Balkan （塞尔维亚语）	https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8	OK	200	1484	
+海外频道	RT DE（德语）	https://rt-ger.rttv.com/dvr/rtdeutsch/playlist_4500Kb.m3u8	OK	200	897	
+海外频道	RT Doc-Русский（俄语纪录）	https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8	OK	200	739	
+海外频道	RT Documentary（英语纪录）	https://rt-rtd.rttv.com/dvr/rtdoc/playlist_4500Kb.m3u8	OK	200	962	重试通过
+海外频道	RT Español（西语）	https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8	OK	200	1764	
+海外频道	RT Français（法语）	https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8	OK	200	1107	
+海外频道	RT News（英语国际）	https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8	OK	200	940	
+海外频道	Red Bull TV	https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8	OK	200	1873	
+海外频道	Stara TV Cianjur	https://cianjur.staratv.id/hls/0/stream.m3u8	OK	200	2296	
+海外频道	Stara TV Malang	https://malang.staratv.id/hls/0/stream.m3u8	OK	200	606	
+海外频道	Stara TV Parahyangan	https://parahyangan.staratv.id/hls/0/stream.m3u8	OK	200	890	
+海外频道	Wild Earth	https://wildearth-plex.amagi.tv/masterR1080p.m3u8	OK	200	524	
+海外频道	WionNews	https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8	OK	200	1885	
+海外频道	韩国EBS少儿	http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8	OK	200	231	
+其他频道	AOD	http://cdn3.123.rr.kg/stream/live/aod/	OK	200	1916	
+其他频道	CH8	http://cdn6.123.rr.kg/163189/ch8	OK	200	2257	
+其他频道	CHU	http://cdn6.123.rr.kg/163189/chu	OK	200	941	
+其他频道	Goal TV	https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8	OK	200	1515	
+其他频道	JC乡村频道	http://live.jinchuanrmt.com:90/live/jcxc.m3u8	OK	200	112	
+其他频道	MTRSPT	https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8	OK	200	947	
+其他频道	RMTV	https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8	OK	200	1342	
+其他频道	WOF 1	https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8	OK	200	1385	
+其他频道	iQIYI	https://cdn3.indevs.in/stream/live/iqiyi/	OK	200	779	
+其他频道	三农	http://tv.pull.hebtv.com/jishi/nongminpindao.m3u8?t=1893427200&k=f07ae1d5be12d118d136be90e032bfce	OK	200	32	
+其他频道	中华特产	http://120.76.248.139/live/bfgd/4200000158.m3u8	OK	200	172	
+其他频道	四海钓鱼	http://120.76.248.139/live/bfgd/4200000229.m3u8	OK	200	178	
+其他频道	新视觉HD	http://120.76.248.139/live/bfgd/4200000249.m3u8	OK	200	63	
+其他频道	梨园频道	https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=ebea42451370372b34e6343654e5d4d6&wsTime=1791193106	OK	200	41	
+其他频道	爱奇艺	http://cdn3.123.rr.kg/stream/live/iqiyi/	OK	200	3060	
+其他频道	环球旅游	http://120.76.248.139/live/bfgd/4200000147.m3u8	OK	200	172	
+其他频道	环球电视	http://utv1.hqtvzb.com:9999/hls/world.m3u8	OK	200	60	
+其他频道	长江大桥	https://nklive2.nbs.cn/hls/292e69b9-9ca1-4908-bba0-32438dd7c464/index.m3u8	OK	200	61	

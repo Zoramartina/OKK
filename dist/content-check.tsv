@@ -1,0 +1,161 @@
+序号	频道	分组	地址	结论	说明
+0	CCTV-1	央视频道	http://74.91.26.218:82/live/cctv1hd.m3u8	正常	有台标与节目画面
+1	CCTV-2	央视频道	http://74.91.26.218:82/live/cctv2hd.m3u8	已修正	旧源返回 404，已换成 74.91.26.218 的 cctv2hd，截图台标确认 CCTV-2 财经
+2	CCTV-3	央视频道	http://107.150.60.122/live/cctv3hd.m3u8	正常	有台标与节目画面
+3	CCTV-4	央视频道	https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8	正常	有台标与节目画面
+4	CCTV-5	央视频道	http://107.150.60.122/live/cctv5hd.m3u8	正常	有台标与节目画面
+5	CCTV-5+	央视频道	http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009	正常	有台标与节目画面
+6	CCTV-6	央视频道	http://198.204.228.26/live/cctv6hd.m3u8	正常	有台标与节目画面
+7	CCTV-7	央视频道	http://107.150.60.122/live/cctv7hd.m3u8	正常	有台标与节目画面
+8	CCTV-8	央视频道	http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0	正常	有台标与节目画面
+9	CCTV-9	央视频道	https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d36275c9189f29010cf90345a0b78c5a	正常	有台标与节目画面
+10	CCTV-10	央视频道	https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8	正常	有台标与节目画面
+11	CCTV-11	央视频道	http://74.91.26.218:82/live/cctv11hd.m3u8	正常	有台标与节目画面
+12	CCTV-12	央视频道	http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0	正常	有台标与节目画面
+13	CCTV-13	央视频道	http://74.91.26.218:82/live/cctv13hd.m3u8	正常	有台标与节目画面
+14	CCTV-14	央视频道	http://198.204.228.26/live/cctv14hd.m3u8	正常	有台标与节目画面
+15	CCTV-15	央视频道	http://gmxw.7766.org:808/hls/102/index.m3u8	正常	有台标与节目画面
+16	CCTV-16	央视频道	http://74.91.26.218:82/live/cctv16hd.m3u8	正常	有台标与节目画面
+17	CCTV-17	央视频道	http://74.91.26.218:82/live/cctv17hd.m3u8	正常	有台标与节目画面
+18	北京卫视	卫视频道	http://107.150.60.122/live/bjwshd.m3u8	正常	有台标与节目画面
+19	天津卫视	卫视频道	http://107.150.60.122/live/tjwshd.m3u8	正常	有台标与节目画面
+20	东方卫视	卫视频道	http://107.150.60.122/live/dfwshd.m3u8	正常	有台标与节目画面
+21	重庆卫视	卫视频道	http://107.150.60.122/live/cqwshd.m3u8	正常	有台标与节目画面
+22	河北卫视	卫视频道	https://event.pull.hebtv.com/live/live101.m3u8	正常	有台标与节目画面
+23	山西卫视	卫视频道	http://107.150.60.122/live/sxwshd.m3u8	正常	有台标与节目画面
+24	辽宁卫视	卫视频道	http://107.150.60.122/live/lnwshd.m3u8	正常	有台标与节目画面
+25	吉林卫视	卫视频道	http://107.150.60.122/live/jlwshd.m3u8	正常	有台标与节目画面
+26	黑龙江卫视	卫视频道	https://idclive.hljtv.com:4430/live/hljws_own.m3u8	正常	有台标与节目画面
+27	江苏卫视	卫视频道	http://107.150.60.122/live/jswshd.m3u8	正常	有台标与节目画面
+28	浙江卫视	卫视频道	https://ali-xwl.cztv.com/live/channel011080Plxw.m3u8	正常	有台标与节目画面
+29	安徽卫视	卫视频道	http://107.150.60.122/live/ahwshd.m3u8	正常	有台标与节目画面
+30	东南卫视	卫视频道	http://107.150.60.122/live/dnwshd.m3u8	正常	有台标与节目画面
+31	江西卫视	卫视频道	http://107.150.60.122/live/jxwshd.m3u8	正常	有台标与节目画面
+32	山东卫视	卫视频道	http://107.150.60.122/live/sdwshd.m3u8	正常	有台标与节目画面
+33	河南卫视	卫视频道	http://107.150.60.122/live/hawshd.m3u8	正常	有台标与节目画面
+34	湖北卫视	卫视频道	http://107.150.60.122/live/hbwshd.m3u8	正常	有台标与节目画面
+35	湖南卫视	卫视频道	http://107.150.60.122/live/hnwshd.m3u8	正常	有台标与节目画面
+36	广东卫视	卫视频道	http://107.150.60.122/live/gdwshd.m3u8	正常	有台标与节目画面
+37	广西卫视	卫视频道	http://107.150.60.122/live/gxwshd.m3u8	正常	有台标与节目画面
+38	四川卫视	卫视频道	http://107.150.60.122/live/scwshd.m3u8	正常	有台标与节目画面
+39	贵州卫视	卫视频道	http://107.150.60.122/live/gzwshd.m3u8	正常	有台标与节目画面
+40	云南卫视	卫视频道	http://107.150.60.122/live/ynwshd.m3u8	正常	有台标与节目画面
+41	陕西卫视	卫视频道	http://107.150.60.122/live/snwshd.m3u8	正常	有台标与节目画面
+42	甘肃卫视	卫视频道	http://107.150.60.122/live/gswshd.m3u8	正常	有台标与节目画面
+43	青海卫视	卫视频道	http://107.150.60.122/live/qhws.m3u8	正常	有台标与节目画面
+44	深圳卫视	卫视频道	http://107.150.60.122/live/szwshd.m3u8	正常	有台标与节目画面
+45	三沙卫视	卫视频道	http://107.150.60.122/live/ssws.m3u8	正常	有台标与节目画面
+46	延边卫视	卫视频道	https://srs.iyb983.cn/video/CYS/index.m3u8	正常	有台标与节目画面
+47	安多卫视	卫视频道	https://liveout.xntv.tv/a65jur/96iln2.m3u8	正常	有台标与节目画面
+48	东方卫视4K	卫视频道	https://bp-resource-dfl.bestv.cn/148/3/video.m3u8	正常	有台标与节目画面
+49	江苏卫视4K	卫视频道	http://8.138.7.223/tv/jsws4k.php	提示页	画面为“服务器超负载，请扫码支持”提示，不是节目
+50	浙江卫视4K	卫视频道	http://101.35.240.114:88/live.php?id=浙江卫视4K	未确认	源站返回错误，截图失败，需播放器复核
+51	深圳卫视4K	卫视频道	http://101.35.240.114:88/live.php?id=深圳卫视4K	未确认	源站返回错误，截图失败，需播放器复核
+52	湖南卫视4K	卫视频道	http://101.35.240.114:88/live.php?id=湖南卫视4K	未确认	源站返回错误，截图失败，需播放器复核
+53	北京科教	地方·北京	http://120.76.248.139/live/bfgd/4200000113.m3u8	正常	有台标与节目画面
+54	重庆新闻	地方·重庆	http://38.75.136.137:98/gslb/dsdqpub/cqxw.m3u8?auth=testpub	正常	有台标与节目画面
+55	任丘综合	地方·河北	https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8	正常	有台标与节目画面
+56	兴隆综合	地方·河北	https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8	正常	有台标与节目画面
+57	平泉综合	地方·河北	https://jwcdnqx.hebyun.com.cn/live/pqzh/1500k/tzwj_video.m3u8	正常	有台标与节目画面
+58	昌黎综合	地方·河北	https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8	正常	有台标与节目画面
+59	河北4K	地方·河北	https://event.pull.hebtv.com:443/live/live101.m3u8	正常	有台标与节目画面
+60	河北公共	地方·河北	http://1.94.31.214/php/hebei.php?id=hbgg	正常	有台标与节目画面
+61	河北影视	地方·河北	http://1.94.31.214/php/hebei.php?id=hbys	正常	有台标与节目画面
+62	河北经济	地方·河北	http://1.94.31.214/php/hebei.php?id=jjsh	正常	有台标与节目画面
+63	清河经济综艺	地方·河北	https://jwcdnqx.hebyun.com.cn/live/qinghe1/1500k/tzwj_video.m3u8	无信号	彩条测试图
+64	邯郸公共频道	地方·河北	https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8	正常	有台标与节目画面
+65	邯郸新闻	地方·河北	https://jwcdnqx.hebyun.com.cn/live/hdxwzh/1500k/tzwj_video.m3u8	正常	有台标与节目画面
+66	邯郸科技教育	地方·河北	https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8	正常	有台标与节目画面
+67	太谷新闻综合	地方·山西	https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0	正常	有台标与节目画面
+68	汾西综合	地方·山西	https://qmmqvzoz.live.sxmty.com/live/hls/f24f8a390c084386a564074c9260100c/be3fdf07606145739ab2c4b80fe0136a.m3u8?zshanxd	正常	有台标与节目画面
+69	辽宁公共	地方·辽宁	http://dassby.qqff.top:99/live/辽宁公共/index.m3u8	正常	有台标与节目画面
+70	辽宁影视	地方·辽宁	http://dassby.qqff.top:99/live/辽宁影视剧/index.m3u8	正常	有台标与节目画面
+71	辽宁影视剧	地方·辽宁	http://120.76.248.139/live/bfgd/4200000070.m3u8	未确认	截图超时，需播放器复核
+72	辽宁教育青少	地方·辽宁	http://120.76.248.139/live/bfgd/4200000075.m3u8	未确认	截图超时，需播放器复核
+73	辽宁生活	地方·辽宁	http://dassby.qqff.top:99/live/辽宁生活/index.m3u8	正常	有台标与节目画面
+74	辽宁经济	地方·辽宁	http://dassby.qqff.top:99/live/辽宁经济/index.m3u8	正常	有台标与节目画面
+75	辽宁青少	地方·辽宁	http://dassby.qqff.top:99/live/辽宁教育青少/index.m3u8	正常	有台标与节目画面
+76	延边2	地方·吉林	http://stream5.jlntv.cn/wq/playlist.m3u8	正常	有台标与节目画面
+77	哈尔滨娱乐	地方·黑龙江	https://stream.hrbtv.net/ylpd/sd/live.m3u8	无信号	NO SIGNAL
+78	哈尔滨影视	地方·黑龙江	http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild	正常	有台标与节目画面
+79	哈尔滨生活	地方·黑龙江	http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild	正常	有台标与节目画面
+80	哈尔滨资讯	地方·黑龙江	http://stream.hrbtv.net/zxpd/sd/live.m3u8	无信号	纯黑画面
+81	哈尔滨都市咨询	地方·黑龙江	http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild	无信号	纯黑画面，与 80 同源
+82	黑龙江文体	地方·黑龙江	https://idclive.hljtv.com:4430/live/hljwy_hd.m3u8	正常	有台标与节目画面
+83	黑龙江都市	地方·黑龙江	https://idclive.hljtv.com:4430/live/dushi_hd.m3u8	正常	有台标与节目画面
+84	南京教科	地方·江苏	http://nklive.nbs.cn/hls/75b3c462-b831-4de7-a34b-5d3221db2069/index.m3u8	正常	有台标与节目画面
+85	南京新闻综合	地方·江苏	http://nklive.nbs.cn/hls/d511bc9d-a694-4453-b3a2-4fc842cc97a1/index.m3u8	正常	有台标与节目画面
+86	苏州4K	地方·江苏	https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8	正常	有台标与节目画面
+87	苏州文化生活	地方·江苏	https://live-auth.51kandianshi.com/szgd/csztv3.m3u8	正常	有台标与节目画面
+88	苏州新闻综合	地方·江苏	https://live-auth.51kandianshi.com/szgd/csztv1.m3u8	正常	有台标与节目画面
+89	苏州生活资讯	地方·江苏	https://live-auth.51kandianshi.com/szgd/csztv5.m3u8	正常	有台标与节目画面
+90	苏州社会经济	地方·江苏	https://live-auth.51kandianshi.com/szgd/csztv2.m3u8	正常	有台标与节目画面
+91	浙江国际	地方·浙江	https://ali-xwl.cztv.com/live/channel101080Plxw.m3u8	正常	有台标与节目画面
+92	浙江教科	地方·浙江	https://ali-xwl.cztv.com/live/channel041080Plxw.m3u8	正常	有台标与节目画面
+93	浙江教科影视	地方·浙江	http://ali-xwl.cztv.com/live/channel041080Plxw.m3u8	正常	有台标与节目画面
+94	浙江新闻	地方·浙江	https://ali-xwl.cztv.com/live/channel071080Plxw.m3u8	正常	有台标与节目画面
+95	浙江民生	地方·浙江	https://ali-xwl.cztv.com/live/channel061080Plxw.m3u8	正常	有台标与节目画面
+96	浙江经济	地方·浙江	https://ali-xwl.cztv.com/live/channel031080Plxw.m3u8	正常	有台标与节目画面
+97	浙江钱江	地方·浙江	https://ali-xwl.cztv.com/live/channel021080Plxw.m3u8	正常	有台标与节目画面
+98	海宁新闻综合	地方·浙江	https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8	正常	有台标与节目画面
+99	绍兴电视台公共	地方·浙江	http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]	正常	有台标与节目画面
+100	萧山生活	地方·浙江	https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8	正常	有台标与节目画面
+101	诸暨新闻综合	地方·浙江	https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8	正常	有台标与节目画面
+102	广德生活	地方·安徽	https://live.gdtv.ah.cn/live/newsTV.m3u8	正常	有台标与节目画面
+103	云霄综合	地方·福建	http://live.zzyxxw.com:85/live/xwzh.m3u8	正常	有台标与节目画面
+104	福州少儿	地方·福建	http://live.zohi.tv/video/s10001-fztv-4/index.m3u8	提示页	“由于播出安排，暂不支持播放该时段内容”
+105	福州生活	地方·福建	http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8	提示页	与 104 同源，同时段提示
+106	山东教育	地方·山东	https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8	正常	有台标与节目画面
+107	新野综合	地方·河南	http://tvpull.dxhmt.cn:9081/tv/11329-1.m3u8	正常	有台标与节目画面
+108	永城综合	地方·河南	http://tvpull.dxhmt.cn:9081/tv/11481-1.m3u8	正常	有台标与节目画面
+109	荥阳综合	地方·河南	http://tvpull.dxhmt.cn:9081/tv/10182-1.m3u8	正常	有台标与节目画面
+110	东莞新闻综合	地方·广东	https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8	正常	有台标与节目画面
+111	广东民生	地方·广东	http://183.11.239.36:808/hls/18/index.m3u8	正常	有台标与节目画面
+112	广东珠江	地方·广东	http://r.jdshipin.com/sE5vO	正常	有台标与节目画面
+113	广州综合	地方·广东	https://tencentplaybusiness.gztv.com/live/zonghes.m3u8	正常	有台标与节目画面
+114	广西国际	地方·广西	https://hlscdn.liangtv.cn/live/0234c48e0bc24fe1b41b9999a253e581/1075ee38e04f490690f6a36a16e09c79.m3u8	无信号	彩条测试图
+115	广西新闻	地方·广西	http://198.204.228.26/live/gxxw.m3u8	正常	有台标与节目画面
+116	剑阁综合	地方·四川	https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8	正常	有台标与节目画面
+117	名山综合	地方·四川	https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8	正常	有台标与节目画面
+118	广元公共	地方·四川	https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8	无信号	纯蓝屏
+119	广安公共	地方·四川	http://live1.gatv.com.cn:85/live/GGPD.m3u8	正常	有台标与节目画面
+120	松潘新闻综合	地方·四川	http://live.spccmc.com:90/live/spxwzh.m3u8	正常	有台标与节目画面
+121	汶川新闻综合	地方·四川	http://live.iwcmt.cn:90/live/zhxw.m3u8	无信号	纯蓝屏
+122	泸县新闻综合	地方·四川	https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8	正常	有台标与节目画面
+123	荥经综合	地方·四川	https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8	正常	有台标与节目画面
+124	金川新闻综合	地方·四川	http://139.203.180.9:90/live/zhxw.m3u8	正常	有台标与节目画面
+125	雅安新闻综合	地方·四川	https://play.yunxya.com/channellive/xinwen.m3u8	正常	有台标与节目画面
+126	云南娱乐	地方·云南	https://hwapi.yntv.net/62hdvf/q9vs1b.m3u8	正常	有台标与节目画面
+127	云南都市	地方·云南	https://hwapi.yntv.net/62hdvf/rjwt14.m3u8	正常	有台标与节目画面
+128	易门综合	地方·云南	https://zb-live.ynurl.com/yimen/3b75a2f9-7941-46b7-992d-a9796fbca5fe.m3u8	正常	有台标与节目画面
+129	通海电视台	地方·云南	https://zb-live.ynurl.com/tonghai/3bfe3a9e-48e6-4c1e-8770-1df66447cc6c.m3u8	正常	有台标与节目画面
+130	天祝综合	地方·甘肃	https://play.kankanlive.com/live/1656487214793905.m3u8	正常	有台标与节目画面
+131	永昌综合	地方·甘肃	https://play.kankanlive.com/live/1652755738635915.m3u8	正常	有台标与节目画面
+132	西峰综合	地方·甘肃	https://play.kankanlive.com/live/1683944827526991.m3u8	正常	有台标与节目画面
+133	西宁新闻综合	地方·青海	https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd	正常	有台标与节目画面
+134	宁夏公共	地方·宁夏	https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8	正常	有台标与节目画面
+135	宁夏文旅	地方·宁夏	https://hls.ningxiahuangheyun.com/live/nxwl1M.m3u8	无信号	纯白屏
+136	Cricket Gold (1080p)	体育·赛事台	https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8	正常	有台标与节目画面
+137	EuroSport1	体育·赛事台	http://141.94.193.53:80/Eurosport_1_HD/index.m3u8	未确认	ffmpeg 报无流，需播放器复核
+138	Fox Sports (1080p)	体育·赛事台	http://138.59.227.20:8000/play/a085/index.m3u8	正常	有台标与节目画面
+139	Fox Sports News (1080p)	体育·赛事台	https://skynewsau-live-premium.akamaized.net/hls/live/2105307/foxsportsnews/live_1080p.m3u8	正常	有台标与节目画面
+140	Golf Channel (United States) (576p)	体育·赛事台	https://tvsen6.aynaott.com/golfchannel/index.m3u8	正常	有台标与节目画面
+141	NBC Sports NOW (1080p)	体育·赛事台	https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008	未确认	截图超时，需播放器复核
+142	NHL Network (1080p)	体育·赛事台	https://nhl-firetv.amagi.tv/playlist.m3u8	正常	有台标与节目画面
+143	Willow Sports (1080p)	体育·赛事台	https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8	未确认	截图超时，需播放器复核
+144	beIN SPORTS XTRA (1080p)	体育·赛事台	https://bein-xtra-bein.amagi.tv/playlist.m3u8	正常	有台标与节目画面
+145	AXN Black	电影频道	http://85.14.32.26:8800/udp/239.100.10.17:5000	未确认	截图超时，需播放器复核
+146	CHC动作电影	电影频道	http://198.204.228.26/live/chcdz.m3u8	正常	有台标与节目画面
+147	CHC家庭影院	电影频道	http://107.150.60.122/live/chcjt.m3u8	正常	有台标与节目画面
+148	CHC电影	电影频道	http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0	正常	有台标与节目画面
+149	Cinemax Classics (1080p)	电影频道	http://23.237.104.106:8080/USA_5STARMAX/index.m3u8	提示页	Channel temporarily unavailable
+150	Cinemax Hits (1080p)	电影频道	http://23.237.104.106:8080/USA_MOREMAX/index.m3u8	正常	有台标与节目画面
+151	Cinemax West (720p)	电影频道	http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8	正常	有台标与节目画面
+152	FILMBOX+ Action (720p)	电影频道	http://92.114.85.87:8008/play/a007/index.m3u8	未确认	截图超时，需播放器复核
+153	FILMBOX+ Comedy (720p)	电影频道	http://92.114.85.87:8008/play/a009/index.m3u8	正常	有台标与节目画面
+154	FILMBOX+ Emotion (720p)	电影频道	http://92.114.85.87:8008/play/a008/index.m3u8	未确认	截图超时，需播放器复核
+155	Paramount Network (1080p)	电影频道	http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8	未确认	截图超时，需播放器复核
+156	Showtime Family Zone (720p)	电影频道	http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8	正常	有台标与节目画面
+157	Universal Cinema (1080p)	电影频道	http://168.196.127.137:6001/play/a09b/index.m3u8	未确认	截图超时，需播放器复核
+158	美亚电影	电影频道	http://iptv.4666888.xyz/iptv2A.php?id=30	提示页	“凤凰秒播”代理推广页，不是电影内容
+159	凤凰资讯 [FLV]	凤凰卫视	http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv	正常	有台标与节目画面

@@ -82,11 +82,14 @@ DEFAULTS = {
         "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
     ),
     "categories": [
-        {"file": "sports.m3u", "match": ["体育", "NBA", "UFC", "ESPN",
-                                          "FightBox", "DAZN", "格斗"]},
-        {"file": "cctv.m3u", "match": ["CCTV", "央视", "CGTN"]},
-        {"file": "weishi.m3u", "match": ["卫视"]},
-        {"file": "difang.m3u", "match": ["地方", "城市", "省内", "影视", "少儿"]},
+        {"file": "sports.m3u", "match": ["体育"]},
+        {"file": "movie.m3u", "match": ["电影"]},
+        {"file": "cctv.m3u", "match": ["央视", "CCTV"]},
+        {"file": "weishi.m3u", "match": ["卫视频道"]},
+        {"file": "gangao.m3u", "match": ["港澳台", "凤凰"]},
+        {"file": "difang.m3u", "match": ["地方"]},
+        {"file": "haiwai.m3u", "match": ["海外"]},
+        {"file": "other.m3u", "match": ["其他"]},
     ],
 }
 

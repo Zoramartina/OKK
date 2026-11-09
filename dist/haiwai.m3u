@@ -1,0 +1,67 @@
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
+
+#海外频道
+#EXTINF:-1 tvg-name="20 Minutes TV" group-title="海外频道",20 Minutes TV
+https://live-20minutestv.digiteka.com/1961167769/tracks-v2a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="ABC News Live" group-title="海外频道",ABC News Live
+https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991626
+#EXTINF:-1 tvg-name="Arirang" group-title="海外频道",Arirang
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
+#EXTINF:-1 tvg-name="CBC News" group-title="海外频道",CBC News
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276
+#EXTINF:-1 tvg-name="CGN中文台" group-title="海外频道",CGN中文台
+https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
+#EXTINF:-1 tvg-name="CNA" group-title="海外频道",CNA
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 tvg-name="Caillou" group-title="海外频道",Caillou
+https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
+#EXTINF:-1 tvg-name="DLTV2" group-title="海外频道",DLTV2
+https://cdn-live.dltv.ac.th/smil:origin01-dltv-02-adaptive.smil/chunklist_b3128000_slth.m3u8
+#EXTINF:-1 tvg-name="DLTV9" group-title="海外频道",DLTV9
+https://cdn-live.dltv.ac.th/smil:origin02-dltv-09-adaptive.smil/chunklist_b3128000_slth.m3u8
+#EXTINF:-1 tvg-name="Desi Plus" group-title="海外频道",Desi Plus
+http://cdn2.live247stream.com/desiplus/tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Horse & Country" group-title="海外频道",Horse & Country
+https://hncfree-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="ISTV" group-title="海外频道",ISTV
+https://livefta.malimarcdn.com/ftaedge00/ichannel.sdp/playlist.m3u8
+#EXTINF:-1 tvg-name="Mr. Bean Anime Italy" group-title="海外频道",Mr. Bean Anime Italy
+https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
+#EXTINF:-1 tvg-name="Newsmax" group-title="海外频道",Newsmax
+http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+#EXTINF:-1 tvg-name="Oh Muang Lao TV" group-title="海外频道",Oh Muang Lao TV
+https://livefta.malimarcdn.com/ftaedge00/ohmuanglao.stream/chunklist.m3u8
+#EXTINF:-1 tvg-name="PBS Kids Pacific" group-title="海外频道",PBS Kids Pacific
+https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
+#EXTINF:-1 tvg-name="Pet Club TV" group-title="海外频道",Pet Club TV
+https://petclub-samsungaus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="RT Arabic（阿语）" group-title="海外频道",RT Arabic（阿语）
+https://rt-arb.rttv.com/dvr/rtarab/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-name="RT Balkan （塞尔维亚语）" group-title="海外频道",RT Balkan （塞尔维亚语）
+https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-name="RT DE（德语）" group-title="海外频道",RT DE（德语）
+https://rt-ger.rttv.com/dvr/rtdeutsch/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-name="RT Doc-Русский（俄语纪录）" group-title="海外频道",RT Doc-Русский（俄语纪录）
+https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
+#EXTINF:-1 tvg-name="RT Documentary（英语纪录）" group-title="海外频道",RT Documentary（英语纪录）
+https://rt-rtd.rttv.com/dvr/rtdoc/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-name="RT Español（西语）" group-title="海外频道",RT Español（西语）
+https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-name="RT Français（法语）" group-title="海外频道",RT Français（法语）
+https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-name="RT News（英语国际）" group-title="海外频道",RT News（英语国际）
+https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-name="Red Bull TV" group-title="海外频道",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
+#EXTINF:-1 tvg-name="Stara TV Cianjur" group-title="海外频道",Stara TV Cianjur
+https://cianjur.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="Stara TV Malang" group-title="海外频道",Stara TV Malang
+https://malang.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="Stara TV Parahyangan" group-title="海外频道",Stara TV Parahyangan
+https://parahyangan.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="Wild Earth" group-title="海外频道",Wild Earth
+https://wildearth-plex.amagi.tv/masterR1080p.m3u8
+#EXTINF:-1 tvg-name="WionNews" group-title="海外频道",WionNews
+https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
+#EXTINF:-1 tvg-name="韩国EBS少儿" group-title="海外频道",韩国EBS少儿
+http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8

@@ -1,0 +1,383 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="CCTV4K真4K" group-title="外链·央视",CCTV4K真4K
+http://vip1.xinketongxun.fun:8082/tsfile/live/1026_1.m3u8
+#EXTINF:-1 tvg-name="CCTV5+" group-title="外链·央视",CCTV5+
+http://223.112.114.228:50080/newlive/live/hls/180/live.m3u8
+#EXTINF:-1 tvg-name="CEC国际健康" group-title="外链·央视",CEC国际健康
+http://play.cec-tv.com.cn/channel/cec-tv4.m3u8
+#EXTINF:-1 tvg-name="CEC国际教育" group-title="外链·央视",CEC国际教育
+http://play.cec-tv.com.cn/channel/cec-tv3.m3u8
+#EXTINF:-1 tvg-name="CEC国际旅游" group-title="外链·央视",CEC国际旅游
+http://play.cec-tv.com.cn/channel/cec-tv2.m3u8
+#EXTINF:-1 tvg-name="CEC汉语文化" group-title="外链·央视",CEC汉语文化
+http://play.cec-tv.com.cn/channel/cec-tv1.m3u8
+#EXTINF:-1 tvg-name="CGTN法语" group-title="外链·央视",CGTN法语
+http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
+#EXTINF:-1 tvg-name="CGTN纪录" group-title="外链·央视",CGTN纪录
+https://0472.org/hls/cgtnd.m3u8
+#EXTINF:-1 tvg-name="CGTN英语" group-title="外链·央视",CGTN英语
+https://0472.org/hls/cgtn.m3u8
+#EXTINF:-1 tvg-name="CGTN西语" group-title="外链·央视",CGTN西语
+https://0472.org/hls/cgtnx.m3u8
+#EXTINF:-1 tvg-name="CGTN记录" group-title="外链·央视",CGTN记录
+https://0472.org/hls/cgtnd.m3u8?3.24.120:5140
+#EXTINF:-1 tvg-name="CGTN阿语" group-title="外链·央视",CGTN阿语
+https://0472.org/hls/cgtna.m3u8
+#EXTINF:-1 tvg-name="内蒙古卫视" group-title="外链·卫视",内蒙古卫视
+http://120.76.248.139/live/bfgd/4200000110.m3u8
+#EXTINF:-1 tvg-name="农林卫视" group-title="外链·卫视",农林卫视
+http://120.76.248.139/live/bfgd/4200000122.m3u8
+#EXTINF:-1 tvg-name="宁夏卫视" group-title="外链·卫视",宁夏卫视
+http://120.76.248.139/live/bfgd/4200000118.m3u8
+#EXTINF:-1 tvg-name="海南卫视" group-title="外链·卫视",海南卫视
+http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
+#EXTINF:-1 tvg-name="南京眼" group-title="外链·地方",南京眼
+https://nklive2.nbs.cn/hls/2496cb32-fa2a-469b-bfd7-2d1991d671d5/index.m3u8
+#EXTINF:-1 tvg-name="南宁影视娱乐" group-title="外链·地方",南宁影视娱乐
+http://hls.nntv.cn/nnlive/YSYL_244.m3u8
+#EXTINF:-1 tvg-name="哈尔滨新闻综合" group-title="外链·地方",哈尔滨新闻综合
+http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild
+#EXTINF:-1 tvg-name="四川科教" group-title="外链·地方",四川科教
+http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
+#EXTINF:-1 tvg-name="河北农民" group-title="外链·地方",河北农民
+http://1.94.31.214/php/hebei.php?id=nmpd
+#EXTINF:-1 tvg-name="河北少儿" group-title="外链·地方",河北少儿
+http://1.94.31.214/php/hebei.php?id=sekj
+#EXTINF:-1 tvg-name="河北都市" group-title="外链·地方",河北都市
+http://1.94.31.214/php/hebei.php?id=hbds
+#EXTINF:-1 tvg-name="海南公共" group-title="外链·地方",海南公共
+http://nn.7x9d.cn/地方台8563/海南.php?id=ggpd
+#EXTINF:-1 tvg-name="海南少儿" group-title="外链·地方",海南少儿
+http://nn.7x9d.cn/地方台8563/海南.php?id=sepd
+#EXTINF:-1 tvg-name="海南文旅" group-title="外链·地方",海南文旅
+http://nn.7x9d.cn/地方台8563/海南.php?id=wlpd
+#EXTINF:-1 tvg-name="海南新闻" group-title="外链·地方",海南新闻
+http://nn.7x9d.cn/地方台8563/海南.php?id=xwpd
+#EXTINF:-1 tvg-name="海南自贸" group-title="外链·地方",海南自贸
+http://nn.7x9d.cn/地方台8563/海南.php?id=jjpd
+#EXTINF:-1 tvg-name="辽宁北方" group-title="外链·地方",辽宁北方
+http://dassby.qqff.top:99/live/辽宁北方/index.m3u8
+#EXTINF:-1 tvg-name="辽宁都市" group-title="外链·地方",辽宁都市
+http://120.76.248.139/live/bfgd/4200000068.m3u8
+#EXTINF:-1 tvg-name="黑龙江农业科教频道" group-title="外链·地方",黑龙江农业科教频道
+https://idclive.hljtv.com:4430/live/hljgg_hd.m3u8
+#EXTINF:-1 tvg-name="Astro AEC" group-title="外链·港澳台",Astro AEC
+http://cdn3.123.rr.kg/stream/live/aec/
+#EXTINF:-1 tvg-name="Astro欢喜台" group-title="外链·港澳台",Astro欢喜台
+https://cdn3.indevs.in/stream/live/hxt/
+#EXTINF:-1 tvg-name="HOY TV" group-title="外链·港澳台",HOY TV
+http://cdn.123.rr.kg/163189/hoy
+#EXTINF:-1 tvg-name="HOY国际财经台" group-title="外链·港澳台",HOY国际财经台
+https://cdn11.163189.xyz/163189/hoy76
+#EXTINF:-1 tvg-name="HOY资讯台" group-title="外链·港澳台",HOY资讯台
+http://cdn.123.rr.kg/163189/hoy78
+#EXTINF:-1 tvg-name="LIVE三立" group-title="外链·港澳台",LIVE三立
+https://d2jc41c1shgcol.cloudfront.net/live/setnewsrtmp/playlist.m3u8
+#EXTINF:-1 tvg-name="NOW新闻台" group-title="外链·港澳台",NOW新闻台
+http://cdn.123.rr.kg/163189/now
+#EXTINF:-1 tvg-name="RTHK31" group-title="外链·港澳台",RTHK31
+http://cdn.123.rr.kg/163189/rthk31
+#EXTINF:-1 tvg-name="RTHK32" group-title="外链·港澳台",RTHK32
+http://cdn.123.rr.kg/163189/rthk32
+#EXTINF:-1 tvg-name="TVB Plus(WebVTT字幕)" group-title="外链·港澳台",TVB Plus(WebVTT字幕)
+http://cdn10.123.rr.kg/163189/tvbp/
+#EXTINF:-1 tvg-name="TVB Plus(字幕)" group-title="外链·港澳台",TVB Plus(字幕)
+http://cdn3.123.rr.kg/stream/tvb/tvbp/
+#EXTINF:-1 tvg-name="TVB1" group-title="外链·港澳台",TVB1
+http://cdn6.123.rr.kg/163189/tvb1
+#EXTINF:-1 tvg-name="TVBJ1" group-title="外链·港澳台",TVBJ1
+http://cdn6.123.rr.kg/163189/j1
+#EXTINF:-1 tvg-name="TVBPlus" group-title="外链·港澳台",TVBPlus
+https://cdn3.indevs.in/stream/tvb/tvbp/
+#EXTINF:-1 tvg-name="TVBS Asia" group-title="外链·港澳台",TVBS Asia
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+#EXTINF:-1 tvg-name="TVBS新闻" group-title="外链·港澳台",TVBS新闻
+https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8
+#EXTINF:-1 tvg-name="TVB亚洲武侠" group-title="外链·港澳台",TVB亚洲武侠
+http://cdn6.123.rr.kg/163189/yzwx
+#EXTINF:-1 tvg-name="TVB星河" group-title="外链·港澳台",TVB星河
+https://cdn3.indevs.in/stream/live/tvbxh/
+#EXTINF:-1 tvg-name="TVB星河1" group-title="外链·港澳台",TVB星河1
+http://cdn3.123.rr.kg/stream/live/tvbxh/
+#EXTINF:-1 tvg-name="TVB星河2" group-title="外链·港澳台",TVB星河2
+http://cdn6.123.rr.kg/163189/tvbxh
+#EXTINF:-1 tvg-name="TVB星河3" group-title="外链·港澳台",TVB星河3
+http://cdn10.123.rr.kg/163189/xinghe/
+#EXTINF:-1 tvg-name="ViuTVsix" group-title="外链·港澳台",ViuTVsix
+http://cdn10.123.rr.kg/163189/viu6/
+#EXTINF:-1 tvg-name="三立新闻" group-title="外链·港澳台",三立新闻
+https://d2jc41c1shgcol.cloudfront.net/live/iNEWS/playlist.m3u8
+#EXTINF:-1 tvg-name="东森新闻" group-title="外链·港澳台",东森新闻
+https://d2jc41c1shgcol.cloudfront.net/live/EBCNews/playlist.m3u8
+#EXTINF:-1 tvg-name="中天新闻" group-title="外链·港澳台",中天新闻
+https://d2jc41c1shgcol.cloudfront.net/live/CtiNEWS1/playlist.m3u8
+#EXTINF:-1 tvg-name="中视新闻" group-title="外链·港澳台",中视新闻
+https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8
+#EXTINF:-1 tvg-name="人间卫视" group-title="外链·港澳台",人间卫视
+https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
+#EXTINF:-1 tvg-name="凤凰中文" group-title="外链·港澳台",凤凰中文
+http://zmgd.zyrnet.com:8888/hls/110/index.m3u8
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="外链·港澳台",凤凰资讯
+http://zmgd.zyrnet.com:8888/hls/109/index.m3u8
+#EXTINF:-1 tvg-name="华丽翡翠台(新加坡)" group-title="外链·港澳台",华丽翡翠台(新加坡)
+http://cdn3.123.rr.kg/stream/live/jade/
+#EXTINF:-1 tvg-name="华丽翡翠台1" group-title="外链·港澳台",华丽翡翠台1
+http://cdn6.123.rr.kg/163189/hlfct
+#EXTINF:-1 tvg-name="华视新闻" group-title="外链·港澳台",华视新闻
+https://d2jc41c1shgcol.cloudfront.net/live/ctsnewsqt/playlist.m3u8
+#EXTINF:-1 tvg-name="台视新闻" group-title="外链·港澳台",台视新闻
+http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
+#EXTINF:-1 tvg-name="唯心電視" group-title="外链·港澳台",唯心電視
+https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
+#EXTINF:-1 tvg-name="大立电视台" group-title="外链·港澳台",大立电视台
+http://www.dalitv.com.tw:4568/live/dali/index.m3u8
+#EXTINF:-1 tvg-name="好消息综合台" group-title="外链·港澳台",好消息综合台
+https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
+#EXTINF:-1 tvg-name="无线新闻台" group-title="外链·港澳台",无线新闻台
+http://cdn6.123.rr.kg/163189/wxxw
+#EXTINF:-1 tvg-name="无线新闻台2" group-title="外链·港澳台",无线新闻台2
+http://cdn6.123.rr.kg/163189/wxxwt
+#EXTINF:-1 tvg-name="明珠台(WebVTT字幕)" group-title="外链·港澳台",明珠台(WebVTT字幕)
+http://cdn10.123.rr.kg/163189/mzt/
+#EXTINF:-1 tvg-name="明珠台(字幕)" group-title="外链·港澳台",明珠台(字幕)
+http://cdn3.123.rr.kg/stream/tvb/mzt/
+#EXTINF:-1 tvg-name="民视新闻" group-title="外链·港澳台",民视新闻
+https://d2jc41c1shgcol.cloudfront.net/live/ftvnewsqt/playlist.m3u8
+#EXTINF:-1 tvg-name="澳视卫星" group-title="外链·港澳台",澳视卫星
+http://cdn6.123.rr.kg/163189/as
+#EXTINF:-1 tvg-name="澳视澳门" group-title="外链·港澳台",澳视澳门
+http://cdn6.123.rr.kg/163189/asam
+#EXTINF:-1 tvg-name="澳门体育" group-title="外链·港澳台",澳门体育
+http://cdn6.123.rr.kg/163189/amty
+#EXTINF:-1 tvg-name="澳门综艺" group-title="外链·港澳台",澳门综艺
+http://cdn6.123.rr.kg/163189/amzy
+#EXTINF:-1 tvg-name="澳门莲花" group-title="外链·港澳台",澳门莲花
+http://cdn6.123.rr.kg/163189/amlh
+#EXTINF:-1 tvg-name="纬来体育" group-title="外链·港澳台",纬来体育
+https://hlsz.yjjcfw.com/live/vl.m3u8?expire=1786948372&sign=2e4a56b89fe644db147552011f972714
+#EXTINF:-1 tvg-name="翡翠剧集台" group-title="外链·港澳台",翡翠剧集台
+http://cdn6.123.rr.kg/163189/tvbd
+#EXTINF:-1 tvg-name="翡翠台" group-title="外链·港澳台",翡翠台
+http://cdn6.123.rr.kg/163189/fct
+#EXTINF:-1 tvg-name="翡翠台(WebVTT字幕)" group-title="外链·港澳台",翡翠台(WebVTT字幕)
+http://cdn10.123.rr.kg/163189/fct/
+#EXTINF:-1 tvg-name="翡翠台(字幕)" group-title="外链·港澳台",翡翠台(字幕)
+http://cdn3.123.rr.kg/stream/tvb/fct/
+#EXTINF:-1 tvg-name="翡翠台4K字幕" group-title="外链·港澳台",翡翠台4K字幕
+https://cdn3.indevs.in/stream/tvb/fct4k/
+#EXTINF:-1 tvg-name="香港卫视" group-title="外链·港澳台",香港卫视
+http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 tvg-name="CHC影迷电影" group-title="外链·电影",CHC影迷电影
+http://38.75.136.137:98/gslb/dsdqpub/chchd.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="Cine Nanar" group-title="外链·电影",Cine Nanar
+https://zylo-cinenanar-rakuten.amagi.tv/playlist480p.m3u8
+#EXTINF:-1 tvg-name="NewTV古装剧场" group-title="外链·电影",NewTV古装剧场
+http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c58_fast_947_1080P_t10/c58_fast_947_1080P_t10.m3u8?d
+#EXTINF:-1 tvg-name="NewTV大家剧场" group-title="外链·电影",NewTV大家剧场
+http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c58_fast_975_1080P_t10/c58_fast_975_1080P_t10.m3u8?d
+#EXTINF:-1 tvg-name="NewTV家庭剧场" group-title="外链·电影",NewTV家庭剧场
+http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c59_fast_999_1080P_t10/c59_fast_999_1080P_t10.m3u8?d
+#EXTINF:-1 tvg-name="NewTV泰语剧场" group-title="外链·电影",NewTV泰语剧场
+http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c58_fast_949_1080P_t10/c58_fast_949_1080P_t10.m3u8?d
+#EXTINF:-1 tvg-name="NewTV爱情剧场" group-title="外链·电影",NewTV爱情剧场
+http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c59_fast_967_1080P_t10/c59_fast_967_1080P_t10.m3u8?d
+#EXTINF:-1 tvg-name="华数动作影院" group-title="外链·电影",华数动作影院
+http://113.25.252.226:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="天映" group-title="外链·电影",天映
+https://cdn3.indevs.in/stream/live/typd/
+#EXTINF:-1 tvg-name="天映新加坡" group-title="外链·电影",天映新加坡
+http://cdn10.123.rr.kg/163189/typd/
+#EXTINF:-1 tvg-name="天映经典" group-title="外链·电影",天映经典
+https://cdn3.indevs.in/stream/live/ccm/
+#EXTINF:-1 tvg-name="天映经典台" group-title="外链·电影",天映经典台
+http://cdn3.123.rr.kg/stream/live/ccm/
+#EXTINF:-1 tvg-name="天映经典台2" group-title="外链·电影",天映经典台2
+http://cdn10.123.rr.kg/163189/ccm/
+#EXTINF:-1 tvg-name="天映频道" group-title="外链·电影",天映频道
+http://cdn3.123.rr.kg/stream/live/typd/
+#EXTINF:-1 tvg-name="湖南电影" group-title="外链·电影",湖南电影
+https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNDYMPP360.m3u8
+#EXTINF:-1 tvg-name="美亚C+" group-title="外链·电影",美亚C+
+http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
+#EXTINF:-1 tvg-name="韩国电影1" group-title="外链·电影",韩国电影1
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
+#EXTINF:-1 tvg-name="韩国电影2" group-title="外链·电影",韩国电影2
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
+#EXTINF:-1 tvg-name="黄金华剧台(WebVTT字幕)" group-title="外链·电影",黄金华剧台(WebVTT字幕)
+http://cdn10.123.rr.kg/163189/hjhjt/
+#EXTINF:-1 tvg-name="ACI Sport TV" group-title="外链·体育",ACI Sport TV
+https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
+#EXTINF:-1 tvg-name="Africa 24 Sport" group-title="外链·体育",Africa 24 Sport
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+#EXTINF:-1 tvg-name="BEK TV Sports West" group-title="外链·体育",BEK TV Sports West
+https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Bahrain Sports 1" group-title="外链·体育",Bahrain Sports 1
+https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
+#EXTINF:-1 tvg-name="Bein Sports Extra 2" group-title="外链·体育",Bein Sports Extra 2
+https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
+#EXTINF:-1 tvg-name="KTV Sport Plus" group-title="外链·体育",KTV Sport Plus
+https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-name="NBC Sports" group-title="外链·体育",NBC Sports
+https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8
+#EXTINF:-1 tvg-name="NHL FAST" group-title="外链·体育",NHL FAST
+https://nhl-firetv.amagi.tv/playlist1080p.m3u8
+#EXTINF:-1 tvg-name="Oman Sports TV" group-title="外链·体育",Oman Sports TV
+https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-name="Sports Fishing TV" group-title="外链·体育",Sports Fishing TV
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8
+#EXTINF:-1 tvg-name="Trace Sports" group-title="外链·体育",Trace Sports
+https://lightning-tracesport-samsungau.amagi.tv/playlist1080p.m3u8
+#EXTINF:-1 tvg-name="辽宁体育" group-title="外链·体育",辽宁体育
+http://dassby.qqff.top:99/live/辽宁体育/index.m3u8
+#EXTINF:-1 tvg-name="20 Minutes TV" group-title="外链·海外",20 Minutes TV
+https://live-20minutestv.digiteka.com/1961167769/tracks-v2a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="ABC News Live" group-title="外链·海外",ABC News Live
+https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991626
+#EXTINF:-1 tvg-name="Arirang" group-title="外链·海外",Arirang
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
+#EXTINF:-1 tvg-name="CBC News" group-title="外链·海外",CBC News
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276
+#EXTINF:-1 tvg-name="CNA" group-title="外链·海外",CNA
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 tvg-name="Caillou" group-title="外链·海外",Caillou
+https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
+#EXTINF:-1 tvg-name="DLTV2" group-title="外链·海外",DLTV2
+https://cdn-live.dltv.ac.th/smil:origin01-dltv-02-adaptive.smil/chunklist_b3128000_slth.m3u8
+#EXTINF:-1 tvg-name="DLTV9" group-title="外链·海外",DLTV9
+https://cdn-live.dltv.ac.th/smil:origin02-dltv-09-adaptive.smil/chunklist_b3128000_slth.m3u8
+#EXTINF:-1 tvg-name="Desi Plus" group-title="外链·海外",Desi Plus
+http://cdn2.live247stream.com/desiplus/tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Horse & Country" group-title="外链·海外",Horse & Country
+https://hncfree-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="ISTV" group-title="外链·海外",ISTV
+https://livefta.malimarcdn.com/ftaedge00/ichannel.sdp/playlist.m3u8
+#EXTINF:-1 tvg-name="Mr. Bean Anime Italy" group-title="外链·海外",Mr. Bean Anime Italy
+https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
+#EXTINF:-1 tvg-name="Newsmax" group-title="外链·海外",Newsmax
+http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+#EXTINF:-1 tvg-name="PBS Kids Pacific" group-title="外链·海外",PBS Kids Pacific
+https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
+#EXTINF:-1 tvg-name="Pet Club TV" group-title="外链·海外",Pet Club TV
+https://petclub-samsungaus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="RT Arabic（阿语）" group-title="外链·海外",RT Arabic（阿语）
+https://rt-arb.rttv.com/dvr/rtarab/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-name="RT Balkan （塞尔维亚语）" group-title="外链·海外",RT Balkan （塞尔维亚语）
+https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-name="RT DE（德语）" group-title="外链·海外",RT DE（德语）
+https://rt-ger.rttv.com/dvr/rtdeutsch/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-name="RT Doc-Русский（俄语纪录）" group-title="外链·海外",RT Doc-Русский（俄语纪录）
+https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
+#EXTINF:-1 tvg-name="RT Documentary（英语纪录）" group-title="外链·海外",RT Documentary（英语纪录）
+https://rt-rtd.rttv.com/dvr/rtdoc/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-name="RT Español（西语）" group-title="外链·海外",RT Español（西语）
+https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-name="RT Français（法语）" group-title="外链·海外",RT Français（法语）
+https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-name="RT News（英语国际）" group-title="外链·海外",RT News（英语国际）
+https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-name="Red Bull TV" group-title="外链·海外",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
+#EXTINF:-1 tvg-name="Stara TV Cianjur" group-title="外链·海外",Stara TV Cianjur
+https://cianjur.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="Stara TV Malang" group-title="外链·海外",Stara TV Malang
+https://malang.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="Stara TV Parahyangan" group-title="外链·海外",Stara TV Parahyangan
+https://parahyangan.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="Wild Earth" group-title="外链·海外",Wild Earth
+https://wildearth-plex.amagi.tv/masterR1080p.m3u8
+#EXTINF:-1 tvg-name="WionNews" group-title="外链·海外",WionNews
+https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
+#EXTINF:-1 tvg-name="韩国EBS少儿" group-title="外链·海外",韩国EBS少儿
+http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
+#EXTINF:-1 tvg-name="AOD" group-title="外链·其他",AOD
+http://cdn3.123.rr.kg/stream/live/aod/
+#EXTINF:-1 tvg-name="Belarus-5" group-title="外链·其他",Belarus-5
+http://178.124.179.122:8080/BT5/index.m3u8
+#EXTINF:-1 tvg-name="CGN中文台" group-title="外链·其他",CGN中文台
+https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
+#EXTINF:-1 tvg-name="CH8" group-title="外链·其他",CH8
+http://cdn6.123.rr.kg/163189/ch8
+#EXTINF:-1 tvg-name="CHU" group-title="外链·其他",CHU
+http://cdn6.123.rr.kg/163189/chu
+#EXTINF:-1 tvg-name="Goal TV" group-title="外链·其他",Goal TV
+https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8
+#EXTINF:-1 tvg-name="JC乡村频道" group-title="外链·其他",JC乡村频道
+http://live.jinchuanrmt.com:90/live/jcxc.m3u8
+#EXTINF:-1 tvg-name="MTRSPT" group-title="外链·其他",MTRSPT
+https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8
+#EXTINF:-1 tvg-name="Oh Muang Lao TV" group-title="外链·其他",Oh Muang Lao TV
+https://livefta.malimarcdn.com/ftaedge00/ohmuanglao.stream/chunklist.m3u8
+#EXTINF:-1 tvg-name="RMTV" group-title="外链·其他",RMTV
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8
+#EXTINF:-1 tvg-name="WOF 1" group-title="外链·其他",WOF 1
+https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
+#EXTINF:-1 tvg-name="iQIYI" group-title="外链·其他",iQIYI
+https://cdn3.indevs.in/stream/live/iqiyi/
+#EXTINF:-1 tvg-name="七台河新闻综合" group-title="外链·其他",七台河新闻综合
+http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8
+#EXTINF:-1 tvg-name="三农" group-title="外链·其他",三农
+http://tv.pull.hebtv.com/jishi/nongminpindao.m3u8?t=1893427200&k=f07ae1d5be12d118d136be90e032bfce
+#EXTINF:-1 tvg-name="中华特产" group-title="外链·其他",中华特产
+http://120.76.248.139/live/bfgd/4200000158.m3u8
+#EXTINF:-1 tvg-name="乐至综合" group-title="外链·其他",乐至综合
+http://175.155.106.72:89/live1/live1.m3u8?zsicd
+#EXTINF:-1 tvg-name="云和新闻综合" group-title="外链·其他",云和新闻综合
+http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8
+#EXTINF:-1 tvg-name="千禧经典台" group-title="外链·其他",千禧经典台
+http://cdn3.123.rr.kg/stream/live/tvbc/
+#EXTINF:-1 tvg-name="南国都市" group-title="外链·其他",南国都市
+http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
+#EXTINF:-1 tvg-name="南国都市4K" group-title="外链·其他",南国都市4K
+https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
+#EXTINF:-1 tvg-name="周星驰2专场" group-title="外链·其他",周星驰2专场
+https://cfss.cc/Qs/hy.php
+#EXTINF:-1 tvg-name="四海钓鱼" group-title="外链·其他",四海钓鱼
+http://120.76.248.139/live/bfgd/4200000229.m3u8
+#EXTINF:-1 tvg-name="娱乐新闻台" group-title="外链·其他",娱乐新闻台
+http://cdn6.123.rr.kg/163189/ylxw
+#EXTINF:-1 tvg-name="广元综合" group-title="外链·其他",广元综合
+https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8
+#EXTINF:-1 tvg-name="广州新闻" group-title="外链·其他",广州新闻
+http://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=d2c2db0b598c02ec1b5623728434d367&txTime=18d57929bd3
+#EXTINF:-1 tvg-name="新视觉HD" group-title="外链·其他",新视觉HD
+http://120.76.248.139/live/bfgd/4200000249.m3u8
+#EXTINF:-1 tvg-name="旺苍新闻综合" group-title="外链·其他",旺苍新闻综合
+http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8
+#EXTINF:-1 tvg-name="朝天综合" group-title="外链·其他",朝天综合
+https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8
+#EXTINF:-1 tvg-name="朝阳新闻综合" group-title="外链·其他",朝阳新闻综合
+http://120.76.248.139/live/bfgd/4200000282.m3u8
+#EXTINF:-1 tvg-name="梨园频道" group-title="外链·其他",梨园频道
+https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=ebea42451370372b34e6343654e5d4d6&wsTime=1791193106
+#EXTINF:-1 tvg-name="欢喜台" group-title="外链·其他",欢喜台
+http://cdn3.123.rr.kg/stream/live/hxt/
+#EXTINF:-1 tvg-name="江夏新闻综合" group-title="外链·其他",江夏新闻综合
+http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd
+#EXTINF:-1 tvg-name="爱奇艺" group-title="外链·其他",爱奇艺
+http://cdn3.123.rr.kg/stream/live/iqiyi/
+#EXTINF:-1 tvg-name="环球旅游" group-title="外链·其他",环球旅游
+http://120.76.248.139/live/bfgd/4200000147.m3u8
+#EXTINF:-1 tvg-name="环球电视" group-title="外链·其他",环球电视
+http://utv1.hqtvzb.com:9999/hls/world.m3u8
+#EXTINF:-1 tvg-name="耀才财经" group-title="外链·其他",耀才财经
+https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
+#EXTINF:-1 tvg-name="萧山综合" group-title="外链·其他",萧山综合
+http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
+#EXTINF:-1 tvg-name="象山新闻综合" group-title="外链·其他",象山新闻综合
+http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8
+#EXTINF:-1 tvg-name="重温经典" group-title="外链·其他",重温经典
+http://8.138.7.223/tv/cwjd.php
+#EXTINF:-1 tvg-name="金川乡村" group-title="外链·其他",金川乡村
+http://live.jinchuanrmt.com:90/live/jcxc.m3u8?zsicd
+#EXTINF:-1 tvg-name="长影频道" group-title="外链·其他",长影频道
+http://tpc.x3322.net:9901/tsfile/live/1010_1.m3u8
+#EXTINF:-1 tvg-name="长江大桥" group-title="外链·其他",长江大桥
+https://nklive2.nbs.cn/hls/292e69b9-9ca1-4908-bba0-32438dd7c464/index.m3u8
+#EXTINF:-1 tvg-name="青川综合" group-title="外链·其他",青川综合
+http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8
+#EXTINF:-1 tvg-name="青田电视台" group-title="外链·其他",青田电视台
+http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
+#EXTINF:-1 tvg-name="龙泉新闻综合" group-title="外链·其他",龙泉新闻综合
+http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
+#EXTINF:-1 tvg-name="🔄抖音艺术[刷新就是新内容]" group-title="外链·其他",🔄抖音艺术[刷新就是新内容]
+https://random-api.czl.net/video/dy-art

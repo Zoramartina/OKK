@@ -1,0 +1,246 @@
+类别	频道	来源列表	分组	地址	是否已在正式清单
+央视	CCTV4K真4K	suxuang	4K频道	http://vip1.xinketongxun.fun:8082/tsfile/live/1026_1.m3u8	否
+央视	CCTV5+	445569传统	✴️ITV直播[移动]	http://223.112.114.228:50080/newlive/live/hls/180/live.m3u8	否
+央视	CEC国际健康	445569传统	✴️ITV直播[移动]	http://play.cec-tv.com.cn/channel/cec-tv4.m3u8	否
+央视	CEC国际教育	445569传统	✴️ITV直播[移动]	http://play.cec-tv.com.cn/channel/cec-tv3.m3u8	否
+央视	CEC国际旅游	445569传统	✴️ITV直播[移动]	http://play.cec-tv.com.cn/channel/cec-tv2.m3u8	否
+央视	CEC汉语文化	445569传统	✴️ITV直播[移动]	http://play.cec-tv.com.cn/channel/cec-tv1.m3u8	否
+央视	CGTN法语	suxuang	央视频道	http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8	否
+央视	CGTN纪录	suxuang	APTV专享	https://0472.org/hls/cgtnd.m3u8	否
+央视	CGTN英语	suxuang	APTV专享	https://0472.org/hls/cgtn.m3u8	否
+央视	CGTN西语	445569传统	✴️ITV直播[移动]	https://0472.org/hls/cgtnx.m3u8	否
+央视	CGTN记录	445569传统	✴️ITV直播[移动]	https://0472.org/hls/cgtnd.m3u8?3.24.120:5140	否
+央视	CGTN阿语	445569传统	✴️ITV直播[移动]	https://0472.org/hls/cgtna.m3u8	否
+卫视	三沙卫视	suxuang	☘️海南频道	http://nn.7x9d.cn/地方台8563/海南.php?id=ssws	是
+卫视	东方卫视	suxuang	卫视频道	http://bp-resource-dfl.bestv.cn/155/3/video.m3u8	是
+卫视	东方卫视4K	suxuang	4K频道	http://bp-resource-dfl.bestv.cn/148/3/video.m3u8	是
+卫视	内蒙古卫视	suxuang	卫视频道	http://120.76.248.139/live/bfgd/4200000110.m3u8	否
+卫视	农林卫视	suxuang	卫视频道	http://120.76.248.139/live/bfgd/4200000122.m3u8	否
+卫视	宁夏卫视	suxuang		http://120.76.248.139/live/bfgd/4200000118.m3u8	否
+卫视	延边卫视	suxuang	卫视频道	http://120.76.248.139/live/bfgd/4200000117.m3u8	是
+卫视	江苏卫视4K	suxuang	4K频道	http://8.138.7.223/tv/jsws4k.php	是
+卫视	河北卫视	suxuang	4K频道	http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8	是
+卫视	浙江卫视4K	445569传统	✴️ITV直播[移动]	http://ali-xwl.cztv.com/live/channel4k2160p.m3u8	是
+卫视	海南卫视	suxuang	卫视频道	http://nn.7x9d.cn/地方台8563/海南.php?id=hnws	否
+卫视	湖南卫视4K	445569传统	✴️ITV直播[移动]	http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8	是
+地方	东莞新闻综合	suxuang	☘️广东频道	https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8	是
+地方	南京眼	445569其他抽样	👁️‍🗨️监控直播	https://nklive2.nbs.cn/hls/2496cb32-fa2a-469b-bfd7-2d1991d671d5/index.m3u8	否
+地方	南宁影视娱乐	445569其他抽样	💎地方台直播	http://hls.nntv.cn/nnlive/YSYL_244.m3u8	否
+地方	哈尔滨娱乐	suxuang	☘️黑龙江频道	http://stream.hrbtv.net/ylpd/sd/live.m3u8?zheild	是
+地方	哈尔滨影视	suxuang	☘️黑龙江频道	http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild	是
+地方	哈尔滨新闻综合	suxuang	☘️黑龙江频道	http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild	否
+地方	哈尔滨生活	suxuang	☘️黑龙江频道	http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild	是
+地方	哈尔滨都市咨询	suxuang	☘️黑龙江频道	http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild	是
+地方	四川科教	suxuang	数字频道	http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8	否
+地方	宁夏公共	suxuang	地方频道	https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8	是
+地方	宁夏文旅	suxuang	地方频道	https://hls.ningxiahuangheyun.com/live/nxwl1M.m3u8	是
+地方	山东教育	suxuang	卫视频道	https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8	是
+地方	河北4K	suxuang	4K频道	https://event.pull.hebtv.com:443/live/live101.m3u8	是
+地方	河北公共	suxuang	☘️河北频道	http://1.94.31.214/php/hebei.php?id=hbgg	是
+地方	河北农民	suxuang	☘️河北频道	http://1.94.31.214/php/hebei.php?id=nmpd	否
+地方	河北少儿	suxuang	☘️河北频道	http://1.94.31.214/php/hebei.php?id=sekj	否
+地方	河北影视	suxuang	☘️河北频道	http://1.94.31.214/php/hebei.php?id=hbys	是
+地方	河北经济	suxuang	☘️河北频道	http://1.94.31.214/php/hebei.php?id=jjsh	是
+地方	河北都市	suxuang	☘️河北频道	http://1.94.31.214/php/hebei.php?id=hbds	否
+地方	海南公共	suxuang	☘️海南频道	http://nn.7x9d.cn/地方台8563/海南.php?id=ggpd	否
+地方	海南少儿	suxuang	☘️海南频道	http://nn.7x9d.cn/地方台8563/海南.php?id=sepd	否
+地方	海南文旅	suxuang	☘️海南频道	http://nn.7x9d.cn/地方台8563/海南.php?id=wlpd	否
+地方	海南新闻	suxuang	☘️海南频道	http://nn.7x9d.cn/地方台8563/海南.php?id=xwpd	否
+地方	海南自贸	suxuang	☘️海南频道	http://nn.7x9d.cn/地方台8563/海南.php?id=jjpd	否
+地方	苏州4K	suxuang	卫视频道	https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8	是
+地方	苏州文化生活	suxuang	☘️江苏频道	https://live-auth.51kandianshi.com/szgd/csztv3.m3u8	是
+地方	苏州新闻综合	suxuang	☘️江苏频道	https://live-auth.51kandianshi.com/szgd/csztv1.m3u8	是
+地方	苏州生活资讯	suxuang	☘️江苏频道	https://live-auth.51kandianshi.com/szgd/csztv5.m3u8	是
+地方	苏州社会经济	suxuang	☘️江苏频道	https://live-auth.51kandianshi.com/szgd/csztv2.m3u8	是
+地方	辽宁公共	suxuang	☘️辽宁频道	http://120.76.248.139/live/bfgd/4200000481.m3u8	是
+地方	辽宁北方	suxuang	☘️辽宁频道	http://dassby.qqff.top:99/live/辽宁北方/index.m3u8	否
+地方	辽宁影视	suxuang	☘️辽宁频道	http://dassby.qqff.top:99/live/辽宁影视剧/index.m3u8	是
+地方	辽宁影视剧	suxuang	☘️辽宁频道	http://120.76.248.139/live/bfgd/4200000070.m3u8	是
+地方	辽宁教育青少	suxuang	☘️辽宁频道	http://120.76.248.139/live/bfgd/4200000075.m3u8	是
+地方	辽宁生活	suxuang	☘️辽宁频道	http://120.76.248.139/live/bfgd/4200000073.m3u8	是
+地方	辽宁经济	suxuang	☘️辽宁频道	http://120.76.248.139/live/bfgd/4200000480.m3u8	是
+地方	辽宁都市	suxuang	☘️辽宁频道	http://120.76.248.139/live/bfgd/4200000068.m3u8	否
+地方	辽宁青少	suxuang	☘️辽宁频道	http://dassby.qqff.top:99/live/辽宁教育青少/index.m3u8	是
+地方	邯郸公共频道	suxuang	☘️河北频道	https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8	是
+地方	邯郸科技教育	suxuang	☘️河北频道	https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8	是
+地方	黑龙江农业科教频道	445569其他抽样	💎地方台直播	https://idclive.hljtv.com:4430/live/hljgg_hd.m3u8	否
+港澳台	Astro AEC	445569传统	🔮港澳台直播	http://cdn3.123.rr.kg/stream/live/aec/	否
+港澳台	Astro欢喜台	445569传统	🔮港澳台直播	https://cdn3.indevs.in/stream/live/hxt/	否
+港澳台	HOY TV	445569传统	🔮港澳台直播	http://cdn.123.rr.kg/163189/hoy	否
+港澳台	HOY国际财经台	445569传统	🔮港澳台直播	https://cdn11.163189.xyz/163189/hoy76	否
+港澳台	HOY资讯台	445569传统	🔮港澳台直播	http://cdn.123.rr.kg/163189/hoy78	否
+港澳台	LIVE三立	445569传统	🔮港澳台直播	https://d2jc41c1shgcol.cloudfront.net/live/setnewsrtmp/playlist.m3u8	否
+港澳台	NOW新闻台	445569传统	🔮港澳台直播	http://cdn.123.rr.kg/163189/now	否
+港澳台	RTHK31	445569传统	🔮港澳台直播	http://cdn.123.rr.kg/163189/rthk31	否
+港澳台	RTHK32	445569传统	🔮港澳台直播	http://cdn.123.rr.kg/163189/rthk32	否
+港澳台	TVB Plus(WebVTT字幕)	445569传统	🔮港澳台直播	http://cdn10.123.rr.kg/163189/tvbp/	否
+港澳台	TVB Plus(字幕)	445569传统	🔮港澳台直播	http://cdn3.123.rr.kg/stream/tvb/tvbp/	否
+港澳台	TVB1	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/tvb1	否
+港澳台	TVBJ1	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/j1	否
+港澳台	TVBPlus	445569传统	🔮港澳台直播	https://cdn3.indevs.in/stream/tvb/tvbp/	否
+港澳台	TVBS Asia	445569传统	🔮港澳台直播	http://38.64.72.148/hls/modn/list/4005/playlist.m3u8	否
+港澳台	TVBS新闻	445569传统	🔮港澳台直播	https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8	否
+港澳台	TVB亚洲武侠	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/yzwx	否
+港澳台	TVB星河	445569传统	🔮港澳台直播	https://cdn3.indevs.in/stream/live/tvbxh/	否
+港澳台	TVB星河1	445569传统	🔮港澳台直播	http://cdn3.123.rr.kg/stream/live/tvbxh/	否
+港澳台	TVB星河2	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/tvbxh	否
+港澳台	TVB星河3	445569传统	🔮港澳台直播	http://cdn10.123.rr.kg/163189/xinghe/	否
+港澳台	ViuTVsix	445569传统	🔮港澳台直播	http://cdn10.123.rr.kg/163189/viu6/	否
+港澳台	三立新闻	445569传统	🔮港澳台直播	https://d2jc41c1shgcol.cloudfront.net/live/iNEWS/playlist.m3u8	否
+港澳台	东森新闻	445569传统	🔮港澳台直播	https://d2jc41c1shgcol.cloudfront.net/live/EBCNews/playlist.m3u8	否
+港澳台	中天新闻	445569传统	🔮港澳台直播	https://d2jc41c1shgcol.cloudfront.net/live/CtiNEWS1/playlist.m3u8	否
+港澳台	中视新闻	445569传统	🔮港澳台直播	https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8	否
+港澳台	人间卫视	445569传统	🔮港澳台直播	https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8	否
+港澳台	凤凰中文	445569传统	🔮港澳台直播	http://zmgd.zyrnet.com:8888/hls/110/index.m3u8	否
+港澳台	凤凰资讯	445569传统	🔮港澳台直播	http://zmgd.zyrnet.com:8888/hls/109/index.m3u8	否
+港澳台	华丽翡翠台(新加坡)	445569传统	🔮港澳台直播	http://cdn3.123.rr.kg/stream/live/jade/	否
+港澳台	华丽翡翠台1	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/hlfct	否
+港澳台	华视新闻	445569传统	🔮港澳台直播	https://d2jc41c1shgcol.cloudfront.net/live/ctsnewsqt/playlist.m3u8	否
+港澳台	台视新闻	suxuang	港澳台频道	http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8	否
+港澳台	唯心電視	445569传统	🔮港澳台直播	https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8	否
+港澳台	大立电视台	suxuang	港澳台频道	http://www.dalitv.com.tw:4568/live/dali/index.m3u8	否
+港澳台	好消息综合台	445569传统	🔮港澳台直播	https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8	否
+港澳台	无线新闻台	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/wxxw	否
+港澳台	无线新闻台2	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/wxxwt	否
+港澳台	明珠台(WebVTT字幕)	445569传统	🔮港澳台直播	http://cdn10.123.rr.kg/163189/mzt/	否
+港澳台	明珠台(字幕)	445569传统	🔮港澳台直播	http://cdn3.123.rr.kg/stream/tvb/mzt/	否
+港澳台	民视新闻	445569传统	🔮港澳台直播	https://d2jc41c1shgcol.cloudfront.net/live/ftvnewsqt/playlist.m3u8	否
+港澳台	澳视卫星	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/as	否
+港澳台	澳视澳门	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/asam	否
+港澳台	澳门体育	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/amty	否
+港澳台	澳门综艺	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/amzy	否
+港澳台	澳门莲花	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/amlh	否
+港澳台	纬来体育	445569传统	🔮港澳台直播	https://hlsz.yjjcfw.com/live/vl.m3u8?expire=1786948372&sign=2e4a56b89fe644db147552011f972714	否
+港澳台	翡翠剧集台	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/tvbd	否
+港澳台	翡翠台	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/fct	否
+港澳台	翡翠台(WebVTT字幕)	445569传统	🔮港澳台直播	http://cdn10.123.rr.kg/163189/fct/	否
+港澳台	翡翠台(字幕)	445569传统	🔮港澳台直播	http://cdn3.123.rr.kg/stream/tvb/fct/	否
+港澳台	翡翠台4K字幕	445569传统	🔮港澳台直播	https://cdn3.indevs.in/stream/tvb/fct4k/	否
+港澳台	香港卫视	suxuang	卫视频道	http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8	否
+电影剧场	CHC动作电影	445569传统	🎞️电影直播	http://38.75.136.137:98/gslb/dsdqpub/chcdz.m3u8?auth=testpub	是
+电影剧场	CHC家庭影院	445569传统	🎞️电影直播	http://38.75.136.137:98/gslb/dsdqpub/chcjt.m3u8?auth=testpub	是
+电影剧场	CHC影迷电影	445569传统	🎞️电影直播	http://38.75.136.137:98/gslb/dsdqpub/chchd.m3u8?auth=testpub	否
+电影剧场	Cine Nanar	445569其他抽样	🇫🇷法国直播	https://zylo-cinenanar-rakuten.amagi.tv/playlist480p.m3u8	否
+电影剧场	NewTV古装剧场	445569传统	✴️NewTV直播[移动]	http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c58_fast_947_1080P_t10/c58_fast_947_1080P_t10.m3u8?d	否
+电影剧场	NewTV大家剧场	445569传统	✴️NewTV直播[移动]	http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c58_fast_975_1080P_t10/c58_fast_975_1080P_t10.m3u8?d	否
+电影剧场	NewTV家庭剧场	445569传统	✴️NewTV直播[移动]	http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c59_fast_999_1080P_t10/c59_fast_999_1080P_t10.m3u8?d	否
+电影剧场	NewTV泰语剧场	445569传统	✴️NewTV直播[移动]	http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c58_fast_949_1080P_t10/c58_fast_949_1080P_t10.m3u8?d	否
+电影剧场	NewTV爱情剧场	445569传统	✴️NewTV直播[移动]	http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c59_fast_967_1080P_t10/c59_fast_967_1080P_t10.m3u8?d	否
+电影剧场	华数动作影院	445569传统	🎞️电影直播	http://113.25.252.226:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0	否
+电影剧场	天映	445569传统	🔮港澳台直播	https://cdn3.indevs.in/stream/live/typd/	否
+电影剧场	天映新加坡	445569传统	🔮港澳台直播	http://cdn10.123.rr.kg/163189/typd/	否
+电影剧场	天映经典	445569传统	🔮港澳台直播	https://cdn3.indevs.in/stream/live/ccm/	否
+电影剧场	天映经典台	445569传统	🔮港澳台直播	http://cdn3.123.rr.kg/stream/live/ccm/	否
+电影剧场	天映经典台2	445569传统	🔮港澳台直播	http://cdn10.123.rr.kg/163189/ccm/	否
+电影剧场	天映频道	445569传统	🔮港澳台直播	http://cdn3.123.rr.kg/stream/live/typd/	否
+电影剧场	湖南电影	445569传统	💎地方台直播	https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNDYMPP360.m3u8	否
+电影剧场	美亚C+	suxuang	港澳台频道	http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8	否
+电影剧场	韩国电影1	suxuang	港澳台频道	https://stream.ads.ottera.tv/playlist.m3u8?network_id=595	否
+电影剧场	韩国电影2	suxuang	港澳台频道	https://stream.ads.ottera.tv/playlist.m3u8?network_id=743	否
+电影剧场	黄金华剧台(WebVTT字幕)	445569传统	🔮港澳台直播	http://cdn10.123.rr.kg/163189/hjhjt/	否
+体育	ACI Sport TV	445569传统	⚽️体育直播	https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8	否
+体育	Africa 24 Sport	445569传统	⚽️体育直播	https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8	否
+体育	BEK TV Sports West	445569传统	⚽️体育直播	https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8	否
+体育	Bahrain Sports 1	445569传统	⚽️体育直播	https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8	否
+体育	Bein Sports Extra 2	445569传统	⚽️体育直播	https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8	否
+体育	Cricket Gold	445569传统	⚽️体育直播	https://tvsen6.aynaott.com/M2W2UR49dmeKbZnmdRzN/index.m3u8?e=1784102529&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=ae32567acc583949116a1ea5f4410044	是
+体育	KTV Sport Plus	445569传统	⚽️体育直播	https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8	否
+体育	NBC Sports	445569传统	⚽️体育直播	https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8	否
+体育	NHL FAST	445569传统	⚽️体育直播	https://nhl-firetv.amagi.tv/playlist1080p.m3u8	否
+体育	Oman Sports TV	445569传统	⚽️体育直播	https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8	否
+体育	Sports Fishing TV	445569传统	⚽️体育直播	https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8	否
+体育	Trace Sports	suxuang	国际频道	https://lightning-tracesport-samsungau.amagi.tv/playlist1080p.m3u8	否
+体育	辽宁体育	suxuang	☘️辽宁频道	http://dassby.qqff.top:99/live/辽宁体育/index.m3u8	否
+海外	20 Minutes TV	445569其他抽样	🇫🇷法国直播	https://live-20minutestv.digiteka.com/1961167769/tracks-v2a1/mono.ts.m3u8	否
+海外	ABC News Live	suxuang	国际频道	https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991626	否
+海外	Arirang	suxuang	国际频道	https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8	否
+海外	CBC News	suxuang	国际频道	https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276	否
+海外	CNA	suxuang	国际频道	https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8	否
+海外	Caillou	445569其他抽样	🇫🇷法国直播	https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8	否
+海外	DLTV2	445569其他抽样	🇹🇭泰国直播	https://cdn-live.dltv.ac.th/smil:origin01-dltv-02-adaptive.smil/chunklist_b3128000_slth.m3u8	否
+海外	DLTV9	445569其他抽样	🇹🇭泰国直播	https://cdn-live.dltv.ac.th/smil:origin02-dltv-09-adaptive.smil/chunklist_b3128000_slth.m3u8	否
+海外	Desi Plus	445569其他抽样	🇮🇳印度直播	http://cdn2.live247stream.com/desiplus/tv/playlist.m3u8	否
+海外	Horse & Country	445569传统	⚽️体育直播	https://hncfree-samsungau.amagi.tv/playlist.m3u8	否
+海外	ISTV	445569其他抽样	🇱🇦老挝直播	https://livefta.malimarcdn.com/ftaedge00/ichannel.sdp/playlist.m3u8	否
+海外	Mr. Bean Anime Italy	445569其他抽样	👶🏻少儿直播	https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8	否
+海外	Newsmax	suxuang	国际频道	http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8	否
+海外	PBS Kids Pacific	445569其他抽样	👶🏻少儿直播	https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8	否
+海外	Pet Club TV	445569传统	🔮港澳台直播	https://petclub-samsungaus.amagi.tv/playlist.m3u8	否
+海外	RT Arabic（阿语）	suxuang	国际频道	https://rt-arb.rttv.com/dvr/rtarab/playlist_4500Kb.m3u8	否
+海外	RT Balkan （塞尔维亚语）	suxuang	国际频道	https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8	否
+海外	RT DE（德语）	suxuang	国际频道	https://rt-ger.rttv.com/dvr/rtdeutsch/playlist_4500Kb.m3u8	否
+海外	RT Doc-Русский（俄语纪录）	suxuang	国际频道	https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8	否
+海外	RT Documentary（英语纪录）	suxuang	国际频道	https://rt-rtd.rttv.com/dvr/rtdoc/playlist_4500Kb.m3u8	否
+海外	RT Español（西语）	suxuang	国际频道	https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8	否
+海外	RT Français（法语）	suxuang	国际频道	https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8	否
+海外	RT News（英语国际）	suxuang	国际频道	https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8	否
+海外	Red Bull TV	445569传统	⚽️体育直播	https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8	否
+海外	Stara TV Cianjur	445569其他抽样	🇮🇩印尼直播	https://cianjur.staratv.id/hls/0/stream.m3u8	否
+海外	Stara TV Malang	445569其他抽样	🇮🇩印尼直播	https://malang.staratv.id/hls/0/stream.m3u8	否
+海外	Stara TV Parahyangan	445569其他抽样	🇮🇩印尼直播	https://parahyangan.staratv.id/hls/0/stream.m3u8	否
+海外	Wild Earth	suxuang	国际频道	https://wildearth-plex.amagi.tv/masterR1080p.m3u8	否
+海外	WionNews	suxuang	国际频道	https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8	否
+海外	韩国EBS少儿	suxuang	动画频道	http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8	否
+其他	AOD	445569传统	🔮港澳台直播	http://cdn3.123.rr.kg/stream/live/aod/	否
+其他	Belarus-5	445569传统	⚽️体育直播	http://178.124.179.122:8080/BT5/index.m3u8	否
+其他	CGN中文台	445569传统	🔮港澳台直播	https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8	否
+其他	CH8	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/ch8	否
+其他	CHU	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/chu	否
+其他	Goal TV	445569传统	⚽️体育直播	https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8	否
+其他	JC乡村频道	445569其他抽样	💎地方台直播	http://live.jinchuanrmt.com:90/live/jcxc.m3u8	否
+其他	MTRSPT	445569传统	⚽️体育直播	https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8	否
+其他	Oh Muang Lao TV	445569其他抽样	🇱🇦老挝直播	https://livefta.malimarcdn.com/ftaedge00/ohmuanglao.stream/chunklist.m3u8	否
+其他	RMTV	445569传统	⚽️体育直播	https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8	否
+其他	WOF 1	445569传统	⚽️体育直播	https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8	否
+其他	iQIYI	445569传统	🔮港澳台直播	https://cdn3.indevs.in/stream/live/iqiyi/	否
+其他	七台河新闻综合	suxuang	☘️黑龙江频道	http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8	否
+其他	三农	445569其他抽样	💎地方台直播	http://tv.pull.hebtv.com/jishi/nongminpindao.m3u8?t=1893427200&k=f07ae1d5be12d118d136be90e032bfce	否
+其他	中华特产	suxuang	☘️北京频道	http://120.76.248.139/live/bfgd/4200000158.m3u8	否
+其他	乐至综合	suxuang	☘️四川频道	http://175.155.106.72:89/live1/live1.m3u8?zsicd	否
+其他	云和新闻综合	suxuang	☘️浙江频道	http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8	否
+其他	剑阁综合	suxuang	☘️四川频道	https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8	是
+其他	千禧经典台	445569传统	🔮港澳台直播	http://cdn3.123.rr.kg/stream/live/tvbc/	否
+其他	南国都市	suxuang	☘️广东频道	http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4	否
+其他	南国都市4K	suxuang	4K频道	https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de	否
+其他	周星驰2专场	445569传统	🎞️电影直播	https://cfss.cc/Qs/hy.php	否
+其他	四海钓鱼	suxuang	☘️北京频道	http://120.76.248.139/live/bfgd/4200000229.m3u8	否
+其他	娱乐新闻台	445569传统	🔮港澳台直播	http://cdn6.123.rr.kg/163189/ylxw	否
+其他	广元公共	suxuang	☘️四川频道	https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8	是
+其他	广元综合	suxuang	☘️四川频道	https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8	否
+其他	广安公共	suxuang	☘️四川频道	http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8?zsicd	是
+其他	广州新闻	suxuang	☘️广东频道	http://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=d2c2db0b598c02ec1b5623728434d367&txTime=18d57929bd3	否
+其他	广州综合	suxuang	☘️广东频道	http://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=c8dbe86d6f86eb1a21999ab479fd5667&txTime=18d3c4690e8	是
+其他	新视觉HD	suxuang	数字频道	http://120.76.248.139/live/bfgd/4200000249.m3u8	否
+其他	旺苍新闻综合	suxuang	☘️四川频道	http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8	否
+其他	昌黎综合	suxuang	☘️河北频道	https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8	是
+其他	朝天综合	suxuang	☘️四川频道	https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8	否
+其他	朝阳新闻综合	suxuang	☘️辽宁频道	http://120.76.248.139/live/bfgd/4200000282.m3u8	否
+其他	梨园频道	445569其他抽样	👴🏻老年直播	https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=ebea42451370372b34e6343654e5d4d6&wsTime=1791193106	否
+其他	欢喜台	445569传统	🔮港澳台直播	http://cdn3.123.rr.kg/stream/live/hxt/	否
+其他	江夏新闻综合	suxuang	☘️湖北频道	http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd	否
+其他	爱奇艺	445569传统	🔮港澳台直播	http://cdn3.123.rr.kg/stream/live/iqiyi/	否
+其他	环球旅游	suxuang	☘️北京频道	http://120.76.248.139/live/bfgd/4200000147.m3u8	否
+其他	环球电视	suxuang	港澳台频道	http://utv1.hqtvzb.com:9999/hls/world.m3u8	否
+其他	纪实科教	suxuang	数字频道	http://120.76.248.139/live/bfgd/4200000113.m3u8	是
+其他	耀才财经	suxuang	港澳台频道	https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8	否
+其他	荥经综合	suxuang	☘️四川频道	https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8	是
+其他	萧山综合	suxuang	☘️浙江频道	http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8	否
+其他	象山新闻综合	suxuang	☘️浙江频道	http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8	否
+其他	重温经典	suxuang	数字频道	http://8.138.7.223/tv/cwjd.php	否
+其他	金川乡村	suxuang	☘️四川频道	http://live.jinchuanrmt.com:90/live/jcxc.m3u8?zsicd	否
+其他	金川新闻综合	suxuang	☘️四川频道	http://live.jinchuanrmt.com:90/live/zhxw.m3u8?zsicd	是
+其他	长影频道	suxuang	☘️陕西频道	http://tpc.x3322.net:9901/tsfile/live/1010_1.m3u8	否
+其他	长江大桥	445569其他抽样	👁️‍🗨️监控直播	https://nklive2.nbs.cn/hls/292e69b9-9ca1-4908-bba0-32438dd7c464/index.m3u8	否
+其他	雅安新闻综合	suxuang	☘️四川频道	https://play.yunxya.com/channellive/xinwen.m3u8	是
+其他	青川综合	suxuang	☘️四川频道	http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8	否
+其他	青田电视台	suxuang	☘️浙江频道	http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8	否
+其他	龙泉新闻综合	suxuang	☘️四川频道	http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8	否
+其他	🔄抖音艺术[刷新就是新内容]	445569其他抽样	🔯API随机点播	https://random-api.czl.net/video/dy-art	否
+直播房间	CohhCarnage	445569其他抽样	Twitch直播	https://baheyi.pages.dev/twitch/cohhcarnage	否
+直播房间	LetsHugoTV	445569其他抽样	Twitch直播	https://baheyi.pages.dev/twitch/letshugotv	否
+直播房间	Peereira7	445569其他抽样	Twitch直播	https://baheyi.pages.dev/twitch/peereira7	否
+直播房间	九离nine - 九离nine	445569其他抽样	酷狗直播	https://baheyi.pages.dev/kugou/6865756	否
+直播房间	修锦宁1688888 - 修锦宁1688888	445569其他抽样	酷狗直播	https://baheyi.pages.dev/kugou/4347832	否
+直播房间	可颂430 - 可颂430	445569其他抽样	酷狗直播	https://baheyi.pages.dev/kugou/51098428	否
+直播房间	摩西（王者万象棋） - 常小娥教学 边打边说	445569其他抽样	抖音直播	http://pull-hls-t11.douyincdn.com/thirdgame/stream-120408616608203579_uiquhd5.m3u8?expire=1794841716&sign=0a121ffd33d4ce2d30547ec6643241ab&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-20261109230836C069EF3773259C061D31-HxWyLk	否
+直播房间	新人红豆y - 新人红豆y	445569其他抽样	酷狗直播	https://baheyi.pages.dev/kugou/51096271	否
