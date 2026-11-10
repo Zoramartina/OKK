@@ -1,25 +1,24 @@
 # 直播源清洗报告
 
-生成时间：2026-11-10 00:57 (UTC+8)
+生成时间：2026-11-10 10:34 (UTC+8)
 
 | 指标 | 数值 |
 | --- | --- |
 | 原始条目 | 1532 |
-| 实测通过 | 571 |
-| 未通过校验（保留待核） | 75 |
-| 本机判定不可达 | 886 |
-| 写入订阅 | 646 |
-| 有效频道数 | 572 |
-| 平均响应 | 1172 ms |
+| 实测通过 | 589 |
+| 未通过校验（保留待核） | 69 |
+| 本机判定不可达 | 874 |
+| 写入订阅 | 658 |
+| 有效频道数 | 579 |
+| 平均响应 | 1182 ms |
 
 ## 保留但未校验
 
 | 频道 | 原因 |
 | --- | --- |
-| 凤凰香港 | 播放列表停滞（循环回放） |
-| 凤凰香港 | 播放列表停滞（循环回放） |
-| 华丽翡翠台 | 点播列表（非直播） |
+| 永昌综合 | 播放列表停滞（循环回放） |
 | 广东体育 | 播放列表停滞（循环回放） |
+| 千禧经典 | 播放列表停滞（循环回放） |
 | 民视 | 非 http(s) 协议（rtmp） |
 | 台视 | 非 http(s) 协议（rtmp） |
 | 中视 | 非 http(s) 协议（rtmp） |
@@ -37,8 +36,6 @@
 | ASTRO AOD | 播放列表停滞（循环回放） |
 | DAZN体育1 | 非 http(s) 协议（rtmp） |
 | DAZN体育2 | 非 http(s) 协议（rtmp） |
-| 凤凰香港台 | 播放列表停滞（循环回放） |
-| HOY TV | 点播列表（非直播） |
 | NewTV 超级综艺 | IPv6 源，Actions 无 IPv6 无法校验 |
 | NewTV 金牌综艺 | IPv6 源，Actions 无 IPv6 无法校验 |
 | NewTV 魅力潇湘 | IPv6 源，Actions 无 IPv6 无法校验 |
@@ -46,6 +43,9 @@
 | NewTV 怡伴健康 | IPv6 源，Actions 无 IPv6 无法校验 |
 | NewTV 潮妈辣婆 | IPv6 源，Actions 无 IPv6 无法校验 |
 | NewTV 军旅剧场 | IPv6 源，Actions 无 IPv6 无法校验 |
+| NewTV 军事评论 | IPv6 源，Actions 无 IPv6 无法校验 |
+| NewTV 中国功夫 | IPv6 源，Actions 无 IPv6 无法校验 |
+| NewTV 农业致富 | IPv6 源，Actions 无 IPv6 无法校验 |
 
 ## 本机判定不可达（节选）
 
@@ -71,6 +71,7 @@
 | 广元综合 | 连接超时 | `https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/pla` |
 | 旺苍新闻综合 | URLError | `http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playli` |
 | 朝天综合 | 连接超时 | `https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/pla` |
+| 泸县新闻综合 | HTTP 504 | `https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playli` |
 | 宁夏公共 | 复核仍失败（HTTP 403（限流/地区限制）） | `https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8` |
 | 宁夏文旅 | 复核仍失败（HTTP 403（限流/地区限制）） | `https://hls.ningxiahuangheyun.com/live/nxwl1M.m3u8` |
 | LIVE三立 | 复核仍失败（HTTP 403（限流/地区限制）） | `https://d2jc41c1shgcol.cloudfront.net/live/setnewsrtmp/playlist.m3u8` |
@@ -88,52 +89,51 @@
 | NewTV泰语剧场 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c58_fast_949_1080P_t10/c` |
 | NewTV爱情剧场 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c59_fast_967_1080P_t10/c` |
 | 美亚电影 | RemoteDisconnected | `http://iptv.4666888.xyz/iptv2A.php?id=30` |
-| 长影频道 | 连接超时 | `http://tpc.x3322.net:9901/tsfile/live/1010_1.m3u8` |
+| 中华特产 | 返回非流内容 | `http://120.76.248.139/live/bfgd/4200000158.m3u8` |
 | Jade | HTTP 404 | `http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8` |
-| CCTV2 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://101.35.240.114:88/live.php?id=CCTV2` |
+| CCTV2 | 连接超时 | `http://101.35.240.114:88/live.php?id=CCTV2` |
 | Asian Drama | HTTP 404 | `http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8` |
 | Mei Ah Movie Channel | HTTP 404 | `http://103.172.187.30:12000/stream/mytv/null-2/master.m3u8` |
 | Arena Sport Premium M3 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vgvje3t-Jiqa5d9` |
 | Eurosport (720p) | HTTP 404 | `https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8` |
-| TVS Boxing (360p) | 域名解析失败 | `https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8` |
 | 北京卫视4K | HTTP 404 | `http://139.ye23.vip/dl/btv2502.php?id=bjws4` |
 | 广东卫视4K | HTTP 404 | `http://101.35.240.114:88/live.php?id=广东卫视4K` |
 | 深圳卫视4K | 返回非流内容 | `http://nn.7x9d.cn/深圳最新.php?id=szws4k` |
 | 山东卫视4K | HTTP 404 | `http://101.35.240.114:88/live.php?id=山东卫视4K` |
 | 四川卫视4K | HTTP 404 | `http://101.35.240.114:88/live.php?id=四川卫视4K` |
-| CCTV1 | URLError | `http://101.35.240.114:88/live.php?id=CCTV1` |
 | CCTV2 | 连接超时 | `http://148.135.93.213/live.php?id=CCTV2` |
-| CCTV3 | URLError | `http://101.35.240.114:88/live.php?id=CCTV3` |
 | CCTV4 | 连接超时 | `http://148.135.93.213/live.php?id=CCTV4` |
-| CCTV5 | URLError | `http://101.35.240.114:88/live.php?id=CCTV5` |
 | CCTV5+ | 连接超时 | `http://148.135.93.213/live.php?id=CCTV5p` |
-| CCTV6 | URLError | `http://101.35.240.114:88/live.php?id=CCTV6` |
 | CCTV7 | 连接超时 | `http://148.135.93.213/live.php?id=CCTV7` |
-| CCTV8 | URLError | `http://101.35.240.114:88/live.php?id=CCTV8` |
 | CCTV9 | 连接超时 | `http://148.135.93.213/live.php?id=CCTV9` |
-| … | 另有 826 条 | |
+| CCTV11 | 连接超时 | `http://148.135.93.213/live.php?id=CCTV11` |
+| CCTV13 | 连接超时 | `http://148.135.93.213/live.php?id=CCTV13` |
+| CCTV15 | 连接超时 | `http://148.135.93.213/live.php?id=CCTV15` |
+| CCTV16 | 连接超时 | `http://101.35.240.114:88/live.php?id=CCTV16` |
+| CCTV17 | 连接超时 | `http://74.48.192.96:82/live.php?id=CCTV17` |
+| … | 另有 814 条 | |
 
 ## 移出订阅的原因
 
 | 原因 | 条数 |
 | --- | --- |
-| 连接超时 | 197 |
+| 连接超时 | 201 |
 | 连接被拒 | 144 |
-| HTTP 404 | 141 |
-| 复核仍失败（HTTP 403（限流/地区限制）） | 73 |
+| HTTP 404 | 133 |
+| 复核仍失败（HTTP 403（限流/地区限制）） | 78 |
 | TLS 握手失败 | 71 |
-| URLError | 69 |
-| 域名解析失败 | 52 |
+| URLError | 56 |
+| 域名解析失败 | 51 |
 | HTTP 500 | 42 |
-| 返回非流内容 | 39 |
-| HTTP 302 | 35 |
+| 返回非流内容 | 36 |
+| HTTP 302 | 36 |
 | HTTP 418 | 8 |
-| HTTP 523 | 5 |
+| HTTP 523 | 4 |
+| HTTP 502 | 3 |
 | HTTP 400 | 3 |
 | RemoteDisconnected | 2 |
-| HTTP 502 | 2 |
 
-完整逐条清单见 `removed.tsv`（886 条）。
+完整逐条清单见 `removed.tsv`（874 条）。
 未通过校验但未判死的源另存于 `pending.m3u`，需要时可自行加回。
 
 ## 判定边界

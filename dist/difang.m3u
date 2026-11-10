@@ -31,8 +31,6 @@ http://live1.gatv.com.cn:85/live/GGPD.m3u8
 http://live.spccmc.com:90/live/spxwzh.m3u8
 #EXTINF:-1 tvg-name="汶川新闻综合" group-title="地方·四川",汶川新闻综合
 http://live.iwcmt.cn:90/live/zhxw.m3u8
-#EXTINF:-1 tvg-name="泸县新闻综合" group-title="地方·四川",泸县新闻综合
-https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8
 #EXTINF:-1 tvg-name="荥经综合" group-title="地方·四川",荥经综合
 https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8
 #EXTINF:-1 tvg-name="金川乡村" group-title="地方·四川",金川乡村
@@ -169,8 +167,6 @@ http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd
 #地方·甘肃
 #EXTINF:-1 tvg-name="天祝综合" group-title="地方·甘肃",天祝综合
 https://play.kankanlive.com/live/1656487214793905.m3u8
-#EXTINF:-1 tvg-name="永昌综合" group-title="地方·甘肃",永昌综合
-https://play.kankanlive.com/live/1652755738635915.m3u8
 #EXTINF:-1 tvg-name="西峰综合" group-title="地方·甘肃",西峰综合
 https://play.kankanlive.com/live/1683944827526991.m3u8
 
@@ -227,3 +223,7 @@ http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild
 http://stream.hrbtv.net/zxpd/sd/live.m3u8
 #EXTINF:-1 tvg-name="哈尔滨都市咨询" group-title="地方·黑龙江",哈尔滨都市咨询
 http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild
+
+#地方·甘肃
+#EXTINF:-1 tvg-name="永昌综合" group-title="地方·甘肃",永昌综合
+https://play.kankanlive.com/live/1652755738635915.m3u8
