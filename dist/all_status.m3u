@@ -1,11 +1,11 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 ,tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/河北卫视.png" group-title="卫视频道",河北卫视 [619K]
+#EXTINF:-1 ,tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/河北卫视.png" group-title="卫视频道",河北卫视 [1.2M]
 http://120.76.248.139/live/bfgd/4200000108.m3u8
 
 #4K频道
 #EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/河北卫视.png" group-title="4K频道",河北卫视
 http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
-#EXTINF:-1 tvg-name="浙江卫视4K [1.2M]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/浙江卫视4K.png" group-title="4K频道" http-user-agent="aliplayer",浙江卫视4K [1.2M]
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/浙江卫视4K.png" group-title="4K频道" http-user-agent="aliplayer",浙江卫视
 http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
 #EXTINF:-1 tvg-id="苏州" tvg-name="苏州4K" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/苏州4K.png" group-title="4K频道",苏州4K
 https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8
@@ -17,13 +17,15 @@ http://101.35.240.114:88/phenix.php?id=fhzw
 http://101.35.240.114:88/phenix.php?id=fhzx
 #EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/凤凰香港台.png" group-title="APTV专享" http-user-agent="iPhone" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰香港
 http://101.35.240.114:88/phenix.php?id=fhhk
+#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典 [1.9M]" tvg-logo="https://live.fanmingming.cn/tv/重温经典.png" group-title="APTV专享" http-user-agent="AptvPlayer-UA",重温经典 [1.9M]
+http://101.35.240.114:88/live.php?id=重温经典
 
 #☘️四川频道
 #EXTINF:-1 tvg-name="叙州新闻综合" group-title="☘️四川频道",叙州新闻综合
 http://pili-live-hls.ybcxjd.com/jdh-live/2108111201035597.m3u8?zsicd
-#EXTINF:-1 tvg-name="广安公共 [1.3M]" group-title="☘️四川频道",广安公共 [1.3M]
+#EXTINF:-1 tvg-name="广安公共 [990K]" group-title="☘️四川频道",广安公共 [990K]
 http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8?zsicd
-#EXTINF:-1 tvg-name="金川新闻综合" tvg-logo="https://live.fanmingming.cn/tv/金川新闻综合.png" group-title="☘️四川频道",金川新闻综合
+#EXTINF:-1 tvg-name="金川新闻综合 [947K]" tvg-logo="https://live.fanmingming.cn/tv/金川新闻综合.png" group-title="☘️四川频道",金川新闻综合 [947K]
 http://live.jinchuanrmt.com:90/live/zhxw.m3u8?zsicd
 
 #☘️广东频道
@@ -32,8 +34,14 @@ http://8.138.7.223/tv/gzjs.m3u8
 #EXTINF:-1 tvg-name="广州综合" tvg-logo="https://live.fanmingming.cn/tv/广州综合.png" group-title="☘️广东频道",广州综合
 http://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=c8dbe86d6f86eb1a21999ab479fd5667&txTime=18d3c4690e8
 
+#☘️河北频道
+#EXTINF:-1 tvg-name="邢台生活 [1.7M]" tvg-logo="https://live.fanmingming.cn/tv/邢台生活.png" group-title="☘️河北频道",邢台生活 [1.7M]
+https://jwcdnqx.hebyun.com.cn/live/xtcsshpd/1500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-name="邢台综合" tvg-logo="https://live.fanmingming.cn/tv/邢台综合.png" group-title="☘️河北频道",邢台综合
+http://jwplay.hebyun.com.cn/live/xtsrmtzs/1500k/tzwj_video.m3u8
+
 #☘️浙江频道
-#EXTINF:-1 tvg-id="之江纪录" tvg-name="之江纪录 [1.2M]" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/zhejiang/Zhejiang8.png" group-title="☘️浙江频道",之江纪录 [1.2M]
+#EXTINF:-1 tvg-id="之江纪录" tvg-name="之江纪录" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/zhejiang/Zhejiang8.png" group-title="☘️浙江频道",之江纪录
 https://ali-xwl.cztv.com/live/channel121080Plxw.m3u8
 
 #☘️辽宁频道
@@ -47,7 +55,7 @@ http://120.76.248.139/live/bfgd/4200000073.m3u8
 http://120.76.248.139/live/bfgd/4200000076.m3u8
 #EXTINF:-1 tvg-name="辽宁经济" tvg-logo="https://live.fanmingming.cn/tv/辽宁经济.png" group-title="☘️辽宁频道",辽宁经济
 http://120.76.248.139/live/bfgd/4200000480.m3u8
-#EXTINF:-1 tvg-name="辽宁都市" tvg-logo="https://live.fanmingming.cn/tv/辽宁都市.png" group-title="☘️辽宁频道",辽宁都市
+#EXTINF:-1 tvg-name="辽宁都市 [660K]" tvg-logo="https://live.fanmingming.cn/tv/辽宁都市.png" group-title="☘️辽宁频道",辽宁都市 [660K]
 http://dassby.qqff.top:99/live/辽宁都市/index.m3u8
 #EXTINF:-1 tvg-name="辽宁都市" tvg-logo="https://live.fanmingming.cn/tv/辽宁都市.png" group-title="☘️辽宁频道",辽宁都市
 http://120.76.248.139/live/bfgd/4200000610.m3u8
@@ -59,10 +67,10 @@ http://stream.hrbtv.net/ylpd/sd/live.m3u8?zheild
 #中国台湾频道
 #EXTINF:-1 tvg-id="TTV News" tvg-name="TTV News" group-title="中国台湾频道",TTV News
 https://live.wcetv.com/hls/master-ttvnews.m3u8
-#EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲 [1.8M]" group-title="中国台湾频道",TVBS亚洲 [1.8M]
-http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
 #EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲" group-title="中国台湾频道",TVBS亚洲
 http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
+#EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲" group-title="中国台湾频道",TVBS亚洲
+http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
 #EXTINF:-1 tvg-id="TVBS亞洲" tvg-name="TVBS亞洲" group-title="中国台湾频道",TVBS亞洲
 http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 #EXTINF:-1 tvg-id="TVBS亞洲" tvg-name="TVBS亞洲" group-title="中国台湾频道",TVBS亞洲
@@ -93,9 +101,9 @@ http://23.237.104.106:8080/USA_NBA/index.m3u8
 http://23.237.104.106:8080/DAZN_3/index.m3u8
 #EXTINF:-1 tvg-id="FightBox" tvg-name="FightBox" group-title="体育·格斗" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3",FightBox
 https://webtvstream.bhtelecom.ba/fightbox.m3u8
-#EXTINF:-1 tvg-id="FightBox HD" tvg-name="FightBox HD" group-title="体育·格斗",FightBox HD
+#EXTINF:-1 tvg-id="FightBox HD" tvg-name="FightBox HD [2.0M]" group-title="体育·格斗",FightBox HD [2.0M]
 https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8
-#EXTINF:-1 tvg-id="FightBox Poland (576i)" tvg-name="FightBox Poland (576i) [1.3M]" group-title="体育·格斗",FightBox Poland (576i) [1.3M]
+#EXTINF:-1 tvg-id="FightBox Poland (576i)" tvg-name="FightBox Poland (576i) [534K]" group-title="体育·格斗",FightBox Poland (576i) [534K]
 http://92.114.85.87:8003/play/a00b/index.m3u8
 #EXTINF:-1 tvg-id="MMA-TV.com (1080p)" tvg-name="MMA-TV.com (1080p)" group-title="体育·格斗",MMA-TV.com (1080p)
 https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
@@ -105,13 +113,13 @@ https://fighthls.persiana.live/hls/stream.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8
 
 #体育·赛事台
-#EXTINF:-1 tvg-name="ACI Sport TV [1.7M]" group-title="体育·赛事台",ACI Sport TV [1.7M]
+#EXTINF:-1 tvg-name="ACI Sport TV" group-title="体育·赛事台",ACI Sport TV
 https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
 #EXTINF:-1 tvg-name="Africa 24 Sport" group-title="体育·赛事台",Africa 24 Sport
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
-#EXTINF:-1 tvg-id="Arena Sport 1" tvg-name="Arena Sport 1 [1.6M]" group-title="体育·赛事台" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3",Arena Sport 1 [1.6M]
+#EXTINF:-1 tvg-id="Arena Sport 1" tvg-name="Arena Sport 1" group-title="体育·赛事台" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3",Arena Sport 1
 http://88.212.15.50/live/test_arenasport/playlist.m3u8
-#EXTINF:-1 tvg-id="Arena Sport 2" tvg-name="Arena Sport 2 [1.6M]" group-title="体育·赛事台" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3",Arena Sport 2 [1.6M]
+#EXTINF:-1 tvg-id="Arena Sport 2" tvg-name="Arena Sport 2" group-title="体育·赛事台" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3",Arena Sport 2
 http://88.212.15.50/live/test_arenasport_dva/playlist.m3u8
 #EXTINF:-1 tvg-name="BEK TV Sports West" group-title="体育·赛事台",BEK TV Sports West
 https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
@@ -119,49 +127,49 @@ https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playli
 https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
 #EXTINF:-1 tvg-name="Bein Sports Extra 2" group-title="体育·赛事台",Bein Sports Extra 2
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
-#EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16 [1.1M]" group-title="体育·赛事台",CCTV-16 [1.1M]
+#EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" group-title="体育·赛事台",CCTV-16
 http://207.56.13.146:81/cdnlive/cctv16.m3u8
 #EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" group-title="体育·赛事台",CCTV-16
 http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009
-#EXTINF:-1 tvg-id="CCTV-5" tvg-name="CCTV-5 [1.4M]" group-title="体育·赛事台",CCTV-5 [1.4M]
+#EXTINF:-1 tvg-id="CCTV-5" tvg-name="CCTV-5" group-title="体育·赛事台",CCTV-5
 http://207.56.13.146:81/cdnlive/cctv5.m3u8
 #EXTINF:-1 tvg-name="Cricket Gold (1080p)" group-title="体育·赛事台",Cricket Gold (1080p)
 https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8
-#EXTINF:-1 tvg-id="ESPN (Brazil) (1080p)" tvg-name="ESPN (Brazil) (1080p) [1.7M]" group-title="体育·赛事台",ESPN (Brazil) (1080p) [1.7M]
+#EXTINF:-1 tvg-id="ESPN (Brazil) (1080p)" tvg-name="ESPN (Brazil) (1080p)" group-title="体育·赛事台",ESPN (Brazil) (1080p)
 http://181.78.197.59:8000/play/a07z/index.m3u8
-#EXTINF:-1 tvg-id="ESPN (United States) HD (720p)" tvg-name="ESPN (United States) HD (720p) [1.4M]" group-title="体育·赛事台",ESPN (United States) HD (720p) [1.4M]
+#EXTINF:-1 tvg-id="ESPN (United States) HD (720p)" tvg-name="ESPN (United States) HD (720p)" group-title="体育·赛事台",ESPN (United States) HD (720p)
 http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
-#EXTINF:-1 tvg-id="ESPN 2 (United States) HD (720p)" tvg-name="ESPN 2 (United States) HD (720p) [1.4M]" group-title="体育·赛事台",ESPN 2 (United States) HD (720p) [1.4M]
+#EXTINF:-1 tvg-id="ESPN 2 (United States) HD (720p)" tvg-name="ESPN 2 (United States) HD (720p)" group-title="体育·赛事台",ESPN 2 (United States) HD (720p)
 http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
-#EXTINF:-1 tvg-id="ESPN 2 Latin America Colombia (1080p)" tvg-name="ESPN 2 Latin America Colombia (1080p) [1.8M]" group-title="体育·赛事台",ESPN 2 Latin America Colombia (1080p) [1.8M]
+#EXTINF:-1 tvg-id="ESPN 2 Latin America Colombia (1080p)" tvg-name="ESPN 2 Latin America Colombia (1080p)" group-title="体育·赛事台",ESPN 2 Latin America Colombia (1080p)
 http://190.61.47.54:8000/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="ESPN 4 (Brazil) (1080p)" tvg-name="ESPN 4 (Brazil) (1080p)" group-title="体育·赛事台",ESPN 4 (Brazil) (1080p)
 http://181.78.197.59:8000/play/a07n/index.m3u8
-#EXTINF:-1 tvg-id="ESPN Latin America Colombia (1080p)" tvg-name="ESPN Latin America Colombia (1080p) [1.9M]" group-title="体育·赛事台",ESPN Latin America Colombia (1080p) [1.9M]
+#EXTINF:-1 tvg-id="ESPN Latin America Colombia (1080p)" tvg-name="ESPN Latin America Colombia (1080p)" group-title="体育·赛事台",ESPN Latin America Colombia (1080p)
 http://190.61.47.54:8000/play/a004/index.m3u8
 #EXTINF:-1 tvg-id="ESPN Latin America Mexico (1080p)" tvg-name="ESPN Latin America Mexico (1080p)" group-title="体育·赛事台",ESPN Latin America Mexico (1080p)
 http://168.228.44.241:9997/play/a06p/index.m3u8
-#EXTINF:-1 tvg-id="ESPN Premium HD (1080p)" tvg-name="ESPN Premium HD (1080p) [1.2M]" group-title="体育·赛事台",ESPN Premium HD (1080p) [1.2M]
+#EXTINF:-1 tvg-id="ESPN Premium HD (1080p)" tvg-name="ESPN Premium HD (1080p) [1.6M]" group-title="体育·赛事台",ESPN Premium HD (1080p) [1.6M]
 http://158.172.155.130:8000/play/a0ao/index.m3u8
-#EXTINF:-1 tvg-id="Eleven Sports 1" tvg-name="Eleven Sports 1 [1.4M]" group-title="体育·赛事台",Eleven Sports 1 [1.4M]
+#EXTINF:-1 tvg-id="Eleven Sports 1" tvg-name="Eleven Sports 1 [1.1M]" group-title="体育·赛事台",Eleven Sports 1 [1.1M]
 http://92.114.85.87:8002/play/a00e/index.m3u8
-#EXTINF:-1 tvg-id="Eleven Sports 2 (1080p)" tvg-name="Eleven Sports 2 (1080p) [414K]" group-title="体育·赛事台",Eleven Sports 2 (1080p) [414K]
+#EXTINF:-1 tvg-id="Eleven Sports 2 (1080p)" tvg-name="Eleven Sports 2 (1080p) [1.2M]" group-title="体育·赛事台",Eleven Sports 2 (1080p) [1.2M]
 http://92.114.85.87:8002/play/a00f/index.m3u8
-#EXTINF:-1 tvg-id="Eleven Sports 3 (1080p)" tvg-name="Eleven Sports 3 (1080p) [824K]" group-title="体育·赛事台",Eleven Sports 3 (1080p) [824K]
+#EXTINF:-1 tvg-id="Eleven Sports 3 (1080p)" tvg-name="Eleven Sports 3 (1080p) [1.0M]" group-title="体育·赛事台",Eleven Sports 3 (1080p) [1.0M]
 http://92.114.85.87:8002/play/a00g/index.m3u8
-#EXTINF:-1 tvg-id="Eleven Sports 4 (1080p)" tvg-name="Eleven Sports 4 (1080p) [585K]" group-title="体育·赛事台",Eleven Sports 4 (1080p) [585K]
+#EXTINF:-1 tvg-id="Eleven Sports 4 (1080p)" tvg-name="Eleven Sports 4 (1080p) [1.3M]" group-title="体育·赛事台",Eleven Sports 4 (1080p) [1.3M]
 http://92.114.85.87:8002/play/a00h/index.m3u8
-#EXTINF:-1 tvg-name="EuroSport1 [1.8M]" group-title="体育·赛事台",EuroSport1 [1.8M]
+#EXTINF:-1 tvg-name="EuroSport1 [618K]" group-title="体育·赛事台",EuroSport1 [618K]
 http://141.94.193.53:80/Eurosport_1_HD/index.m3u8
-#EXTINF:-1 tvg-id="Eurosport 1 Germany" tvg-name="Eurosport 1 Germany [1.6M]" group-title="体育·赛事台",Eurosport 1 Germany [1.6M]
+#EXTINF:-1 tvg-id="Eurosport 1 Germany" tvg-name="Eurosport 1 Germany" group-title="体育·赛事台",Eurosport 1 Germany
 http://90.183.52.46:4000/play/a06v/index.m3u8
-#EXTINF:-1 tvg-id="Eurosport 1 Hungary" tvg-name="Eurosport 1 Hungary [1.6M]" group-title="体育·赛事台",Eurosport 1 Hungary [1.6M]
+#EXTINF:-1 tvg-id="Eurosport 1 Hungary" tvg-name="Eurosport 1 Hungary" group-title="体育·赛事台",Eurosport 1 Hungary
 http://88.212.7.14/live/esp1_hun/index.m3u8
-#EXTINF:-1 tvg-id="Eurosport 2 Hungary" tvg-name="Eurosport 2 Hungary [1.6M]" group-title="体育·赛事台",Eurosport 2 Hungary [1.6M]
+#EXTINF:-1 tvg-id="Eurosport 2 Hungary" tvg-name="Eurosport 2 Hungary" group-title="体育·赛事台",Eurosport 2 Hungary
 http://88.212.7.14/live/esp2_hun/index.m3u8
-#EXTINF:-1 tvg-id="Eurosport 4K Czechia" tvg-name="Eurosport 4K Czechia [1.6M]" group-title="体育·赛事台" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",Eurosport 4K Czechia [1.6M]
+#EXTINF:-1 tvg-id="Eurosport 4K Czechia" tvg-name="Eurosport 4K Czechia" group-title="体育·赛事台" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",Eurosport 4K Czechia
 http://88.212.15.50/live/esp_4k_atk/playlist.m3u8
-#EXTINF:-1 tvg-name="Fox Sports (1080p) [1.1M]" group-title="体育·赛事台",Fox Sports (1080p) [1.1M]
+#EXTINF:-1 tvg-name="Fox Sports (1080p) [1.5M]" group-title="体育·赛事台",Fox Sports (1080p) [1.5M]
 http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/1552.m3u8
 #EXTINF:-1 tvg-name="Fox Sports News (1080p)" group-title="体育·赛事台",Fox Sports News (1080p)
 https://skynewsau-live-premium.akamaized.net/hls/live/2105307/foxsportsnews/live_1080p.m3u8
@@ -169,9 +177,9 @@ https://skynewsau-live-premium.akamaized.net/hls/live/2105307/foxsportsnews/live
 https://tvsen6.aynaott.com/golfchannel/index.m3u8
 #EXTINF:-1 tvg-name="KTV Sport Plus" group-title="体育·赛事台",KTV Sport Plus
 https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="M4 Sport (1080p)" tvg-name="M4 Sport (1080p) [1.6M]" group-title="体育·赛事台" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",M4 Sport (1080p) [1.6M]
+#EXTINF:-1 tvg-id="M4 Sport (1080p)" tvg-name="M4 Sport (1080p)" group-title="体育·赛事台" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",M4 Sport (1080p)
 http://88.212.7.14/live/uatlmvixrr/index.m3u8
-#EXTINF:-1 tvg-id="M4 Sport Ⓖ" tvg-name="M4 Sport Ⓖ [1.2M]" group-title="体育·赛事台",M4 Sport Ⓖ [1.2M]
+#EXTINF:-1 tvg-id="M4 Sport Ⓖ" tvg-name="M4 Sport Ⓖ [352K]" group-title="体育·赛事台",M4 Sport Ⓖ [352K]
 http://141.94.193.53:80/M4_Sport_HD/index.m3u8
 #EXTINF:-1 tvg-id="MNB Sport" tvg-name="MNB Sport" group-title="体育·赛事台",MNB Sport
 https://live.mnb.mn/hls/mnb_sport.stream.m3u8
@@ -189,11 +197,11 @@ https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
 https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
 #EXTINF:-1 tvg-name="Sports Fishing TV" group-title="体育·赛事台",Sports Fishing TV
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8
-#EXTINF:-1 tvg-id="TNT Sports (Argentina)" tvg-name="TNT Sports (Argentina) [1.1M]" group-title="体育·赛事台",TNT Sports (Argentina) [1.1M]
+#EXTINF:-1 tvg-id="TNT Sports (Argentina)" tvg-name="TNT Sports (Argentina) [1.6M]" group-title="体育·赛事台",TNT Sports (Argentina) [1.6M]
 http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/86.m3u8
 #EXTINF:-1 tvg-id="TNT Sports (Argentina) SD (576p)" tvg-name="TNT Sports (Argentina) SD (576p)" group-title="体育·赛事台",TNT Sports (Argentina) SD (576p)
 http://181.78.79.131:8000/play/a0mo
-#EXTINF:-1 tvg-id="TNT Sports (Chile) (480p)" tvg-name="TNT Sports (Chile) (480p) [1.5M]" group-title="体育·赛事台",TNT Sports (Chile) (480p) [1.5M]
+#EXTINF:-1 tvg-id="TNT Sports (Chile) (480p)" tvg-name="TNT Sports (Chile) (480p) [1.1M]" group-title="体育·赛事台",TNT Sports (Chile) (480p) [1.1M]
 http://209.45.101.130:8040/play/a03s/index.m3u8
 #EXTINF:-1 tvg-id="TNT Sports Premium ArgentinaHD (1080p)" tvg-name="TNT Sports Premium ArgentinaHD (1080p)" group-title="体育·赛事台",TNT Sports Premium ArgentinaHD (1080p)
 http://181.78.79.131:8000/play/a0q9
@@ -207,7 +215,7 @@ https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS XTRA en Espanol (1080p)" tvg-name="beIN SPORTS XTRA en Espanol (1080p)" group-title="体育·赛事台",beIN SPORTS XTRA en Espanol (1080p)
 https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
-#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育 [1.5M]" group-title="体育·赛事台" http-user-agent="iPhone",五星体育 [1.5M]
+#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育 [2.0M]" group-title="体育·赛事台" http-user-agent="iPhone",五星体育 [2.0M]
 http://101.35.240.114:88/live.php?id=五星体育
 #EXTINF:-1 tvg-id="天津体育" tvg-name="天津体育" group-title="体育·赛事台",天津体育
 http://38.75.136.137:98/gslb/dsdqpub/tjtv5.m3u8?auth=testpub
@@ -215,19 +223,19 @@ http://38.75.136.137:98/gslb/dsdqpub/tjtv5.m3u8?auth=testpub
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=tjtv5
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" group-title="体育·赛事台",广东体育
 http://38.75.136.137:98/gslb/dsdqpub/gdty.m3u8?auth=testpub
-#EXTINF:-1 tvg-name="辽宁体育" group-title="体育·赛事台",辽宁体育
+#EXTINF:-1 tvg-name="辽宁体育 [643K]" group-title="体育·赛事台",辽宁体育 [643K]
 http://dassby.qqff.top:99/live/辽宁体育/index.m3u8
 
 #其他频道
-#EXTINF:-1 tvg-name="AOD" group-title="其他频道",AOD
+#EXTINF:-1 tvg-name="AOD [262K]" group-title="其他频道",AOD [262K]
 http://cdn3.123.rr.kg/stream/live/aod/
-#EXTINF:-1 tvg-name="CH8 [262K]" group-title="其他频道",CH8 [262K]
+#EXTINF:-1 tvg-name="CH8 [261K]" group-title="其他频道",CH8 [261K]
 http://cdn6.123.rr.kg/163189/ch8
-#EXTINF:-1 tvg-name="CHU [261K]" group-title="其他频道",CHU [261K]
+#EXTINF:-1 tvg-name="CHU [262K]" group-title="其他频道",CHU [262K]
 http://cdn6.123.rr.kg/163189/chu
 #EXTINF:-1 tvg-name="Goal TV" group-title="其他频道",Goal TV
 https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8
-#EXTINF:-1 tvg-name="JC乡村频道" group-title="其他频道",JC乡村频道
+#EXTINF:-1 tvg-name="JC乡村频道 [987K]" group-title="其他频道",JC乡村频道 [987K]
 http://live.jinchuanrmt.com:90/live/jcxc.m3u8
 #EXTINF:-1 tvg-name="MTRSPT" group-title="其他频道",MTRSPT
 https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8
@@ -237,17 +245,19 @@ https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8
 https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-name="iQIYI" group-title="其他频道",iQIYI
 https://cdn3.indevs.in/stream/live/iqiyi/
-#EXTINF:-1 tvg-name="三农" group-title="其他频道",三农
+#EXTINF:-1 tvg-name="三农 [2.0M]" group-title="其他频道",三农 [2.0M]
 http://tv.pull.hebtv.com/jishi/nongminpindao.m3u8?t=1893427200&k=f07ae1d5be12d118d136be90e032bfce
-#EXTINF:-1 tvg-name="四海钓鱼 [1.5M]" group-title="其他频道",四海钓鱼 [1.5M]
+#EXTINF:-1 tvg-name="中华特产 [1.2M]" group-title="其他频道",中华特产 [1.2M]
+http://120.76.248.139/live/bfgd/4200000158.m3u8
+#EXTINF:-1 tvg-name="四海钓鱼 [1.2M]" group-title="其他频道",四海钓鱼 [1.2M]
 http://120.76.248.139/live/bfgd/4200000229.m3u8
-#EXTINF:-1 tvg-name="新视觉HD [901K]" group-title="其他频道",新视觉HD [901K]
+#EXTINF:-1 tvg-name="新视觉HD [1.1M]" group-title="其他频道",新视觉HD [1.1M]
 http://120.76.248.139/live/bfgd/4200000249.m3u8
-#EXTINF:-1 tvg-name="梨园频道 [1.7M]" group-title="其他频道",梨园频道 [1.7M]
+#EXTINF:-1 tvg-name="梨园频道" group-title="其他频道",梨园频道
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=ebea42451370372b34e6343654e5d4d6&wsTime=1791193106
-#EXTINF:-1 tvg-name="爱奇艺" group-title="其他频道",爱奇艺
+#EXTINF:-1 tvg-name="爱奇艺 [261K]" group-title="其他频道",爱奇艺 [261K]
 http://cdn3.123.rr.kg/stream/live/iqiyi/
-#EXTINF:-1 tvg-name="环球旅游 [1.5M]" group-title="其他频道",环球旅游 [1.5M]
+#EXTINF:-1 tvg-name="环球旅游 [1.1M]" group-title="其他频道",环球旅游 [1.1M]
 http://120.76.248.139/live/bfgd/4200000147.m3u8
 #EXTINF:-1 tvg-name="环球电视" group-title="其他频道",环球电视
 http://utv1.hqtvzb.com:9999/hls/world.m3u8
@@ -255,9 +265,9 @@ http://utv1.hqtvzb.com:9999/hls/world.m3u8
 https://nklive2.nbs.cn/hls/292e69b9-9ca1-4908-bba0-32438dd7c464/index.m3u8
 
 #凤凰卫视
-#EXTINF:-1 tvg-name="凤凰中文 [1.7M]" group-title="凤凰卫视",凤凰中文 [1.7M]
+#EXTINF:-1 tvg-name="凤凰中文 [1.3M]" group-title="凤凰卫视",凤凰中文 [1.3M]
 http://zmgd.zyrnet.com:8888/hls/110/index.m3u8
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="凤凰卫视",凤凰资讯
+#EXTINF:-1 tvg-name="凤凰资讯 [1.3M]" group-title="凤凰卫视",凤凰资讯 [1.3M]
 http://zmgd.zyrnet.com:8888/hls/109/index.m3u8
 #EXTINF:-1 tvg-name="凤凰香港" group-title="凤凰卫视",凤凰香港
 http://122.152.202.33/s/81a8a44f/index.m3u8?id=fhhk
@@ -273,7 +283,7 @@ https://live.metshop.top/huya/30080236
 https://live.metshop.top/huya/11601963
 #EXTINF:-1 tvg-name="喜羊羊与灰太狼" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/喜羊羊灰太狼.png" group-title="动画频道",喜羊羊与灰太狼
 https://live.metshop.top/huya/23865080
-#EXTINF:-1 tvg-id="浙江少儿" tvg-name="浙江少儿 [1.3M]" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Zhejiang6.png" group-title="动画频道",浙江少儿 [1.3M]
+#EXTINF:-1 tvg-id="浙江少儿" tvg-name="浙江少儿" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Zhejiang6.png" group-title="动画频道",浙江少儿
 https://ali-xwl.cztv.com/live/channel081080Plxw.m3u8
 #EXTINF:-1 tvg-name="猫和老鼠" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/猫和老鼠.png" group-title="动画频道",猫和老鼠
 https://live.metshop.top/huya/11352879
@@ -283,17 +293,15 @@ https://live.metshop.top/huya/11352879
 http://107.150.60.122/live/ssws.m3u8
 #EXTINF:-1 tvg-name="东南卫视" group-title="卫视频道",东南卫视
 http://198.204.228.26/live/dnwshd.m3u8
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视 [1.4M]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/东方卫视.png" group-title="卫视频道" http-user-agent="AptvPlayer-UA",东方卫视 [1.4M]
-http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
 #EXTINF:-1 tvg-name="东方卫视" group-title="卫视频道",东方卫视
 http://107.150.60.122/live/dfwshd.m3u8
-#EXTINF:-1 tvg-name="东方卫视4K [1.1M]" group-title="卫视频道",东方卫视4K [1.1M]
-https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/东方卫视.png" group-title="卫视频道" http-user-agent="AptvPlayer-UA",东方卫视
+http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
 #EXTINF:-1 tvg-name="云南卫视" group-title="卫视频道",云南卫视
 http://107.150.60.122/live/ynwshd.m3u8
-#EXTINF:-1 tvg-name="内蒙古卫视 [1.3M]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/内蒙古卫视.png" group-title="卫视频道",内蒙古卫视 [1.3M]
+#EXTINF:-1 tvg-name="内蒙古卫视 [1.2M]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/内蒙古卫视.png" group-title="卫视频道",内蒙古卫视 [1.2M]
 http://120.76.248.139/live/bfgd/4200000110.m3u8
-#EXTINF:-1 tvg-name="农林卫视 [1.5M]" group-title="卫视频道",农林卫视 [1.5M]
+#EXTINF:-1 tvg-name="农林卫视 [1.2M]" group-title="卫视频道",农林卫视 [1.2M]
 http://120.76.248.139/live/bfgd/4200000122.m3u8
 #EXTINF:-1 tvg-name="北京卫视" group-title="卫视频道",北京卫视
 http://107.150.60.122/live/bjwshd.m3u8
@@ -303,9 +311,9 @@ http://107.150.60.122/live/jlwshd.m3u8
 http://107.150.60.122/live/scwshd.m3u8
 #EXTINF:-1 tvg-name="天津卫视" group-title="卫视频道",天津卫视
 http://107.150.60.122/live/tjwshd.m3u8
-#EXTINF:-1 tvg-name="宁夏卫视 [1.3M]" group-title="卫视频道",宁夏卫视 [1.3M]
+#EXTINF:-1 tvg-name="宁夏卫视 [1.2M]" group-title="卫视频道",宁夏卫视 [1.2M]
 http://120.76.248.139/live/bfgd/4200000118.m3u8
-#EXTINF:-1 tvg-name="安多卫视 [578K]" group-title="卫视频道",安多卫视 [578K]
+#EXTINF:-1 tvg-name="安多卫视" group-title="卫视频道",安多卫视
 https://liveout.xntv.tv/a65jur/96iln2.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" group-title="卫视频道",安徽卫视
 http://107.150.60.122/live/ahwshd.m3u8
@@ -319,7 +327,7 @@ http://107.150.60.122/live/gdwshd.m3u8
 http://101.35.240.114:88/live.php?id=广东卫视
 #EXTINF:-1 tvg-name="广西卫视" group-title="卫视频道",广西卫视
 http://107.150.60.122/live/gxwshd.m3u8
-#EXTINF:-1 tvg-name="延边卫视 [619K]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/延边卫视.png" group-title="卫视频道",延边卫视 [619K]
+#EXTINF:-1 tvg-name="延边卫视 [1.1M]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/延边卫视.png" group-title="卫视频道",延边卫视 [1.1M]
 http://120.76.248.139/live/bfgd/4200000117.m3u8
 #EXTINF:-1 tvg-name="延边卫视" group-title="卫视频道",延边卫视
 https://srs.iyb983.cn/video/CYS/index.m3u8
@@ -327,23 +335,23 @@ https://srs.iyb983.cn/video/CYS/index.m3u8
 http://198.204.228.26/live/jswshd.m3u8
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/江苏卫视.png" group-title="卫视频道" http-user-agent="AptvPlayer-UA" http-header="Referer=https://litchi-play-encrypted-site.jstv.com/",江苏卫视
 http://101.35.240.114:88/live.php?id=江苏卫视
-#EXTINF:-1 tvg-name="江苏卫视4K" group-title="卫视频道",江苏卫视4K
+#EXTINF:-1 tvg-name="江苏卫视4K [1.1M]" group-title="卫视频道",江苏卫视4K [1.1M]
 http://8.138.7.223/tv/jsws4k.php
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视 [802K]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/江西卫视.png" group-title="卫视频道" http-user-agent="AptvPlayer-UA",江西卫视 [802K]
+http://101.35.240.114:88/live.php?id=江西卫视
 #EXTINF:-1 tvg-name="江西卫视" group-title="卫视频道",江西卫视
 http://107.150.60.122/live/jxwshd.m3u8
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/江西卫视.png" group-title="卫视频道" http-user-agent="AptvPlayer-UA",江西卫视
-http://101.35.240.114:88/live.php?id=江西卫视
 #EXTINF:-1 tvg-name="河北卫视" group-title="卫视频道",河北卫视
 https://event.pull.hebtv.com/live/live101.m3u8
-#EXTINF:-1 tvg-name="河南卫视 [1.2M]" group-title="卫视频道",河南卫视 [1.2M]
+#EXTINF:-1 tvg-name="河南卫视" group-title="卫视频道",河南卫视
 http://107.150.60.122/live/hawshd.m3u8
-#EXTINF:-1 tvg-name="浙江卫视 [1.2M]" group-title="卫视频道",浙江卫视 [1.2M]
-https://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视 [370K]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/浙江卫视.png" group-title="卫视频道" http-user-agent="AptvPlayer-UA",浙江卫视 [370K]
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视 [1.7M]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/浙江卫视.png" group-title="卫视频道" http-user-agent="AptvPlayer-UA",浙江卫视 [1.7M]
 http://101.35.240.114:88/live.php?id=浙江卫视
-#EXTINF:-1 tvg-name="浙江卫视4K [1.2M]" group-title="卫视频道" http-user-agent="aliplayer",浙江卫视4K [1.2M]
+#EXTINF:-1 tvg-name="浙江卫视" group-title="卫视频道",浙江卫视
+https://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
+#EXTINF:-1 tvg-name="浙江卫视4K [1.6M]" group-title="卫视频道" http-user-agent="aliplayer",浙江卫视4K [1.6M]
 http://101.35.240.114:88/live.php?id=浙江卫视4K
-#EXTINF:-1 tvg-name="海南卫视 [1.5M]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/海南卫视.png" group-title="卫视频道",海南卫视 [1.5M]
+#EXTINF:-1 tvg-name="海南卫视 [1.2M]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/海南卫视.png" group-title="卫视频道",海南卫视 [1.2M]
 http://120.76.248.139/live/bfgd/4200000473.m3u8
 #EXTINF:-1 tvg-name="海峡卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/海峡卫视.png" group-title="卫视频道",海峡卫视
 http://8.138.7.223/tv/hxws.m3u8
@@ -351,12 +359,12 @@ http://8.138.7.223/tv/hxws.m3u8
 http://107.150.60.122/live/szwshd.m3u8
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/深圳卫视.png" group-title="卫视频道" http-user-agent="AptvPlayer-UA",深圳卫视
 http://101.35.240.114:88/live.php?id=深圳卫视
-#EXTINF:-1 tvg-name="深圳卫视4K" group-title="卫视频道" http-user-agent="AptvPlayer-UA",深圳卫视4K
+#EXTINF:-1 tvg-name="深圳卫视4K [2.1M]" group-title="卫视频道" http-user-agent="AptvPlayer-UA",深圳卫视4K [2.1M]
 http://101.35.240.114:88/live.php?id=深圳卫视4K
-#EXTINF:-1 tvg-name="湖北卫视 [1.0M]" group-title="卫视频道",湖北卫视 [1.0M]
-http://107.150.60.122/live/hbwshd.m3u8
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/湖北卫视.png" group-title="卫视频道" http-user-agent="AptvPlayer-UA",湖北卫视
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视 [2.0M]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/湖北卫视.png" group-title="卫视频道" http-user-agent="AptvPlayer-UA",湖北卫视 [2.0M]
 http://101.35.240.114:88/live.php?id=湖北卫视
+#EXTINF:-1 tvg-name="湖北卫视" group-title="卫视频道",湖北卫视
+http://107.150.60.122/live/hbwshd.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" group-title="卫视频道",湖南卫视
 http://107.150.60.122/live/hnwshd.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/湖南卫视.png" group-title="卫视频道" http-user-agent="AptvPlayer-UA",湖南卫视
@@ -367,16 +375,16 @@ http://101.35.240.114:88/live.php?id=湖南卫视4K
 http://107.150.60.122/live/gswshd.m3u8
 #EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/西藏卫视.png" group-title="卫视频道" http-user-agent="AptvPlayer-UA",西藏卫视
 http://101.35.240.114:88/live.php?id=西藏卫视
-#EXTINF:-1 tvg-name="贵州卫视 [1.0M]" group-title="卫视频道",贵州卫视 [1.0M]
+#EXTINF:-1 tvg-name="贵州卫视" group-title="卫视频道",贵州卫视
 http://107.150.60.122/live/gzwshd.m3u8
-#EXTINF:-1 tvg-name="辽宁卫视 [1.2M]" group-title="卫视频道",辽宁卫视 [1.2M]
+#EXTINF:-1 tvg-name="辽宁卫视" group-title="卫视频道",辽宁卫视
 http://107.150.60.122/live/lnwshd.m3u8
 #EXTINF:-1 tvg-name="重庆卫视" group-title="卫视频道",重庆卫视
 http://107.150.60.122/live/cqwshd.m3u8
+#EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视 [2.1M]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/陕西卫视.png" group-title="卫视频道" http-user-agent="AptvPlayer-UA",陕西卫视 [2.1M]
+http://101.35.240.114:88/live.php?id=陕西卫视
 #EXTINF:-1 tvg-name="陕西卫视" group-title="卫视频道",陕西卫视
 http://107.150.60.122/live/snwshd.m3u8
-#EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/陕西卫视.png" group-title="卫视频道" http-user-agent="AptvPlayer-UA",陕西卫视
-http://101.35.240.114:88/live.php?id=陕西卫视
 #EXTINF:-1 tvg-name="青海卫视" group-title="卫视频道",青海卫视
 http://107.150.60.122/live/qhws.m3u8
 
@@ -391,7 +399,7 @@ https://zb-live.ynurl.com/yimen/3b75a2f9-7941-46b7-992d-a9796fbca5fe.m3u8
 https://zb-live.ynurl.com/tonghai/3bfe3a9e-48e6-4c1e-8770-1df66447cc6c.m3u8
 
 #地方·北京
-#EXTINF:-1 tvg-name="北京科教 [1.3M]" group-title="地方·北京",北京科教 [1.3M]
+#EXTINF:-1 tvg-name="北京科教 [1.2M]" group-title="地方·北京",北京科教 [1.2M]
 http://120.76.248.139/live/bfgd/4200000113.m3u8
 
 #地方·吉林
@@ -399,25 +407,25 @@ http://120.76.248.139/live/bfgd/4200000113.m3u8
 http://stream5.jlntv.cn/wq/playlist.m3u8
 
 #地方·四川
-#EXTINF:-1 tvg-name="乐至综合 [1.5M]" group-title="地方·四川",乐至综合 [1.5M]
+#EXTINF:-1 tvg-name="乐至综合 [1.0M]" group-title="地方·四川",乐至综合 [1.0M]
 http://175.155.106.72:89/live1/live1.m3u8?zsicd
 #EXTINF:-1 tvg-name="名山综合" group-title="地方·四川",名山综合
 https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8
-#EXTINF:-1 tvg-name="四川科教 [436K]" group-title="地方·四川",四川科教 [436K]
+#EXTINF:-1 tvg-name="四川科教 [786K]" group-title="地方·四川",四川科教 [786K]
 http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
-#EXTINF:-1 tvg-name="广安公共 [1.2M]" group-title="地方·四川",广安公共 [1.2M]
+#EXTINF:-1 tvg-name="广安公共 [969K]" group-title="地方·四川",广安公共 [969K]
 http://live1.gatv.com.cn:85/live/GGPD.m3u8
 #EXTINF:-1 tvg-name="松潘新闻综合" group-title="地方·四川",松潘新闻综合
 http://live.spccmc.com:90/live/spxwzh.m3u8
-#EXTINF:-1 tvg-name="汶川新闻综合" group-title="地方·四川",汶川新闻综合
+#EXTINF:-1 tvg-name="汶川新闻综合 [1.1M]" group-title="地方·四川",汶川新闻综合 [1.1M]
 http://live.iwcmt.cn:90/live/zhxw.m3u8
 #EXTINF:-1 tvg-name="荥经综合" group-title="地方·四川",荥经综合
 https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8
-#EXTINF:-1 tvg-name="金川乡村" group-title="地方·四川",金川乡村
+#EXTINF:-1 tvg-name="金川乡村 [948K]" group-title="地方·四川",金川乡村 [948K]
 http://live.jinchuanrmt.com:90/live/jcxc.m3u8?zsicd
-#EXTINF:-1 tvg-name="金川新闻综合 [1.2M]" group-title="地方·四川",金川新闻综合 [1.2M]
+#EXTINF:-1 tvg-name="金川新闻综合 [979K]" group-title="地方·四川",金川新闻综合 [979K]
 http://139.203.180.9:90/live/zhxw.m3u8
-#EXTINF:-1 tvg-name="雅安新闻综合" group-title="地方·四川",雅安新闻综合
+#EXTINF:-1 tvg-name="雅安新闻综合 [2.1M]" group-title="地方·四川",雅安新闻综合 [2.1M]
 https://play.yunxya.com/channellive/xinwen.m3u8
 #EXTINF:-1 tvg-name="青川综合" group-title="地方·四川",青川综合
 http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8
@@ -427,7 +435,7 @@ http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8
 https://live.gdtv.ah.cn/live/newsTV.m3u8
 
 #地方·山东
-#EXTINF:-1 tvg-name="山东教育" group-title="地方·山东",山东教育
+#EXTINF:-1 tvg-name="山东教育 [2.1M]" group-title="地方·山东",山东教育 [2.1M]
 https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
 
 #地方·山西
@@ -443,7 +451,7 @@ https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
 http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
 #EXTINF:-1 tvg-name="南国都市4K" group-title="地方·广东",南国都市4K
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
-#EXTINF:-1 tvg-name="广东民生" group-title="地方·广东",广东民生
+#EXTINF:-1 tvg-name="广东民生 [1.4M]" group-title="地方·广东",广东民生 [1.4M]
 http://38.75.136.137:98/gslb/dsdqpub/gdgg.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="广东珠江" group-title="地方·广东",广东珠江
 http://r.jdshipin.com/sE5vO
@@ -479,51 +487,51 @@ https://live-auth.51kandianshi.com/szgd/csztv5.m3u8
 https://live-auth.51kandianshi.com/szgd/csztv2.m3u8
 
 #地方·河北
-#EXTINF:-1 tvg-name="任丘综合" group-title="地方·河北",任丘综合
+#EXTINF:-1 tvg-name="任丘综合 [1.8M]" group-title="地方·河北",任丘综合 [1.8M]
 https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-name="兴隆综合" group-title="地方·河北",兴隆综合
 https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-name="平泉综合" group-title="地方·河北",平泉综合
 https://jwcdnqx.hebyun.com.cn/live/pqzh/1500k/tzwj_video.m3u8
-#EXTINF:-1 tvg-name="昌黎综合" group-title="地方·河北",昌黎综合
+#EXTINF:-1 tvg-name="昌黎综合 [1.8M]" group-title="地方·河北",昌黎综合 [1.8M]
 https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-name="河北4K" group-title="地方·河北",河北4K
 https://event.pull.hebtv.com:443/live/live101.m3u8
-#EXTINF:-1 tvg-name="河北公共" group-title="地方·河北",河北公共
+#EXTINF:-1 tvg-name="河北公共 [2.1M]" group-title="地方·河北",河北公共 [2.1M]
 http://1.94.31.214/php/hebei.php?id=hbgg
-#EXTINF:-1 tvg-name="河北农民" group-title="地方·河北",河北农民
+#EXTINF:-1 tvg-name="河北农民 [2.0M]" group-title="地方·河北",河北农民 [2.0M]
 http://1.94.31.214/php/hebei.php?id=nmpd
 #EXTINF:-1 tvg-name="河北少儿" group-title="地方·河北",河北少儿
 http://1.94.31.214/php/hebei.php?id=sekj
-#EXTINF:-1 tvg-name="河北影视" group-title="地方·河北",河北影视
+#EXTINF:-1 tvg-name="河北影视 [2.0M]" group-title="地方·河北",河北影视 [2.0M]
 http://1.94.31.214/php/hebei.php?id=hbys
 #EXTINF:-1 tvg-name="河北经济" group-title="地方·河北",河北经济
 http://1.94.31.214/php/hebei.php?id=jjsh
 #EXTINF:-1 tvg-name="河北都市" group-title="地方·河北",河北都市
 http://1.94.31.214/php/hebei.php?id=hbds
-#EXTINF:-1 tvg-name="清河经济综艺" group-title="地方·河北",清河经济综艺
+#EXTINF:-1 tvg-name="清河经济综艺 [1.8M]" group-title="地方·河北",清河经济综艺 [1.8M]
 https://jwcdnqx.hebyun.com.cn/live/qinghe1/1500k/tzwj_video.m3u8
-#EXTINF:-1 tvg-name="邯郸公共频道" group-title="地方·河北",邯郸公共频道
+#EXTINF:-1 tvg-name="邯郸公共频道 [2.1M]" group-title="地方·河北",邯郸公共频道 [2.1M]
 https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8
-#EXTINF:-1 tvg-name="邯郸新闻" group-title="地方·河北",邯郸新闻
+#EXTINF:-1 tvg-name="邯郸新闻 [2.0M]" group-title="地方·河北",邯郸新闻 [2.0M]
 https://jwcdnqx.hebyun.com.cn/live/hdxwzh/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-name="邯郸科技教育" group-title="地方·河北",邯郸科技教育
 https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8
 
 #地方·浙江
-#EXTINF:-1 tvg-name="云和新闻综合" group-title="地方·浙江",云和新闻综合
+#EXTINF:-1 tvg-name="云和新闻综合 [1.0M]" group-title="地方·浙江",云和新闻综合 [1.0M]
 http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8
-#EXTINF:-1 tvg-name="浙江国际 [1.2M]" group-title="地方·浙江",浙江国际 [1.2M]
+#EXTINF:-1 tvg-name="浙江国际" group-title="地方·浙江",浙江国际
 https://ali-xwl.cztv.com/live/channel101080Plxw.m3u8
-#EXTINF:-1 tvg-name="浙江教科 [1.2M]" group-title="地方·浙江",浙江教科 [1.2M]
+#EXTINF:-1 tvg-name="浙江教科" group-title="地方·浙江",浙江教科
 https://ali-xwl.cztv.com/live/channel041080Plxw.m3u8
-#EXTINF:-1 tvg-name="浙江新闻 [1.2M]" group-title="地方·浙江",浙江新闻 [1.2M]
+#EXTINF:-1 tvg-name="浙江新闻" group-title="地方·浙江",浙江新闻
 https://ali-xwl.cztv.com/live/channel071080Plxw.m3u8
-#EXTINF:-1 tvg-name="浙江民生 [1.1M]" group-title="地方·浙江",浙江民生 [1.1M]
+#EXTINF:-1 tvg-name="浙江民生" group-title="地方·浙江",浙江民生
 https://ali-xwl.cztv.com/live/channel061080Plxw.m3u8
-#EXTINF:-1 tvg-name="浙江经济 [1.2M]" group-title="地方·浙江",浙江经济 [1.2M]
+#EXTINF:-1 tvg-name="浙江经济" group-title="地方·浙江",浙江经济
 https://ali-xwl.cztv.com/live/channel031080Plxw.m3u8
-#EXTINF:-1 tvg-name="浙江钱江 [1.4M]" group-title="地方·浙江",浙江钱江 [1.4M]
+#EXTINF:-1 tvg-name="浙江钱江" group-title="地方·浙江",浙江钱江
 https://ali-xwl.cztv.com/live/channel021080Plxw.m3u8
 #EXTINF:-1 tvg-name="海宁新闻综合" group-title="地方·浙江",海宁新闻综合
 https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
@@ -531,73 +539,71 @@ https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
 https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 #EXTINF:-1 tvg-name="萧山综合" group-title="地方·浙江",萧山综合
 http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
-#EXTINF:-1 tvg-name="诸暨新闻综合" group-title="地方·浙江",诸暨新闻综合
+#EXTINF:-1 tvg-name="诸暨新闻综合 [1.6M]" group-title="地方·浙江",诸暨新闻综合 [1.6M]
 https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
-#EXTINF:-1 tvg-name="象山新闻综合" group-title="地方·浙江",象山新闻综合
+#EXTINF:-1 tvg-name="象山新闻综合 [1.5M]" group-title="地方·浙江",象山新闻综合 [1.5M]
 http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8
-#EXTINF:-1 tvg-name="青田电视台" group-title="地方·浙江",青田电视台
+#EXTINF:-1 tvg-name="青田电视台 [1.5M]" group-title="地方·浙江",青田电视台 [1.5M]
 http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
 #EXTINF:-1 tvg-name="龙泉新闻综合" group-title="地方·浙江",龙泉新闻综合
 http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
 
 #地方·湖北
-#EXTINF:-1 tvg-name="江夏新闻综合 [1.1M]" group-title="地方·湖北",江夏新闻综合 [1.1M]
+#EXTINF:-1 tvg-name="江夏新闻综合 [979K]" group-title="地方·湖北",江夏新闻综合 [979K]
 http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd
 
 #地方·甘肃
-#EXTINF:-1 tvg-name="天祝综合" group-title="地方·甘肃",天祝综合
-https://play.kankanlive.com/live/1656487214793905.m3u8
 #EXTINF:-1 tvg-name="西峰综合" group-title="地方·甘肃",西峰综合
 https://play.kankanlive.com/live/1683944827526991.m3u8
 
 #地方·福建
-#EXTINF:-1 tvg-name="云霄综合" group-title="地方·福建",云霄综合
+#EXTINF:-1 tvg-name="云霄综合 [653K]" group-title="地方·福建",云霄综合 [653K]
 http://live.zzyxxw.com:85/live/xwzh.m3u8
-#EXTINF:-1 tvg-name="福州少儿" group-title="地方·福建",福州少儿
+#EXTINF:-1 tvg-name="福州少儿 [2.0M]" group-title="地方·福建",福州少儿 [2.0M]
 http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
-#EXTINF:-1 tvg-name="福州生活" group-title="地方·福建",福州生活
+#EXTINF:-1 tvg-name="福州生活 [2.1M]" group-title="地方·福建",福州生活 [2.1M]
 http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
 
 #地方·辽宁
-#EXTINF:-1 tvg-name="朝阳新闻综合 [1.5M]" group-title="地方·辽宁",朝阳新闻综合 [1.5M]
+#EXTINF:-1 tvg-name="朝阳新闻综合 [470K]" group-title="地方·辽宁",朝阳新闻综合 [470K]
 http://120.76.248.139/live/bfgd/4200000282.m3u8
-#EXTINF:-1 tvg-name="辽宁公共" group-title="地方·辽宁",辽宁公共
+#EXTINF:-1 tvg-name="辽宁公共 [492K]" group-title="地方·辽宁",辽宁公共 [492K]
 http://dassby.qqff.top:99/live/辽宁公共/index.m3u8
-#EXTINF:-1 tvg-name="辽宁北方" group-title="地方·辽宁",辽宁北方
+#EXTINF:-1 tvg-name="辽宁北方 [969K]" group-title="地方·辽宁",辽宁北方 [969K]
 http://dassby.qqff.top:99/live/辽宁北方/index.m3u8
-#EXTINF:-1 tvg-name="辽宁影视" group-title="地方·辽宁",辽宁影视
+#EXTINF:-1 tvg-name="辽宁影视 [994K]" group-title="地方·辽宁",辽宁影视 [994K]
 http://dassby.qqff.top:99/live/辽宁影视剧/index.m3u8
-#EXTINF:-1 tvg-name="辽宁影视剧 [1.5M]" group-title="地方·辽宁",辽宁影视剧 [1.5M]
+#EXTINF:-1 tvg-name="辽宁影视剧 [1.1M]" group-title="地方·辽宁",辽宁影视剧 [1.1M]
 http://120.76.248.139/live/bfgd/4200000070.m3u8
-#EXTINF:-1 tvg-name="辽宁教育青少 [1.5M]" group-title="地方·辽宁",辽宁教育青少 [1.5M]
+#EXTINF:-1 tvg-name="辽宁教育青少 [1.2M]" group-title="地方·辽宁",辽宁教育青少 [1.2M]
 http://120.76.248.139/live/bfgd/4200000075.m3u8
-#EXTINF:-1 tvg-name="辽宁生活" group-title="地方·辽宁",辽宁生活
+#EXTINF:-1 tvg-name="辽宁生活 [283K]" group-title="地方·辽宁",辽宁生活 [283K]
 http://dassby.qqff.top:99/live/辽宁生活/index.m3u8
-#EXTINF:-1 tvg-name="辽宁经济" group-title="地方·辽宁",辽宁经济
+#EXTINF:-1 tvg-name="辽宁经济 [988K]" group-title="地方·辽宁",辽宁经济 [988K]
 http://dassby.qqff.top:99/live/辽宁经济/index.m3u8
-#EXTINF:-1 tvg-name="辽宁都市 [1.5M]" group-title="地方·辽宁",辽宁都市 [1.5M]
+#EXTINF:-1 tvg-name="辽宁都市 [1.1M]" group-title="地方·辽宁",辽宁都市 [1.1M]
 http://120.76.248.139/live/bfgd/4200000068.m3u8
-#EXTINF:-1 tvg-name="辽宁青少" group-title="地方·辽宁",辽宁青少
+#EXTINF:-1 tvg-name="辽宁青少 [482K]" group-title="地方·辽宁",辽宁青少 [482K]
 http://dassby.qqff.top:99/live/辽宁教育青少/index.m3u8
 
 #地方·重庆
-#EXTINF:-1 tvg-name="重庆新闻" group-title="地方·重庆",重庆新闻
+#EXTINF:-1 tvg-name="重庆新闻 [1.3M]" group-title="地方·重庆",重庆新闻 [1.3M]
 http://38.75.136.137:98/gslb/dsdqpub/cqxw.m3u8?auth=testpub
 
 #地方·青海
-#EXTINF:-1 tvg-name="西宁新闻综合 [602K]" group-title="地方·青海",西宁新闻综合 [602K]
+#EXTINF:-1 tvg-name="西宁新闻综合" group-title="地方·青海",西宁新闻综合
 https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
 
 #地方·黑龙江
-#EXTINF:-1 tvg-name="七台河新闻综合 [1.5M]" group-title="地方·黑龙江",七台河新闻综合 [1.5M]
+#EXTINF:-1 tvg-name="七台河新闻综合 [923K]" group-title="地方·黑龙江",七台河新闻综合 [923K]
 http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8
 #EXTINF:-1 tvg-name="哈尔滨娱乐" group-title="地方·黑龙江",哈尔滨娱乐
 https://stream.hrbtv.net/ylpd/sd/live.m3u8
-#EXTINF:-1 tvg-name="哈尔滨影视 [1.6M]" group-title="地方·黑龙江",哈尔滨影视 [1.6M]
+#EXTINF:-1 tvg-name="哈尔滨影视 [275K]" group-title="地方·黑龙江",哈尔滨影视 [275K]
 http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild
-#EXTINF:-1 tvg-name="哈尔滨新闻综合 [1.4M]" group-title="地方·黑龙江",哈尔滨新闻综合 [1.4M]
+#EXTINF:-1 tvg-name="哈尔滨新闻综合 [971K]" group-title="地方·黑龙江",哈尔滨新闻综合 [971K]
 http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild
-#EXTINF:-1 tvg-name="哈尔滨生活 [1.6M]" group-title="地方·黑龙江",哈尔滨生活 [1.6M]
+#EXTINF:-1 tvg-name="哈尔滨生活 [399K]" group-title="地方·黑龙江",哈尔滨生活 [399K]
 http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild
 #EXTINF:-1 tvg-name="哈尔滨资讯" group-title="地方·黑龙江",哈尔滨资讯
 http://stream.hrbtv.net/zxpd/sd/live.m3u8
@@ -663,7 +669,7 @@ https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8
 https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8
 #EXTINF:-1 tvg-name="CCTV-11" group-title="央视频道",CCTV-11
 http://74.91.26.218:82/live/cctv11hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-12 [660K]" group-title="央视频道",CCTV-12 [660K]
+#EXTINF:-1 tvg-name="CCTV-12" group-title="央视频道",CCTV-12
 http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-13" group-title="央视频道",CCTV-13
 http://74.91.26.218:82/live/cctv13hd.m3u8
@@ -671,7 +677,7 @@ http://74.91.26.218:82/live/cctv13hd.m3u8
 http://198.204.228.26/live/cctv14hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-15" group-title="央视频道",CCTV-15
 http://gmxw.7766.org:808/hls/102/index.m3u8
-#EXTINF:-1 tvg-name="CCTV-17" group-title="央视频道",CCTV-17
+#EXTINF:-1 tvg-name="CCTV-17 [1.6M]" group-title="央视频道",CCTV-17 [1.6M]
 http://74.91.26.218:82/live/cctv17hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-2" group-title="央视频道",CCTV-2
 http://74.91.26.218:82/live/cctv2hd.m3u8
@@ -687,7 +693,7 @@ http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
 http://198.204.228.26/live/cctv6hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-7" group-title="央视频道",CCTV-7
 http://107.150.60.122/live/cctv7hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-8 [1.6M]" group-title="央视频道",CCTV-8 [1.6M]
+#EXTINF:-1 tvg-name="CCTV-8 [414K]" group-title="央视频道",CCTV-8 [414K]
 http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV-8K HD" tvg-name="CCTV-8K HD" group-title="央视频道",CCTV-8K HD
 http://192.151.150.154/live/cctv8k.m3u8
@@ -699,13 +705,13 @@ https://xykt-fix.github.io/Y77.m3u8
 http://38.75.136.137:98/gslb/dsdqpub/ysjp.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV1.png" group-title="央视频道" http-user-agent="AptvPlayer-UA",CCTV1
 http://101.35.240.114:88/live.php?id=CCTV1
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV10.png" group-title="央视频道" http-user-agent="AptvPlayer-UA",CCTV10
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10 [2.1M]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV10.png" group-title="央视频道" http-user-agent="AptvPlayer-UA",CCTV10 [2.1M]
 http://101.35.240.114:88/live.php?id=CCTV10
-#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12 [1.1M]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV12.png" group-title="央视频道" http-user-agent="AptvPlayer-UA",CCTV12 [1.1M]
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV12.png" group-title="央视频道" http-user-agent="AptvPlayer-UA",CCTV12
 http://101.35.240.114:88/live.php?id=CCTV12
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV14.png" group-title="央视频道" http-user-agent="AptvPlayer-UA",CCTV14
 http://101.35.240.114:88/live.php?id=CCTV14
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16 [312K]" group-title="央视频道",CCTV16 [312K]
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" group-title="央视频道",CCTV16
 http://gmxw.7766.org:808/hls/169/index.m3u8
 #EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV3.png" group-title="央视频道" http-user-agent="AptvPlayer-UA",CCTV3
 http://101.35.240.114:88/live.php?id=CCTV3
@@ -717,26 +723,26 @@ http://gmxw.7766.org:808/hls/93/index.m3u8
 http://101.35.240.114:88/live.php?id=CCTV5
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV6.png" group-title="央视频道" http-user-agent="AptvPlayer-UA",CCTV6
 http://101.35.240.114:88/live.php?id=CCTV6
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV8.png" group-title="央视频道" http-user-agent="AptvPlayer-UA",CCTV8
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8 [2.0M]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV8.png" group-title="央视频道" http-user-agent="AptvPlayer-UA",CCTV8 [2.0M]
 http://101.35.240.114:88/live.php?id=CCTV8
-#EXTINF:-1 tvg-name="CEC国际健康" group-title="央视频道",CEC国际健康
+#EXTINF:-1 tvg-name="CEC国际健康 [1.8M]" group-title="央视频道",CEC国际健康 [1.8M]
 http://play.cec-tv.com.cn/channel/cec-tv4.m3u8
-#EXTINF:-1 tvg-name="CEC国际教育" group-title="央视频道",CEC国际教育
+#EXTINF:-1 tvg-name="CEC国际教育 [1.9M]" group-title="央视频道",CEC国际教育 [1.9M]
 http://play.cec-tv.com.cn/channel/cec-tv3.m3u8
-#EXTINF:-1 tvg-name="CEC国际旅游" group-title="央视频道",CEC国际旅游
+#EXTINF:-1 tvg-name="CEC国际旅游 [1.8M]" group-title="央视频道",CEC国际旅游 [1.8M]
 http://play.cec-tv.com.cn/channel/cec-tv2.m3u8
-#EXTINF:-1 tvg-name="CEC汉语文化" group-title="央视频道",CEC汉语文化
+#EXTINF:-1 tvg-name="CEC汉语文化 [1.9M]" group-title="央视频道",CEC汉语文化 [1.9M]
 http://play.cec-tv.com.cn/channel/cec-tv1.m3u8
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN [1.5M]" group-title="央视频道",CGTN [1.5M]
-https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="央视频道",CGTN
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="央视频道",CGTN
+https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="央视频道",CGTN
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
-#EXTINF:-1 tvg-id="CGTN Documentary" tvg-name="CGTN Documentary [1.6M]" group-title="央视频道",CGTN Documentary [1.6M]
-https://hlspackager.akamaized.net/live/DB/CGTN_DOCUMENTARY/HLS/CGTN_DOCUMENTARY.m3u8
 #EXTINF:-1 tvg-id="CGTN Documentary" tvg-name="CGTN Documentary" group-title="央视频道",CGTN Documentary
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-id="CGTN Documentary" tvg-name="CGTN Documentary" group-title="央视频道",CGTN Documentary
+https://hlspackager.akamaized.net/live/DB/CGTN_DOCUMENTARY/HLS/CGTN_DOCUMENTARY.m3u8
 #EXTINF:-1 tvg-id="CGTN Global Biz" tvg-name="CGTN Global Biz" group-title="央视频道",CGTN Global Biz
 https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
 #EXTINF:-1 tvg-name="CGTN法语" group-title="央视频道",CGTN法语
@@ -837,7 +843,7 @@ https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_64
 https://live-20minutestv.digiteka.com/1961167769/tracks-v2a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="ABC News Live" group-title="海外频道",ABC News Live
 https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991626
-#EXTINF:-1 tvg-name="Arirang [1.1M]" group-title="海外频道",Arirang [1.1M]
+#EXTINF:-1 tvg-name="Arirang" group-title="海外频道",Arirang
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
 #EXTINF:-1 tvg-name="CBC News" group-title="海外频道",CBC News
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276
@@ -847,9 +853,9 @@ https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CG
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-name="Caillou" group-title="海外频道",Caillou
 https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
-#EXTINF:-1 tvg-name="DLTV2 [1.1M]" group-title="海外频道",DLTV2 [1.1M]
+#EXTINF:-1 tvg-name="DLTV2" group-title="海外频道",DLTV2
 https://cdn-live.dltv.ac.th/smil:origin01-dltv-02-adaptive.smil/chunklist_b3128000_slth.m3u8
-#EXTINF:-1 tvg-name="DLTV9 [1.0M]" group-title="海外频道",DLTV9 [1.0M]
+#EXTINF:-1 tvg-name="DLTV9" group-title="海外频道",DLTV9
 https://cdn-live.dltv.ac.th/smil:origin02-dltv-09-adaptive.smil/chunklist_b3128000_slth.m3u8
 #EXTINF:-1 tvg-name="Desi Plus" group-title="海外频道",Desi Plus
 http://cdn2.live247stream.com/desiplus/tv/playlist.m3u8
@@ -889,7 +895,7 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 https://cianjur.staratv.id/hls/0/stream.m3u8
 #EXTINF:-1 tvg-name="Stara TV Malang" group-title="海外频道",Stara TV Malang
 https://malang.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="Stara TV Parahyangan [1.5M]" group-title="海外频道",Stara TV Parahyangan [1.5M]
+#EXTINF:-1 tvg-name="Stara TV Parahyangan" group-title="海外频道",Stara TV Parahyangan
 https://parahyangan.staratv.id/hls/0/stream.m3u8
 #EXTINF:-1 tvg-name="Wild Earth" group-title="海外频道",Wild Earth
 https://wildearth-plex.amagi.tv/masterR1080p.m3u8
@@ -925,6 +931,8 @@ http://r.jdshipin.com/NfC0f
 http://r.jdshipin.com/thuYX
 #EXTINF:-1 tvg-name="广州南国都市" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/广州南国都市.png" group-title="港澳代理",广州南国都市
 http://r.jdshipin.com/nWaZO
+#EXTINF:-1 tvg-name="广东体育" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/广东体育.png" group-title="港澳代理",广东体育
+http://r.jdshipin.com/LiYdg
 #EXTINF:-1 tvg-name="广州综合" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/广州综合.png" group-title="港澳代理",广州综合
 http://r.jdshipin.com/iR6Gq
 #EXTINF:-1 tvg-name="广州综合" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/广州综合.png" group-title="港澳代理",广州综合
@@ -951,27 +959,25 @@ http://r.jdshipin.com/n90gt
 http://r.jdshipin.com/GeWKr
 
 #港澳台频道
-#EXTINF:-1 tvg-name="Astro AEC" group-title="港澳台频道",Astro AEC
+#EXTINF:-1 tvg-name="Astro AEC [261K]" group-title="港澳台频道",Astro AEC [261K]
 http://cdn3.123.rr.kg/stream/live/aec/
 #EXTINF:-1 tvg-name="Astro AOD" tvg-logo="https://live.fanmingming.cn/tv/Astro AOD.png" group-title="港澳台频道",Astro AOD
 http://php.jdshipin.com/TVOD/iptv.php?id=aod
 #EXTINF:-1 tvg-name="Astro欢喜台" group-title="港澳台频道",Astro欢喜台
 https://cdn3.indevs.in/stream/live/hxt/
-#EXTINF:-1 tvg-name="HOY TV [262K]" group-title="港澳台频道",HOY TV [262K]
+#EXTINF:-1 tvg-name="HOY TV" group-title="港澳台频道",HOY TV
 http://cdn.123.rr.kg/163189/hoy
 #EXTINF:-1 tvg-name="HOY TV" tvg-logo="https://live.fanmingming.cn/tv/HOY TV.png" group-title="港澳台频道",HOY TV
 http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
 #EXTINF:-1 tvg-name="HOY国际财经台" group-title="港澳台频道",HOY国际财经台
 https://cdn11.163189.xyz/163189/hoy76
-#EXTINF:-1 tvg-name="HOY资讯台 [262K]" group-title="港澳台频道",HOY资讯台 [262K]
+#EXTINF:-1 tvg-name="HOY资讯台" group-title="港澳台频道",HOY资讯台
 http://cdn.123.rr.kg/163189/hoy78
-#EXTINF:-1 tvg-name="NOW新闻台 [262K]" group-title="港澳台频道",NOW新闻台 [262K]
-http://cdn.123.rr.kg/163189/now
-#EXTINF:-1 tvg-name="RTHK31 [262K]" group-title="港澳台频道",RTHK31 [262K]
+#EXTINF:-1 tvg-name="RTHK31" group-title="港澳台频道",RTHK31
 http://cdn.123.rr.kg/163189/rthk31
 #EXTINF:-1 tvg-name="RTHK31" tvg-logo="https://live.fanmingming.cn/tv/RTHK31.png" group-title="港澳台频道",RTHK31
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31
-#EXTINF:-1 tvg-name="RTHK32 [261K]" group-title="港澳台频道",RTHK32 [261K]
+#EXTINF:-1 tvg-name="RTHK32" group-title="港澳台频道",RTHK32
 http://cdn.123.rr.kg/163189/rthk32
 #EXTINF:-1 tvg-name="RTHK32" tvg-logo="https://live.fanmingming.cn/tv/RTHK32.png" group-title="港澳台频道",RTHK32
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32
@@ -989,13 +995,15 @@ http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 http://cdn6.123.rr.kg/163189/yzwx
 #EXTINF:-1 tvg-name="TVB娱乐新闻台" tvg-logo="https://live.fanmingming.cn/tv/TVB娱乐新闻台.png" group-title="港澳台频道",TVB娱乐新闻台
 http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
+#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB2.png" group-title="港澳台频道",明珠台
+http://cdn9.163189.xyz/smt1.1.php?id=pearl_twn
 #EXTINF:-1 tvg-name="TVB星河" group-title="港澳台频道",TVB星河
 https://cdn3.indevs.in/stream/live/tvbxh/
 #EXTINF:-1 tvg-name="TVB星河" tvg-logo="https://live.fanmingming.cn/tv/TVB星河.png" group-title="港澳台频道",TVB星河
 http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
-#EXTINF:-1 tvg-name="TVB星河1" group-title="港澳台频道",TVB星河1
+#EXTINF:-1 tvg-name="TVB星河1 [262K]" group-title="港澳台频道",TVB星河1 [262K]
 http://cdn3.123.rr.kg/stream/live/tvbxh/
-#EXTINF:-1 tvg-name="TVB星河2 [262K]" group-title="港澳台频道",TVB星河2 [262K]
+#EXTINF:-1 tvg-name="TVB星河2 [261K]" group-title="港澳台频道",TVB星河2 [261K]
 http://cdn6.123.rr.kg/163189/tvbxh
 #EXTINF:-1 tvg-name="TVB星河3" group-title="港澳台频道",TVB星河3
 http://cdn10.123.rr.kg/163189/xinghe/
@@ -1009,9 +1017,9 @@ http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
 http://cdn10.123.rr.kg/163189/viu6/
 #EXTINF:-1 tvg-name="亚洲武侠" tvg-logo="https://live.fanmingming.cn/tv/亚洲武侠.png" group-title="港澳台频道",亚洲武侠
 http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
-#EXTINF:-1 tvg-name="人间卫视 [1.4M]" group-title="港澳台频道",人间卫视 [1.4M]
+#EXTINF:-1 tvg-name="人间卫视 [901K]" group-title="港澳台频道",人间卫视 [901K]
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
-#EXTINF:-1 tvg-name="人间卫视 [1.0M]" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/BLTV.png" group-title="港澳台频道",人间卫视 [1.0M]
+#EXTINF:-1 tvg-name="人间卫视 [677K]" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/BLTV.png" group-title="港澳台频道",人间卫视 [677K]
 http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 #EXTINF:-1 tvg-name="凤凰卫视" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视频道.png" group-title="港澳台频道",凤凰卫视
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
@@ -1019,23 +1027,23 @@ http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 #EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.cn/tv/凤凰香港频道.png" group-title="港澳台频道",凤凰香港
 http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
-#EXTINF:-1 tvg-name="千禧经典台" group-title="港澳台频道",千禧经典台
+#EXTINF:-1 tvg-name="千禧经典台 [262K]" group-title="港澳台频道",千禧经典台 [262K]
 http://cdn3.123.rr.kg/stream/live/tvbc/
 #EXTINF:-1 tvg-name="华丽翡翠台" tvg-logo="https://live.fanmingming.cn/tv/华丽翡翠台.png" group-title="港澳台频道",华丽翡翠台
 http://php.jdshipin.com/TVOD/iptv.php?id=huali2
-#EXTINF:-1 tvg-name="华丽翡翠台(新加坡)" group-title="港澳台频道",华丽翡翠台(新加坡)
+#EXTINF:-1 tvg-name="华丽翡翠台(新加坡) [261K]" group-title="港澳台频道",华丽翡翠台(新加坡) [261K]
 http://cdn3.123.rr.kg/stream/live/jade/
 #EXTINF:-1 tvg-name="华丽翡翠台1 [262K]" group-title="港澳台频道",华丽翡翠台1 [262K]
 http://cdn6.123.rr.kg/163189/hlfct
 #EXTINF:-1 tvg-name="台视新闻" group-title="港澳台频道",台视新闻
 http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
-#EXTINF:-1 tvg-name="唯心電視 [2.1M]" group-title="港澳台频道",唯心電視 [2.1M]
+#EXTINF:-1 tvg-name="唯心電視" group-title="港澳台频道",唯心電視
 https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
 #EXTINF:-1 tvg-name="大立电视台" group-title="港澳台频道",大立电视台
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 #EXTINF:-1 tvg-name="好消息综合台" group-title="港澳台频道",好消息综合台
 https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
-#EXTINF:-1 tvg-name="娱乐新闻台 [261K]" group-title="港澳台频道",娱乐新闻台 [261K]
+#EXTINF:-1 tvg-name="娱乐新闻台 [262K]" group-title="港澳台频道",娱乐新闻台 [262K]
 http://cdn6.123.rr.kg/163189/ylxw
 #EXTINF:-1 tvg-name="无线新闻台 [262K]" group-title="港澳台频道",无线新闻台 [262K]
 http://cdn6.123.rr.kg/163189/wxxw
@@ -1047,21 +1055,21 @@ http://cdn6.123.rr.kg/163189/wxxwt
 http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 #EXTINF:-1 tvg-name="明珠台(WebVTT字幕)" group-title="港澳台频道",明珠台(WebVTT字幕)
 http://cdn10.123.rr.kg/163189/mzt/
-#EXTINF:-1 tvg-name="欢喜台" group-title="港澳台频道",欢喜台
+#EXTINF:-1 tvg-name="欢喜台 [262K]" group-title="港澳台频道",欢喜台 [262K]
 http://cdn3.123.rr.kg/stream/live/hxt/
-#EXTINF:-1 tvg-name="澳视卫星 [261K]" group-title="港澳台频道",澳视卫星 [261K]
+#EXTINF:-1 tvg-name="澳视卫星 [262K]" group-title="港澳台频道",澳视卫星 [262K]
 http://cdn6.123.rr.kg/163189/as
-#EXTINF:-1 tvg-name="澳视澳门 [262K]" group-title="港澳台频道",澳视澳门 [262K]
+#EXTINF:-1 tvg-name="澳视澳门 [261K]" group-title="港澳台频道",澳视澳门 [261K]
 http://cdn6.123.rr.kg/163189/asam
 #EXTINF:-1 tvg-id="澳视澳门" tvg-name="澳视澳门" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gangaotai/Aoshi1.png" group-title="港澳台频道",澳视澳门
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=asam
-#EXTINF:-1 tvg-name="澳门体育 [262K]" group-title="港澳台频道",澳门体育 [262K]
+#EXTINF:-1 tvg-name="澳门体育 [261K]" group-title="港澳台频道",澳门体育 [261K]
 http://cdn6.123.rr.kg/163189/amty
 #EXTINF:-1 tvg-id="澳门卫视" tvg-name="澳门卫视" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gangaotai/Aoshi1.png" group-title="港澳台频道",澳门卫视
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=as
 #EXTINF:-1 tvg-name="澳门综艺 [262K]" group-title="港澳台频道",澳门综艺 [262K]
 http://cdn6.123.rr.kg/163189/amzy
-#EXTINF:-1 tvg-name="澳门莲花 [261K]" group-title="港澳台频道",澳门莲花 [261K]
+#EXTINF:-1 tvg-name="澳门莲花 [262K]" group-title="港澳台频道",澳门莲花 [262K]
 http://cdn6.123.rr.kg/163189/amlh
 #EXTINF:-1 tvg-name="翡翠剧集台 [262K]" group-title="港澳台频道",翡翠剧集台 [262K]
 http://cdn6.123.rr.kg/163189/tvbd
@@ -1073,12 +1081,10 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
 https://cdn3.indevs.in/stream/tvb/fct4k/
 #EXTINF:-1 tvg-name="翡翠台北美版" tvg-logo="https://live.fanmingming.cn/tv/翡翠台北美版.png" group-title="港澳台频道",翡翠台北美版
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=j1
-#EXTINF:-1 tvg-id="耀才财经" tvg-name="耀才财经 [1.9M]" tvg-logo="https://live.fanmingming.cn/tv/耀才财经.png" group-title="港澳台频道",耀才财经 [1.9M]
-https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
-#EXTINF:-1 tvg-name="耀才财经 [1.2M]" group-title="港澳台频道",耀才财经 [1.2M]
+#EXTINF:-1 tvg-name="耀才财经" group-title="港澳台频道",耀才财经
 https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
-#EXTINF:-1 tvg-name="香港卫视" group-title="港澳台频道",香港卫视
-http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 tvg-id="耀才财经" tvg-name="耀才财经" tvg-logo="https://live.fanmingming.cn/tv/耀才财经.png" group-title="港澳台频道",耀才财经
+https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
 
 #电影频道
 #EXTINF:-1 tvg-name="AXN Black" group-title="电影频道",AXN Black
@@ -1091,11 +1097,11 @@ http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="CHC动作电影" group-title="电影频道",CHC动作电影
 http://198.204.228.26/live/chcdz.m3u8
-#EXTINF:-1 tvg-name="CHC家庭影院 [876K]" group-title="电影频道",CHC家庭影院 [876K]
+#EXTINF:-1 tvg-name="CHC家庭影院" group-title="电影频道",CHC家庭影院
 http://107.150.60.122/live/chcjt.m3u8
-#EXTINF:-1 tvg-name="CHC影迷电影" group-title="电影频道",CHC影迷电影
+#EXTINF:-1 tvg-name="CHC影迷电影 [762K]" group-title="电影频道",CHC影迷电影 [762K]
 http://38.75.136.137:98/gslb/dsdqpub/chchd.m3u8?auth=testpub
-#EXTINF:-1 tvg-name="CHC电影 [1.3M]" group-title="电影频道",CHC电影 [1.3M]
+#EXTINF:-1 tvg-name="CHC电影 [516K]" group-title="电影频道",CHC电影 [516K]
 http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="Cine Nanar" group-title="电影频道",Cine Nanar
 https://zylo-cinenanar-rakuten.amagi.tv/playlist480p.m3u8
@@ -1105,9 +1111,9 @@ http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
 http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
 #EXTINF:-1 tvg-name="Cinemax West (720p)" group-title="电影频道",Cinemax West (720p)
 http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8
-#EXTINF:-1 tvg-name="FILMBOX+ Comedy (720p) [1.3M]" group-title="电影频道",FILMBOX+ Comedy (720p) [1.3M]
+#EXTINF:-1 tvg-name="FILMBOX+ Comedy (720p) [928K]" group-title="电影频道",FILMBOX+ Comedy (720p) [928K]
 http://92.114.85.87:8008/play/a009/index.m3u8
-#EXTINF:-1 tvg-name="FILMBOX+ Emotion (720p) [466K]" group-title="电影频道",FILMBOX+ Emotion (720p) [466K]
+#EXTINF:-1 tvg-name="FILMBOX+ Emotion (720p) [948K]" group-title="电影频道",FILMBOX+ Emotion (720p) [948K]
 http://92.114.85.87:8008/play/a008/index.m3u8
 #EXTINF:-1 tvg-name="Paramount Network (1080p)" group-title="电影频道",Paramount Network (1080p)
 http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
@@ -1115,7 +1121,7 @@ http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
 http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8
 #EXTINF:-1 tvg-name="Universal Cinema (1080p)" group-title="电影频道",Universal Cinema (1080p)
 http://168.196.127.137:6001/play/a09b/index.m3u8
-#EXTINF:-1 tvg-name="华数动作影院 [639K]" group-title="电影频道",华数动作影院 [639K]
+#EXTINF:-1 tvg-name="华数动作影院 [806K]" group-title="电影频道",华数动作影院 [806K]
 http://113.25.252.226:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="周星驰2专场" group-title="电影频道",周星驰2专场
 https://cfss.cc/Qs/hy.php
@@ -1125,17 +1131,17 @@ https://cdn3.indevs.in/stream/live/typd/
 http://cdn10.123.rr.kg/163189/typd/
 #EXTINF:-1 tvg-name="天映经典" group-title="电影频道",天映经典
 https://cdn3.indevs.in/stream/live/ccm/
-#EXTINF:-1 tvg-name="天映经典台" group-title="电影频道",天映经典台
+#EXTINF:-1 tvg-name="天映经典台 [261K]" group-title="电影频道",天映经典台 [261K]
 http://cdn3.123.rr.kg/stream/live/ccm/
 #EXTINF:-1 tvg-name="天映经典台2" group-title="电影频道",天映经典台2
 http://cdn10.123.rr.kg/163189/ccm/
-#EXTINF:-1 tvg-name="天映频道" group-title="电影频道",天映频道
+#EXTINF:-1 tvg-name="天映频道 [262K]" group-title="电影频道",天映频道 [262K]
 http://cdn3.123.rr.kg/stream/live/typd/
 #EXTINF:-1 tvg-name="湖南电影" group-title="电影频道",湖南电影
 https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNDYMPP360.m3u8
-#EXTINF:-1 tvg-name="美亚C+" group-title="电影频道",美亚C+
+#EXTINF:-1 tvg-name="美亚C+ [1.3M]" group-title="电影频道",美亚C+ [1.3M]
 http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
-#EXTINF:-1 tvg-name="重温经典" group-title="电影频道",重温经典
+#EXTINF:-1 tvg-name="重温经典 [1.6M]" group-title="电影频道",重温经典 [1.6M]
 http://8.138.7.223/tv/cwjd.php
 #EXTINF:-1 tvg-name="长影频道" group-title="电影频道",长影频道
 http://tpc.x3322.net:9901/tsfile/live/1010_1.m3u8
@@ -1335,7 +1341,7 @@ rtmp://tv.mcrm.org.cn:1935/channellive/tv01
 rtmp://tv.yunxya.com:1937/channellive/shimian
 
 #☘️浙江频道
-#EXTINF:-1 tvg-name="文成新闻综合 [播放列表停滞（循环回放）]" tvg-logo="https://live.fanmingming.cn/tv/文成新闻综合.png" group-title="☘️浙江频道",文成新闻综合 [播放列表停滞（循环回放）]
+#EXTINF:-1 tvg-name="文成新闻综合 [1.1M.播放列表停滞（循环回放）]" tvg-logo="https://live.fanmingming.cn/tv/文成新闻综合.png" group-title="☘️浙江频道",文成新闻综合 [1.1M.播放列表停滞（循环回放）]
 http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8
 
 #☘️湖北频道
@@ -1364,17 +1370,19 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-name="精灵宝可梦 [点播列表（非直播）]" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/精灵宝可梦.png" group-title="动画频道",精灵宝可梦 [点播列表（非直播）]
 https://live.metshop.top/huya/23749096
 
+#国际频道
+#EXTINF:-1 tvg-id="6140" tvg-name="Bloomberg Asia [点播列表（非直播）]" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/BloombergTV.png" group-title="国际频道",Bloomberg Asia [点播列表（非直播）]
+https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8
+
 #地方·甘肃
+#EXTINF:-1 tvg-name="天祝综合 [播放列表停滞（循环回放）]" group-title="地方·甘肃",天祝综合 [播放列表停滞（循环回放）]
+https://play.kankanlive.com/live/1656487214793905.m3u8
 #EXTINF:-1 tvg-name="永昌综合 [播放列表停滞（循环回放）]" group-title="地方·甘肃",永昌综合 [播放列表停滞（循环回放）]
 https://play.kankanlive.com/live/1652755738635915.m3u8
 
 #埋堆堆频道
 #EXTINF:-1 tvg-name="使徒行者 [点播列表（非直播）]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="埋堆堆频道",使徒行者 [点播列表（非直播）]
 https://live.metshop.top/huya/23734256
-
-#港澳代理
-#EXTINF:-1 tvg-name="广东体育 [播放列表停滞（循环回放）]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/广东体育.png" group-title="港澳代理",广东体育 [播放列表停滞（循环回放）]
-http://r.jdshipin.com/LiYdg
 
 #港澳台频道
 #EXTINF:-1 tvg-name="ASTRO AOD [播放列表停滞（循环回放）]" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/ASTROAOD.png" group-title="港澳台频道",ASTRO AOD [播放列表停滞（循环回放）]
@@ -1385,9 +1393,11 @@ rtmp://f13h.mine.nu/sat/tv731
 rtmp://f13h.mine.nu/sat/tv741
 #EXTINF:-1 tvg-id="MOMOTV" tvg-name="MOMO TV [非 http(s) 协议（rtmp）]" tvg-logo="https://gitee.com/suxuang/logo/raw/master/logo/MOMOTV.png" group-title="港澳台频道",MOMO TV [非 http(s) 协议（rtmp）]
 rtmp://f13h.mine.nu/sat/tv761
-#EXTINF:-1 tvg-name="TVBS新闻台 [1.9M.播放列表停滞（循环回放）]" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVBS1.png" group-title="港澳台频道",TVBS新闻台 [1.9M.播放列表停滞（循环回放）]
+#EXTINF:-1 tvg-name="NOW新闻台 [播放列表停滞（循环回放）]" group-title="港澳台频道",NOW新闻台 [播放列表停滞（循环回放）]
+http://cdn.123.rr.kg/163189/now
+#EXTINF:-1 tvg-name="TVBS新闻台 [1.3M.播放列表停滞（循环回放）]" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVBS1.png" group-title="港澳台频道",TVBS新闻台 [1.3M.播放列表停滞（循环回放）]
 http://61.221.215.25:8800/hls/9/index.m3u8
-#EXTINF:-1 tvg-id="三立戏剧" tvg-name="三立戏剧 [1.9M.播放列表停滞（循环回放）]" group-title="港澳台频道",三立戏剧 [1.9M.播放列表停滞（循环回放）]
+#EXTINF:-1 tvg-id="三立戏剧" tvg-name="三立戏剧 [1.3M.播放列表停滞（循环回放）]" group-title="港澳台频道",三立戏剧 [1.3M.播放列表停滞（循环回放）]
 http://61.221.215.25:8800/hls/41/index.m3u8
 #EXTINF:-1 tvg-id="东森超视" tvg-name="东森超视 [非 http(s) 协议（rtmp）]" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/EBC2.png" group-title="港澳台频道",东森超视 [非 http(s) 协议（rtmp）]
 rtmp://f13h.mine.nu/sat/tv331
@@ -1395,8 +1405,6 @@ rtmp://f13h.mine.nu/sat/tv331
 rtmp://f13h.mine.nu/sat/tv091
 #EXTINF:-1 tvg-name="八大戏剧台 [点播列表（非直播）]" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720155115252575_13.png" group-title="港澳台频道",八大戏剧台 [点播列表（非直播）]
 http://61.221.215.25:8800/hls/39/index.m3u8
-#EXTINF:-1 tvg-id="千禧经典" tvg-name="千禧经典 [播放列表停滞（循环回放）]" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/千禧经典.png" group-title="港澳台频道",千禧经典 [播放列表停滞（循环回放）]
-http://cdn9.163189.xyz/smt3.1.1.php?id=Tvbclassic
 #EXTINF:-1 tvg-id="华视" tvg-name="华视 [非 http(s) 协议（rtmp）]" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CTS.png" group-title="港澳台频道",华视 [非 http(s) 协议（rtmp）]
 rtmp://f13h.mine.nu/sat/tv111
 #EXTINF:-1 tvg-id="台视" tvg-name="台视 [非 http(s) 协议（rtmp）]" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/台视.png" group-title="港澳台频道",台视 [非 http(s) 协议（rtmp）]
@@ -1407,7 +1415,7 @@ rtmp://f13h.mine.nu/sat/tv051
 rtmp://f13h.mine.nu/sat/tv721
 #EXTINF:-1 tvg-id="纬来日本" tvg-name="纬来日本 [非 http(s) 协议（rtmp）]" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gangaotai/Weilai3.png" group-title="港澳台频道",纬来日本 [非 http(s) 协议（rtmp）]
 rtmp://f13h.mine.nu/sat/tv771
-#EXTINF:-1 tvg-id="纬来精采" tvg-name="纬来精采 [1.9M.播放列表停滞（循环回放）]" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gangaotai/Weilai7.png" group-title="港澳台频道",纬来精采 [1.9M.播放列表停滞（循环回放）]
+#EXTINF:-1 tvg-id="纬来精采" tvg-name="纬来精采 [1.3M.播放列表停滞（循环回放）]" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gangaotai/Weilai7.png" group-title="港澳台频道",纬来精采 [1.3M.播放列表停滞（循环回放）]
 http://61.221.215.25:8800/hls/48/index.m3u8
 #EXTINF:-1 tvg-id="纬来育乐" tvg-name="纬来育乐 [非 http(s) 协议（rtmp）]" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gangaotai/Weilai6.png" group-title="港澳台频道",纬来育乐 [非 http(s) 协议（rtmp）]
 rtmp://f13h.mine.nu/sat/tv701

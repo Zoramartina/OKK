@@ -8,6 +8,10 @@ http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
 #EXTINF:-1 tvg-id="苏州" tvg-name="苏州4K" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/苏州4K.png" group-title="4K频道",苏州4K
 https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8
 
+#APTV专享
+#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://live.fanmingming.cn/tv/重温经典.png" group-title="APTV专享" http-user-agent="AptvPlayer-UA",重温经典
+http://101.35.240.114:88/live.php?id=重温经典
+
 #☘️四川频道
 #EXTINF:-1 tvg-name="叙州新闻综合" group-title="☘️四川频道",叙州新闻综合
 http://pili-live-hls.ybcxjd.com/jdh-live/2108111201035597.m3u8?zsicd
@@ -21,6 +25,12 @@ http://live.jinchuanrmt.com:90/live/zhxw.m3u8?zsicd
 http://8.138.7.223/tv/gzjs.m3u8
 #EXTINF:-1 tvg-name="广州综合" tvg-logo="https://live.fanmingming.cn/tv/广州综合.png" group-title="☘️广东频道",广州综合
 http://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=c8dbe86d6f86eb1a21999ab479fd5667&txTime=18d3c4690e8
+
+#☘️河北频道
+#EXTINF:-1 tvg-name="邢台生活" tvg-logo="https://live.fanmingming.cn/tv/邢台生活.png" group-title="☘️河北频道",邢台生活
+https://jwcdnqx.hebyun.com.cn/live/xtcsshpd/1500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-name="邢台综合" tvg-logo="https://live.fanmingming.cn/tv/邢台综合.png" group-title="☘️河北频道",邢台综合
+http://jwplay.hebyun.com.cn/live/xtsrmtzs/1500k/tzwj_video.m3u8
 
 #☘️浙江频道
 #EXTINF:-1 tvg-id="之江纪录" tvg-name="之江纪录" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/zhejiang/Zhejiang8.png" group-title="☘️浙江频道",之江纪录
@@ -50,9 +60,9 @@ http://stream.hrbtv.net/ylpd/sd/live.m3u8?zheild
 #EXTINF:-1 tvg-id="TTV News" tvg-name="TTV News" group-title="中国台湾频道",TTV News
 https://live.wcetv.com/hls/master-ttvnews.m3u8
 #EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲" group-title="中国台湾频道",TVBS亚洲
-http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
-#EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲" group-title="中国台湾频道",TVBS亚洲
 http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
+#EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲" group-title="中国台湾频道",TVBS亚洲
+http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
 #EXTINF:-1 tvg-id="TVBS亞洲" tvg-name="TVBS亞洲" group-title="中国台湾频道",TVBS亞洲
 http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 #EXTINF:-1 tvg-id="TVBS亞洲" tvg-name="TVBS亞洲" group-title="中国台湾频道",TVBS亞洲
@@ -395,6 +405,10 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 #动画频道
 #EXTINF:-1 tvg-name="精灵宝可梦" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/精灵宝可梦.png" group-title="动画频道",精灵宝可梦
 https://live.metshop.top/huya/23749096
+
+#国际频道
+#EXTINF:-1 tvg-id="6140" tvg-name="Bloomberg Asia" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/BloombergTV.png" group-title="国际频道",Bloomberg Asia
+https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8
 
 #埋堆堆频道
 #EXTINF:-1 tvg-name="使徒行者" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="埋堆堆频道",使徒行者

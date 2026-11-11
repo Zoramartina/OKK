@@ -78,15 +78,15 @@ http://play.cec-tv.com.cn/channel/cec-tv2.m3u8
 #EXTINF:-1 tvg-name="CEC汉语文化" group-title="央视频道",CEC汉语文化
 http://play.cec-tv.com.cn/channel/cec-tv1.m3u8
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="央视频道",CGTN
-https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="央视频道",CGTN
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="央视频道",CGTN
+https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="央视频道",CGTN
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
 #EXTINF:-1 tvg-id="CGTN Documentary" tvg-name="CGTN Documentary" group-title="央视频道",CGTN Documentary
-https://hlspackager.akamaized.net/live/DB/CGTN_DOCUMENTARY/HLS/CGTN_DOCUMENTARY.m3u8
-#EXTINF:-1 tvg-id="CGTN Documentary" tvg-name="CGTN Documentary" group-title="央视频道",CGTN Documentary
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-id="CGTN Documentary" tvg-name="CGTN Documentary" group-title="央视频道",CGTN Documentary
+https://hlspackager.akamaized.net/live/DB/CGTN_DOCUMENTARY/HLS/CGTN_DOCUMENTARY.m3u8
 #EXTINF:-1 tvg-id="CGTN Global Biz" tvg-name="CGTN Global Biz" group-title="央视频道",CGTN Global Biz
 https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
 #EXTINF:-1 tvg-name="CGTN法语" group-title="央视频道",CGTN法语
