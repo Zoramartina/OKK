@@ -36,11 +36,7 @@ https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
 #EXTINF:-1 tvg-name="Bein Sports Extra 2" group-title="体育·赛事台",Bein Sports Extra 2
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" group-title="体育·赛事台",CCTV-16
-http://207.56.13.146:81/cdnlive/cctv16.m3u8
-#EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" group-title="体育·赛事台",CCTV-16
 http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009
-#EXTINF:-1 tvg-id="CCTV-5" tvg-name="CCTV-5" group-title="体育·赛事台",CCTV-5
-http://207.56.13.146:81/cdnlive/cctv5.m3u8
 #EXTINF:-1 tvg-name="Cricket Gold (1080p)" group-title="体育·赛事台",Cricket Gold (1080p)
 https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8
 #EXTINF:-1 tvg-id="ESPN (Brazil) (1080p)" tvg-name="ESPN (Brazil) (1080p)" group-title="体育·赛事台",ESPN (Brazil) (1080p)
@@ -123,8 +119,6 @@ https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS XTRA en Espanol (1080p)" tvg-name="beIN SPORTS XTRA en Espanol (1080p)" group-title="体育·赛事台",beIN SPORTS XTRA en Espanol (1080p)
 https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
-#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" group-title="体育·赛事台" http-user-agent="iPhone",五星体育
-http://101.35.240.114:88/live.php?id=五星体育
 #EXTINF:-1 tvg-id="天津体育" tvg-name="天津体育" group-title="体育·赛事台",天津体育
 http://38.75.136.137:98/gslb/dsdqpub/tjtv5.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="天津体育" tvg-name="天津体育" group-title="体育·赛事台",天津体育
