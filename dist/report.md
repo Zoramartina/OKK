@@ -1,16 +1,16 @@
 # 直播源清洗报告
 
-生成时间：2026-11-12 10:04 (UTC+8)
+生成时间：2026-11-13 08:39 (UTC+8)
 
 | 指标 | 数值 |
 | --- | --- |
 | 原始条目 | 1532 |
-| 实测通过 | 565 |
-| 未通过校验（保留待核） | 76 |
-| 本机判定不可达 | 891 |
-| 写入订阅 | 641 |
-| 有效频道数 | 572 |
-| 平均响应 | 1117 ms |
+| 实测通过 | 575 |
+| 未通过校验（保留待核） | 75 |
+| 本机判定不可达 | 882 |
+| 写入订阅 | 650 |
+| 有效频道数 | 577 |
+| 平均响应 | 1152 ms |
 
 ## 保留但未校验
 
@@ -19,7 +19,7 @@
 | 天祝综合 | 播放列表停滞（循环回放） |
 | 永昌综合 | 播放列表停滞（循环回放） |
 | NOW新闻台 | 播放列表停滞（循环回放） |
-| 长江大桥 | 点播列表（非直播） |
+| 黄金华剧台(WebVTT字幕) | 播放列表停滞（循环回放） |
 | 广东体育 | 播放列表停滞（循环回放） |
 | 民视 | 非 http(s) 协议（rtmp） |
 | 台视 | 非 http(s) 协议（rtmp） |
@@ -38,6 +38,7 @@
 | ASTRO AOD | 播放列表停滞（循环回放） |
 | DAZN体育1 | 非 http(s) 协议（rtmp） |
 | DAZN体育2 | 非 http(s) 协议（rtmp） |
+| 凤凰香港台 | 播放列表停滞（循环回放） |
 | NewTV 超级综艺 | IPv6 源，Actions 无 IPv6 无法校验 |
 | NewTV 金牌综艺 | IPv6 源，Actions 无 IPv6 无法校验 |
 | NewTV 魅力潇湘 | IPv6 源，Actions 无 IPv6 无法校验 |
@@ -45,14 +46,15 @@
 | NewTV 怡伴健康 | IPv6 源，Actions 无 IPv6 无法校验 |
 | NewTV 潮妈辣婆 | IPv6 源，Actions 无 IPv6 无法校验 |
 | NewTV 军旅剧场 | IPv6 源，Actions 无 IPv6 无法校验 |
-| NewTV 军事评论 | IPv6 源，Actions 无 IPv6 无法校验 |
 
 ## 本机判定不可达（节选）
 
 | 频道 | 状态 | 地址 |
 | --- | --- | --- |
+| CCTV-6 | 连接被拒 | `http://198.204.228.26/live/cctv6hd.m3u8` |
+| CCTV-14 | 连接被拒 | `http://198.204.228.26/live/cctv14hd.m3u8` |
 | CCTV-16 | 返回非流内容 | `http://74.91.26.218:82/live/cctv16hd.m3u8` |
-| 海南卫视 | 返回非流内容 | `http://nn.7x9d.cn/地方台8563/海南.php?id=hnws` |
+| CCTV4K真4K | 连接被拒 | `http://vip1.xinketongxun.fun:8082/tsfile/live/1026_1.m3u8` |
 | 黑龙江卫视 | URLError | `https://idclive.hljtv.com:4430/live/hljws_own.m3u8` |
 | 黑龙江农业科教频道 | URLError | `https://idclive.hljtv.com:4430/live/hljgg_hd.m3u8` |
 | 黑龙江文体 | URLError | `https://idclive.hljtv.com:4430/live/hljwy_hd.m3u8` |
@@ -61,17 +63,11 @@
 | 新野综合 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://tvpull.dxhmt.cn:9081/tv/11329-1.m3u8` |
 | 永城综合 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://tvpull.dxhmt.cn:9081/tv/11481-1.m3u8` |
 | 荥阳综合 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://tvpull.dxhmt.cn:9081/tv/10182-1.m3u8` |
-| 海南公共 | 返回非流内容 | `http://nn.7x9d.cn/地方台8563/海南.php?id=ggpd` |
-| 海南少儿 | 返回非流内容 | `http://nn.7x9d.cn/地方台8563/海南.php?id=sepd` |
-| 海南文旅 | 返回非流内容 | `http://nn.7x9d.cn/地方台8563/海南.php?id=wlpd` |
-| 海南新闻 | 返回非流内容 | `http://nn.7x9d.cn/地方台8563/海南.php?id=xwpd` |
-| 海南自贸 | 返回非流内容 | `http://nn.7x9d.cn/地方台8563/海南.php?id=jjpd` |
 | 剑阁综合 | 连接超时 | `https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/pla` |
 | 广元公共 | 连接超时 | `https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/pla` |
 | 广元综合 | 连接超时 | `https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/pla` |
 | 旺苍新闻综合 | URLError | `http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playli` |
 | 朝天综合 | 连接超时 | `https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/pla` |
-| 松潘新闻综合 | URLError | `http://live.spccmc.com:90/live/spxwzh.m3u8` |
 | 宁夏公共 | 复核仍失败（HTTP 403（限流/地区限制）） | `https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8` |
 | 宁夏文旅 | 复核仍失败（HTTP 403（限流/地区限制）） | `https://hls.ningxiahuangheyun.com/live/nxwl1M.m3u8` |
 | LIVE三立 | 复核仍失败（HTTP 403（限流/地区限制）） | `https://d2jc41c1shgcol.cloudfront.net/live/setnewsrtmp/playlist.m3u8` |
@@ -90,10 +86,10 @@
 | NewTV泰语剧场 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c58_fast_949_1080P_t10/c` |
 | NewTV爱情剧场 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c59_fast_967_1080P_t10/c` |
 | 美亚电影 | RemoteDisconnected | `http://iptv.4666888.xyz/iptv2A.php?id=30` |
-| Jade | HTTP 404 | `http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8` |
+| Jade | 连接超时 | `http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8` |
 | CCTV2 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://101.35.240.114:88/live.php?id=CCTV2` |
-| Asian Drama | HTTP 404 | `http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8` |
-| Mei Ah Movie Channel | HTTP 404 | `http://103.172.187.30:12000/stream/mytv/null-2/master.m3u8` |
+| Asian Drama | 连接超时 | `http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8` |
+| Mei Ah Movie Channel | 连接超时 | `http://103.172.187.30:12000/stream/mytv/null-2/master.m3u8` |
 | 五星体育 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://101.35.240.114:88/live.php?id=五星体育` |
 | CCTV-5 | 连接超时 | `http://207.56.13.146:81/cdnlive/cctv5.m3u8` |
 | CCTV-16 | 连接超时 | `http://207.56.13.146:81/cdnlive/cctv16.m3u8` |
@@ -111,29 +107,33 @@
 | CCTV5 | HTTP 660 | `http://101.35.240.114:88/live.php?id=CCTV5` |
 | CCTV5+ | 连接超时 | `http://148.135.93.213/live.php?id=CCTV5p` |
 | CCTV6 | HTTP 660 | `http://101.35.240.114:88/live.php?id=CCTV6` |
-| … | 另有 831 条 | |
+| CCTV7 | 连接超时 | `http://148.135.93.213/live.php?id=CCTV7` |
+| CCTV8 | HTTP 660 | `http://101.35.240.114:88/live.php?id=CCTV8` |
+| CCTV9 | 连接超时 | `http://148.135.93.213/live.php?id=CCTV9` |
+| CCTV10 | HTTP 660 | `http://101.35.240.114:88/live.php?id=CCTV10` |
+| … | 另有 822 条 | |
 
 ## 移出订阅的原因
 
 | 原因 | 条数 |
 | --- | --- |
-| 连接超时 | 199 |
-| 连接被拒 | 140 |
-| HTTP 404 | 138 |
-| 复核仍失败（HTTP 403（限流/地区限制）） | 83 |
+| 连接超时 | 202 |
+| 连接被拒 | 143 |
+| HTTP 404 | 141 |
+| 复核仍失败（HTTP 403（限流/地区限制）） | 77 |
 | TLS 握手失败 | 71 |
-| URLError | 57 |
+| URLError | 56 |
 | 域名解析失败 | 51 |
 | HTTP 500 | 42 |
-| 返回非流内容 | 38 |
-| HTTP 302 | 35 |
+| HTTP 302 | 36 |
+| 返回非流内容 | 26 |
 | HTTP 660 | 13 |
 | HTTP 418 | 8 |
 | HTTP 523 | 5 |
 | HTTP 400 | 3 |
 | RemoteDisconnected | 2 |
 
-完整逐条清单见 `removed.tsv`（891 条）。
+完整逐条清单见 `removed.tsv`（882 条）。
 未通过校验但未判死的源另存于 `pending.m3u`，需要时可自行加回。
 
 ## 判定边界
