@@ -5,8 +5,6 @@
 http://101.35.240.114:88/phenix.php?id=fhzw
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/凤凰资讯台.png" group-title="APTV专享" http-user-agent="iPhone" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰资讯台
 http://101.35.240.114:88/phenix.php?id=fhzx
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/凤凰香港台.png" group-title="APTV专享" http-user-agent="iPhone" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰香港台
-http://101.35.240.114:88/phenix.php?id=fhhk
 
 #凤凰卫视
 #EXTINF:-1 tvg-name="凤凰中文" group-title="凤凰卫视",凤凰中文
@@ -93,6 +91,8 @@ http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.cn/tv/凤凰资讯频道.png" group-title="港澳台频道",凤凰资讯台
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+#EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.cn/tv/凤凰香港频道.png" group-title="港澳台频道",凤凰香港台
+http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
 #EXTINF:-1 tvg-name="千禧经典台" group-title="港澳台频道",千禧经典台
 http://cdn3.123.rr.kg/stream/live/tvbc/
 #EXTINF:-1 tvg-name="华丽翡翠台" tvg-logo="https://live.fanmingming.cn/tv/华丽翡翠台.png" group-title="港澳台频道",华丽翡翠台
@@ -171,8 +171,6 @@ rtmp://f13h.mine.nu/sat/tv331
 rtmp://f13h.mine.nu/sat/tv091
 #EXTINF:-1 tvg-name="八大戏剧" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720155115252575_13.png" group-title="港澳台频道",八大戏剧台
 http://61.221.215.25:8800/hls/39/index.m3u8
-#EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.cn/tv/凤凰香港频道.png" group-title="港澳台频道",凤凰香港台
-http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
 #EXTINF:-1 tvg-id="华视" tvg-name="华视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CTS.png" group-title="港澳台频道",华视
 rtmp://f13h.mine.nu/sat/tv111
 #EXTINF:-1 tvg-id="台视" tvg-name="台视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/台视.png" group-title="港澳台频道",台视
