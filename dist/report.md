@@ -1,23 +1,26 @@
 # 直播源清洗报告
 
-生成时间：2026-11-15 07:35 (UTC+8)
+生成时间：2026-11-16 08:00 (UTC+8)
 
 | 指标 | 数值 |
 | --- | --- |
 | 原始条目 | 1532 |
-| 实测通过 | 586 |
-| 未通过校验（保留待核） | 74 |
+| 实测通过 | 589 |
+| 未通过校验（保留待核） | 71 |
 | 本机判定不可达 | 872 |
 | 写入订阅 | 660 |
-| 有效频道数 | 586 |
-| 平均响应 | 1101 ms |
+| 有效频道数 | 582 |
+| 平均响应 | 1090 ms |
 
 ## 保留但未校验
 
 | 频道 | 原因 |
 | --- | --- |
+| 天祝综合 | 播放列表停滞（循环回放） |
+| 永昌综合 | 播放列表停滞（循环回放） |
 | NOW新闻台 | 播放列表停滞（循环回放） |
 | 广东体育 | 播放列表停滞（循环回放） |
+| 千禧经典 | 播放列表停滞（循环回放） |
 | 民视 | 非 http(s) 协议（rtmp） |
 | 台视 | 非 http(s) 协议（rtmp） |
 | 中视 | 非 http(s) 协议（rtmp） |
@@ -35,8 +38,6 @@
 | ASTRO AOD | 播放列表停滞（循环回放） |
 | DAZN体育1 | 非 http(s) 协议（rtmp） |
 | DAZN体育2 | 非 http(s) 协议（rtmp） |
-| 凤凰香港台 | 播放列表停滞（循环回放） |
-| HOY TV | 点播列表（非直播） |
 | NewTV 超级综艺 | IPv6 源，Actions 无 IPv6 无法校验 |
 | NewTV 金牌综艺 | IPv6 源，Actions 无 IPv6 无法校验 |
 | NewTV 魅力潇湘 | IPv6 源，Actions 无 IPv6 无法校验 |
@@ -45,14 +46,17 @@
 | NewTV 潮妈辣婆 | IPv6 源，Actions 无 IPv6 无法校验 |
 | NewTV 军旅剧场 | IPv6 源，Actions 无 IPv6 无法校验 |
 | NewTV 军事评论 | IPv6 源，Actions 无 IPv6 无法校验 |
-| NewTV 中国功夫 | IPv6 源，Actions 无 IPv6 无法校验 |
 
 ## 本机判定不可达（节选）
 
 | 频道 | 状态 | 地址 |
 | --- | --- | --- |
 | CCTV-16 | 返回非流内容 | `http://74.91.26.218:82/live/cctv16hd.m3u8` |
-| CCTV4K真4K | 连接被拒 | `http://vip1.xinketongxun.fun:8082/tsfile/live/1026_1.m3u8` |
+| CCTV4K真4K | 连接超时 | `http://vip1.xinketongxun.fun:8082/tsfile/live/1026_1.m3u8` |
+| CEC国际健康 | 连接超时 | `http://play.cec-tv.com.cn/channel/cec-tv4.m3u8` |
+| CEC国际教育 | 连接超时 | `http://play.cec-tv.com.cn/channel/cec-tv3.m3u8` |
+| CEC国际旅游 | 连接超时 | `http://play.cec-tv.com.cn/channel/cec-tv2.m3u8` |
+| 河南卫视 | 连接被拒 | `http://107.150.60.122/live/hawshd.m3u8` |
 | 黑龙江卫视 | URLError | `https://idclive.hljtv.com:4430/live/hljws_own.m3u8` |
 | 黑龙江农业科教频道 | URLError | `https://idclive.hljtv.com:4430/live/hljgg_hd.m3u8` |
 | 黑龙江文体 | URLError | `https://idclive.hljtv.com:4430/live/hljwy_hd.m3u8` |
@@ -107,28 +111,24 @@
 | CCTV9 | 连接超时 | `http://148.135.93.213/live.php?id=CCTV9` |
 | CCTV11 | 连接超时 | `http://148.135.93.213/live.php?id=CCTV11` |
 | CCTV13 | 连接超时 | `http://148.135.93.213/live.php?id=CCTV13` |
-| CCTV15 | 连接超时 | `http://148.135.93.213/live.php?id=CCTV15` |
-| CCTV16 | 连接超时 | `http://101.35.240.114:88/live.php?id=CCTV16` |
-| CCTV17 | 连接超时 | `http://74.48.192.96:82/live.php?id=CCTV17` |
-| CCTV-兵器科技 | 域名解析失败 | `http://www.lizhinas.top:1009/rtp/239.252.219.98:5140` |
 | … | 另有 812 条 | |
 
 ## 移出订阅的原因
 
 | 原因 | 条数 |
 | --- | --- |
-| 连接超时 | 208 |
+| 连接超时 | 209 |
 | 连接被拒 | 141 |
 | HTTP 404 | 140 |
-| 复核仍失败（HTTP 403（限流/地区限制）） | 78 |
+| 复核仍失败（HTTP 403（限流/地区限制）） | 79 |
 | TLS 握手失败 | 71 |
 | URLError | 56 |
 | 域名解析失败 | 51 |
 | HTTP 500 | 42 |
 | HTTP 302 | 36 |
-| 返回非流内容 | 27 |
+| 返回非流内容 | 26 |
 | HTTP 418 | 8 |
-| HTTP 523 | 5 |
+| HTTP 523 | 4 |
 | HTTP 400 | 3 |
 | HTTP 502 | 2 |
 | HTTP 409 | 1 |
