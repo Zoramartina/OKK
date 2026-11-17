@@ -19,8 +19,6 @@ http://120.76.248.139/live/bfgd/4200000113.m3u8
 http://stream5.jlntv.cn/wq/playlist.m3u8
 
 #地方·四川
-#EXTINF:-1 tvg-name="乐至综合" group-title="地方·四川",乐至综合
-http://175.155.106.72:89/live1/live1.m3u8?zsicd
 #EXTINF:-1 tvg-name="名山综合" group-title="地方·四川",名山综合
 https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8
 #EXTINF:-1 tvg-name="四川科教" group-title="地方·四川",四川科教
@@ -178,10 +176,6 @@ http://nn.7x9d.cn/地方台8563/海南.php?id=jjpd
 #EXTINF:-1 tvg-name="江夏新闻综合" group-title="地方·湖北",江夏新闻综合
 http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd
 
-#地方·甘肃
-#EXTINF:-1 tvg-name="西峰综合" group-title="地方·甘肃",西峰综合
-https://play.kankanlive.com/live/1683944827526991.m3u8
-
 #地方·福建
 #EXTINF:-1 tvg-name="云霄综合" group-title="地方·福建",云霄综合
 http://live.zzyxxw.com:85/live/xwzh.m3u8
@@ -212,10 +206,6 @@ http://120.76.248.139/live/bfgd/4200000068.m3u8
 #EXTINF:-1 tvg-name="辽宁青少" group-title="地方·辽宁",辽宁青少
 http://dassby.qqff.top:99/live/辽宁教育青少/index.m3u8
 
-#地方·重庆
-#EXTINF:-1 tvg-name="重庆新闻" group-title="地方·重庆",重庆新闻
-http://38.75.136.137:98/gslb/dsdqpub/cqxw.m3u8?auth=testpub
-
 #地方·青海
 #EXTINF:-1 tvg-name="西宁新闻综合" group-title="地方·青海",西宁新闻综合
 https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
@@ -241,3 +231,9 @@ http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild
 https://play.kankanlive.com/live/1656487214793905.m3u8
 #EXTINF:-1 tvg-name="永昌综合" group-title="地方·甘肃",永昌综合
 https://play.kankanlive.com/live/1652755738635915.m3u8
+#EXTINF:-1 tvg-name="西峰综合" group-title="地方·甘肃",西峰综合
+https://play.kankanlive.com/live/1683944827526991.m3u8
+
+#地方·重庆
+#EXTINF:-1 tvg-name="重庆新闻" group-title="地方·重庆",重庆新闻
+http://38.75.136.137:98/gslb/dsdqpub/cqxw.m3u8?auth=testpub
