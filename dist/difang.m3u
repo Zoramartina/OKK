@@ -7,8 +7,6 @@ https://hwapi.yntv.net/62hdvf/q9vs1b.m3u8
 https://hwapi.yntv.net/62hdvf/rjwt14.m3u8
 #EXTINF:-1 tvg-name="易门综合" group-title="地方·云南",易门综合
 https://zb-live.ynurl.com/yimen/3b75a2f9-7941-46b7-992d-a9796fbca5fe.m3u8
-#EXTINF:-1 tvg-name="通海电视台" group-title="地方·云南",通海电视台
-https://zb-live.ynurl.com/tonghai/3bfe3a9e-48e6-4c1e-8770-1df66447cc6c.m3u8
 
 #地方·北京
 #EXTINF:-1 tvg-name="北京科教" group-title="地方·北京",北京科教
@@ -53,8 +51,6 @@ https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
 #地方·山西
 #EXTINF:-1 tvg-name="太谷新闻综合" group-title="地方·山西",太谷新闻综合
 https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0
-#EXTINF:-1 tvg-name="汾西综合" group-title="地方·山西",汾西综合
-https://qmmqvzoz.live.sxmty.com/live/hls/f24f8a390c084386a564074c9260100c/be3fdf07606145739ab2c4b80fe0136a.m3u8?zshanxd
 
 #地方·广东
 #EXTINF:-1 tvg-name="东莞新闻综合" group-title="地方·广东",东莞新闻综合
@@ -160,18 +156,6 @@ http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
 #EXTINF:-1 tvg-name="龙泉新闻综合" group-title="地方·浙江",龙泉新闻综合
 http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
 
-#地方·海南
-#EXTINF:-1 tvg-name="海南公共" group-title="地方·海南",海南公共
-http://nn.7x9d.cn/地方台8563/海南.php?id=ggpd
-#EXTINF:-1 tvg-name="海南少儿" group-title="地方·海南",海南少儿
-http://nn.7x9d.cn/地方台8563/海南.php?id=sepd
-#EXTINF:-1 tvg-name="海南文旅" group-title="地方·海南",海南文旅
-http://nn.7x9d.cn/地方台8563/海南.php?id=wlpd
-#EXTINF:-1 tvg-name="海南新闻" group-title="地方·海南",海南新闻
-http://nn.7x9d.cn/地方台8563/海南.php?id=xwpd
-#EXTINF:-1 tvg-name="海南自贸" group-title="地方·海南",海南自贸
-http://nn.7x9d.cn/地方台8563/海南.php?id=jjpd
-
 #地方·湖北
 #EXTINF:-1 tvg-name="江夏新闻综合" group-title="地方·湖北",江夏新闻综合
 http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd
@@ -206,6 +190,10 @@ http://120.76.248.139/live/bfgd/4200000068.m3u8
 #EXTINF:-1 tvg-name="辽宁青少" group-title="地方·辽宁",辽宁青少
 http://dassby.qqff.top:99/live/辽宁教育青少/index.m3u8
 
+#地方·重庆
+#EXTINF:-1 tvg-name="重庆新闻" group-title="地方·重庆",重庆新闻
+http://38.75.136.137:98/gslb/dsdqpub/cqxw.m3u8?auth=testpub
+
 #地方·青海
 #EXTINF:-1 tvg-name="西宁新闻综合" group-title="地方·青海",西宁新闻综合
 https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
@@ -233,7 +221,3 @@ https://play.kankanlive.com/live/1656487214793905.m3u8
 https://play.kankanlive.com/live/1652755738635915.m3u8
 #EXTINF:-1 tvg-name="西峰综合" group-title="地方·甘肃",西峰综合
 https://play.kankanlive.com/live/1683944827526991.m3u8
-
-#地方·重庆
-#EXTINF:-1 tvg-name="重庆新闻" group-title="地方·重庆",重庆新闻
-http://38.75.136.137:98/gslb/dsdqpub/cqxw.m3u8?auth=testpub
