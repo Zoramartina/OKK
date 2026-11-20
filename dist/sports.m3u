@@ -103,8 +103,6 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/ee
 http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/86.m3u8
 #EXTINF:-1 tvg-id="TNT Sports (Argentina) SD (576p)" tvg-name="TNT Sports (Argentina) SD (576p)" group-title="体育·赛事台",TNT Sports (Argentina) SD (576p)
 http://181.78.79.131:8000/play/a0mo
-#EXTINF:-1 tvg-id="TNT Sports (Chile) (480p)" tvg-name="TNT Sports (Chile) (480p)" group-title="体育·赛事台",TNT Sports (Chile) (480p)
-http://209.45.101.130:8040/play/a03s/index.m3u8
 #EXTINF:-1 tvg-id="TNT Sports Premium ArgentinaHD (1080p)" tvg-name="TNT Sports Premium ArgentinaHD (1080p)" group-title="体育·赛事台",TNT Sports Premium ArgentinaHD (1080p)
 http://181.78.79.131:8000/play/a0q9
 #EXTINF:-1 tvg-name="Trace Sports" group-title="体育·赛事台",Trace Sports
@@ -117,8 +115,6 @@ https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS XTRA en Espanol (1080p)" tvg-name="beIN SPORTS XTRA en Espanol (1080p)" group-title="体育·赛事台",beIN SPORTS XTRA en Espanol (1080p)
 https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
-#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" group-title="体育·赛事台" http-user-agent="iPhone",五星体育
-http://101.35.240.114:88/live.php?id=五星体育
 #EXTINF:-1 tvg-id="天津体育" tvg-name="天津体育" group-title="体育·赛事台",天津体育
 http://38.75.136.137:98/gslb/dsdqpub/tjtv5.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="天津体育" tvg-name="天津体育" group-title="体育·赛事台",天津体育
