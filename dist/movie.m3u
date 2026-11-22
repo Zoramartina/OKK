@@ -27,20 +27,10 @@ http://38.75.136.137:98/gslb/dsdqpub/chchd.m3u8?auth=testpub
 http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="Cine Nanar" group-title="电影频道",Cine Nanar
 https://zylo-cinenanar-rakuten.amagi.tv/playlist480p.m3u8
-#EXTINF:-1 tvg-name="Cinemax Classics (1080p)" group-title="电影频道",Cinemax Classics (1080p)
-http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
-#EXTINF:-1 tvg-name="Cinemax Hits (1080p)" group-title="电影频道",Cinemax Hits (1080p)
-http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
-#EXTINF:-1 tvg-name="Cinemax West (720p)" group-title="电影频道",Cinemax West (720p)
-http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8
 #EXTINF:-1 tvg-name="FILMBOX+ Comedy (720p)" group-title="电影频道",FILMBOX+ Comedy (720p)
 http://92.114.85.87:8008/play/a009/index.m3u8
 #EXTINF:-1 tvg-name="FILMBOX+ Emotion (720p)" group-title="电影频道",FILMBOX+ Emotion (720p)
 http://92.114.85.87:8008/play/a008/index.m3u8
-#EXTINF:-1 tvg-name="Paramount Network (1080p)" group-title="电影频道",Paramount Network (1080p)
-http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
-#EXTINF:-1 tvg-name="Showtime Family Zone (720p)" group-title="电影频道",Showtime Family Zone (720p)
-http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8
 #EXTINF:-1 tvg-name="Universal Cinema (1080p)" group-title="电影频道",Universal Cinema (1080p)
 http://168.196.127.137:6001/play/a09b/index.m3u8
 #EXTINF:-1 tvg-name="华数动作影院" group-title="电影频道",华数动作影院

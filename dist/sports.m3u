@@ -1,12 +1,6 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
 
-#体育·NBA
-#EXTINF:-1 tvg-id="NBA TV (720p)" tvg-name="NBA TV (720p)" group-title="体育·NBA",NBA TV (720p)
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-
 #体育·格斗
-#EXTINF:-1 tvg-id="DAZN 3 Portugal (720p)" tvg-name="DAZN 3 Portugal (720p)" group-title="体育·格斗",DAZN 3 Portugal (720p)
-http://23.237.104.106:8080/DAZN_3/index.m3u8
 #EXTINF:-1 tvg-id="FightBox" tvg-name="FightBox" group-title="体育·格斗" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3",FightBox
 https://webtvstream.bhtelecom.ba/fightbox.m3u8
 #EXTINF:-1 tvg-id="FightBox HD" tvg-name="FightBox HD" group-title="体育·格斗",FightBox HD
