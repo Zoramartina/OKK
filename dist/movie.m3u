@@ -39,14 +39,10 @@ http://113.25.252.226:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=
 https://cfss.cc/Qs/hy.php
 #EXTINF:-1 tvg-name="天映" group-title="电影频道",天映
 https://cdn3.indevs.in/stream/live/typd/
-#EXTINF:-1 tvg-name="天映新加坡" group-title="电影频道",天映新加坡
-http://cdn10.123.rr.kg/163189/typd/
 #EXTINF:-1 tvg-name="天映经典" group-title="电影频道",天映经典
 https://cdn3.indevs.in/stream/live/ccm/
 #EXTINF:-1 tvg-name="天映经典台" group-title="电影频道",天映经典台
 http://cdn3.123.rr.kg/stream/live/ccm/
-#EXTINF:-1 tvg-name="天映经典台2" group-title="电影频道",天映经典台2
-http://cdn10.123.rr.kg/163189/ccm/
 #EXTINF:-1 tvg-name="天映频道" group-title="电影频道",天映频道
 http://cdn3.123.rr.kg/stream/live/typd/
 #EXTINF:-1 tvg-name="湖南电影" group-title="电影频道",湖南电影
@@ -121,3 +117,9 @@ http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
 http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
 #EXTINF:-1 tvg-name="龙门飞甲" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="点播电影",龙门飞甲
 http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8
+
+#电影频道
+#EXTINF:-1 tvg-name="天映新加坡" group-title="电影频道",天映新加坡
+http://cdn10.123.rr.kg/163189/typd/
+#EXTINF:-1 tvg-name="天映经典台2" group-title="电影频道",天映经典台2
+http://cdn10.123.rr.kg/163189/ccm/

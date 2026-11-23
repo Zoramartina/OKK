@@ -36,21 +36,25 @@ http://jwplay.hebyun.com.cn/live/xtsrmtzs/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-id="之江纪录" tvg-name="之江纪录" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/zhejiang/Zhejiang8.png" group-title="☘️浙江频道",之江纪录
 https://ali-xwl.cztv.com/live/channel121080Plxw.m3u8
 
+#☘️福建频道
+#EXTINF:-1 tvg-name="福建综合" tvg-logo="https://live.fanmingming.cn/tv/福建综合.png" group-title="☘️福建频道",福建综合
+http://8.138.7.223/tv/fjtv1.php?id=fjzh
+
 #☘️辽宁频道
 #EXTINF:-1 tvg-name="辽宁公共" tvg-logo="https://live.fanmingming.cn/tv/辽宁公共.png" group-title="☘️辽宁频道",辽宁公共
-http://120.76.248.139/live/bfgd/4200000077.m3u8
-#EXTINF:-1 tvg-name="辽宁公共" tvg-logo="https://live.fanmingming.cn/tv/辽宁公共.png" group-title="☘️辽宁频道",辽宁公共
 http://120.76.248.139/live/bfgd/4200000481.m3u8
+#EXTINF:-1 tvg-name="辽宁公共" tvg-logo="https://live.fanmingming.cn/tv/辽宁公共.png" group-title="☘️辽宁频道",辽宁公共
+http://120.76.248.139/live/bfgd/4200000077.m3u8
 #EXTINF:-1 tvg-name="辽宁生活" tvg-logo="https://live.fanmingming.cn/tv/辽宁生活.png" group-title="☘️辽宁频道",辽宁生活
 http://120.76.248.139/live/bfgd/4200000073.m3u8
 #EXTINF:-1 tvg-name="辽宁经济" tvg-logo="https://live.fanmingming.cn/tv/辽宁经济.png" group-title="☘️辽宁频道",辽宁经济
-http://120.76.248.139/live/bfgd/4200000076.m3u8
-#EXTINF:-1 tvg-name="辽宁经济" tvg-logo="https://live.fanmingming.cn/tv/辽宁经济.png" group-title="☘️辽宁频道",辽宁经济
 http://120.76.248.139/live/bfgd/4200000480.m3u8
-#EXTINF:-1 tvg-name="辽宁都市" tvg-logo="https://live.fanmingming.cn/tv/辽宁都市.png" group-title="☘️辽宁频道",辽宁都市
-http://dassby.qqff.top:99/live/辽宁都市/index.m3u8
+#EXTINF:-1 tvg-name="辽宁经济" tvg-logo="https://live.fanmingming.cn/tv/辽宁经济.png" group-title="☘️辽宁频道",辽宁经济
+http://120.76.248.139/live/bfgd/4200000076.m3u8
 #EXTINF:-1 tvg-name="辽宁都市" tvg-logo="https://live.fanmingming.cn/tv/辽宁都市.png" group-title="☘️辽宁频道",辽宁都市
 http://120.76.248.139/live/bfgd/4200000610.m3u8
+#EXTINF:-1 tvg-name="辽宁都市" tvg-logo="https://live.fanmingming.cn/tv/辽宁都市.png" group-title="☘️辽宁频道",辽宁都市
+http://dassby.qqff.top:99/live/辽宁都市/index.m3u8
 
 #☘️陕西频道
 #EXTINF:-1 tvg-name="陕西新闻咨询" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Shanxi1.png" group-title="☘️陕西频道",新闻咨询
@@ -114,6 +118,10 @@ https://ali-xwl.cztv.com/live/channel081080Plxw.m3u8
 #EXTINF:-1 tvg-name="猫和老鼠" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/猫和老鼠.png" group-title="动画频道",猫和老鼠
 https://live.metshop.top/huya/11352879
 
+#国际频道
+#EXTINF:-1 tvg-id="6140" tvg-name="Bloomberg Asia" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/BloombergTV.png" group-title="国际频道",Bloomberg Asia
+https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8
+
 #埋堆堆频道
 #EXTINF:-1 tvg-name="倚天屠龙记" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="埋堆堆频道",倚天屠龙记
 https://live.metshop.top/huya/23734246
@@ -161,12 +169,6 @@ https://live.metshop.top/huya/23903183
 https://live.metshop.top/huya/29465857
 
 #春晚频道
-#EXTINF:-1 tvg-id="1987年春晚" tvg-name="1987年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1987年春晚
-https://txmov2.a.kwimgs.com/bs3/video-hls/5195746663405928031_hlsb.m3u8
-#EXTINF:-1 tvg-id="1988年春晚" tvg-name="1988年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1988年春晚
-https://txmov2.a.kwimgs.com/bs3/video-hls/5216575810935394655_hlsb.m3u8
-#EXTINF:-1 tvg-id="1989年春晚" tvg-name="1989年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1989年春晚
-https://txmov2.a.kwimgs.com/bs3/video-hls/5194620763762726260_hlsb.m3u8
 #EXTINF:-1 tvg-id="1993年春晚" tvg-name="1993年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1993年春晚
 https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYwODJfMF8z_b_B647d10e431b4cc5e48e6c77347d69021.mp4
 #EXTINF:-1 tvg-id="1994年春晚" tvg-name="1994年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1994年春晚
@@ -243,6 +245,8 @@ http://r.jdshipin.com/qClQf
 http://r.jdshipin.com/qrfbg
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/翡翠台.png" group-title="港澳代理",翡翠台
 http://r.jdshipin.com/62WM7
+#EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/翡翠台.png" group-title="港澳代理",翡翠台
+http://r.jdshipin.com/n90gt
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/翡翠台.png" group-title="港澳代理",翡翠台
 http://r.jdshipin.com/GeWKr
 
@@ -418,13 +422,17 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-name="精灵宝可梦" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/精灵宝可梦.png" group-title="动画频道",精灵宝可梦
 https://live.metshop.top/huya/23749096
 
-#国际频道
-#EXTINF:-1 tvg-id="6140" tvg-name="Bloomberg Asia" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/BloombergTV.png" group-title="国际频道",Bloomberg Asia
-https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8
-
 #埋堆堆频道
 #EXTINF:-1 tvg-name="使徒行者" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="埋堆堆频道",使徒行者
 https://live.metshop.top/huya/23734256
+
+#春晚频道
+#EXTINF:-1 tvg-id="1987年春晚" tvg-name="1987年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1987年春晚
+https://txmov2.a.kwimgs.com/bs3/video-hls/5195746663405928031_hlsb.m3u8
+#EXTINF:-1 tvg-id="1988年春晚" tvg-name="1988年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1988年春晚
+https://txmov2.a.kwimgs.com/bs3/video-hls/5216575810935394655_hlsb.m3u8
+#EXTINF:-1 tvg-id="1989年春晚" tvg-name="1989年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1989年春晚
+https://txmov2.a.kwimgs.com/bs3/video-hls/5194620763762726260_hlsb.m3u8
 
 #电视剧频道
 #EXTINF:-1 tvg-name="亮剑" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/亮剑.png" group-title="电视剧频道",亮剑
