@@ -15,6 +15,8 @@ http://120.76.248.139/live/bfgd/4200000113.m3u8
 http://stream5.jlntv.cn/wq/playlist.m3u8
 
 #地方·四川
+#EXTINF:-1 tvg-name="乐至综合" group-title="地方·四川",乐至综合
+http://175.155.106.72:89/live1/live1.m3u8?zsicd
 #EXTINF:-1 tvg-name="名山综合" group-title="地方·四川",名山综合
 https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8
 #EXTINF:-1 tvg-name="四川科教" group-title="地方·四川",四川科教
@@ -141,8 +143,6 @@ https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
 https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 #EXTINF:-1 tvg-name="萧山综合" group-title="地方·浙江",萧山综合
 http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
-#EXTINF:-1 tvg-name="诸暨新闻综合" group-title="地方·浙江",诸暨新闻综合
-https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
 #EXTINF:-1 tvg-name="象山新闻综合" group-title="地方·浙江",象山新闻综合
 http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8
 #EXTINF:-1 tvg-name="青田电视台" group-title="地方·浙江",青田电视台
@@ -153,6 +153,14 @@ http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
 #地方·湖北
 #EXTINF:-1 tvg-name="江夏新闻综合" group-title="地方·湖北",江夏新闻综合
 http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd
+
+#地方·甘肃
+#EXTINF:-1 tvg-name="天祝综合" group-title="地方·甘肃",天祝综合
+https://play.kankanlive.com/live/1656487214793905.m3u8
+#EXTINF:-1 tvg-name="永昌综合" group-title="地方·甘肃",永昌综合
+https://play.kankanlive.com/live/1652755738635915.m3u8
+#EXTINF:-1 tvg-name="西峰综合" group-title="地方·甘肃",西峰综合
+https://play.kankanlive.com/live/1683944827526991.m3u8
 
 #地方·福建
 #EXTINF:-1 tvg-name="云霄综合" group-title="地方·福建",云霄综合
@@ -207,11 +215,3 @@ http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild
 http://stream.hrbtv.net/zxpd/sd/live.m3u8
 #EXTINF:-1 tvg-name="哈尔滨都市咨询" group-title="地方·黑龙江",哈尔滨都市咨询
 http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild
-
-#地方·甘肃
-#EXTINF:-1 tvg-name="天祝综合" group-title="地方·甘肃",天祝综合
-https://play.kankanlive.com/live/1656487214793905.m3u8
-#EXTINF:-1 tvg-name="永昌综合" group-title="地方·甘肃",永昌综合
-https://play.kankanlive.com/live/1652755738635915.m3u8
-#EXTINF:-1 tvg-name="西峰综合" group-title="地方·甘肃",西峰综合
-https://play.kankanlive.com/live/1683944827526991.m3u8
