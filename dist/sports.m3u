@@ -61,6 +61,8 @@ http://92.114.85.87:8002/play/a00f/index.m3u8
 http://92.114.85.87:8002/play/a00g/index.m3u8
 #EXTINF:-1 tvg-id="Eleven Sports 4 (1080p)" tvg-name="Eleven Sports 4 (1080p)" group-title="体育·赛事台",Eleven Sports 4 (1080p)
 http://92.114.85.87:8002/play/a00h/index.m3u8
+#EXTINF:-1 tvg-name="EuroSport1" group-title="体育·赛事台",EuroSport1
+http://141.94.193.53:80/Eurosport_1_HD/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport 1 Germany" tvg-name="Eurosport 1 Germany" group-title="体育·赛事台",Eurosport 1 Germany
 http://90.183.52.46:4000/play/a06v/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport 1 Hungary" tvg-name="Eurosport 1 Hungary" group-title="体育·赛事台",Eurosport 1 Hungary
@@ -73,8 +75,6 @@ http://88.212.15.50/live/esp_4k_atk/playlist.m3u8
 http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/1552.m3u8
 #EXTINF:-1 tvg-name="Fox Sports News (1080p)" group-title="体育·赛事台",Fox Sports News (1080p)
 https://skynewsau-live-premium.akamaized.net/hls/live/2105307/foxsportsnews/live_1080p.m3u8
-#EXTINF:-1 tvg-name="Golf Channel (United States) (576p)" group-title="体育·赛事台",Golf Channel (United States) (576p)
-https://tvsen6.aynaott.com/golfchannel/index.m3u8
 #EXTINF:-1 tvg-name="KTV Sport Plus" group-title="体育·赛事台",KTV Sport Plus
 https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="M4 Sport (1080p)" tvg-name="M4 Sport (1080p)" group-title="体育·赛事台" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",M4 Sport (1080p)
