@@ -23,6 +23,8 @@ https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.
 http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
 #EXTINF:-1 tvg-name="广安公共" group-title="地方·四川",广安公共
 http://live1.gatv.com.cn:85/live/GGPD.m3u8
+#EXTINF:-1 tvg-name="松潘新闻综合" group-title="地方·四川",松潘新闻综合
+http://live.spccmc.com:90/live/spxwzh.m3u8
 #EXTINF:-1 tvg-name="汶川新闻综合" group-title="地方·四川",汶川新闻综合
 http://live.iwcmt.cn:90/live/zhxw.m3u8
 #EXTINF:-1 tvg-name="泸县新闻综合" group-title="地方·四川",泸县新闻综合
@@ -42,10 +44,6 @@ http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8
 #EXTINF:-1 tvg-name="广德生活" group-title="地方·安徽",广德生活
 https://live.gdtv.ah.cn/live/newsTV.m3u8
 
-#地方·山西
-#EXTINF:-1 tvg-name="太谷新闻综合" group-title="地方·山西",太谷新闻综合
-https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0
-
 #地方·广东
 #EXTINF:-1 tvg-name="东莞新闻综合" group-title="地方·广东",东莞新闻综合
 https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
@@ -63,8 +61,6 @@ http://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=d2c2db0b598c02ec1b56237284
 https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
 
 #地方·广西
-#EXTINF:-1 tvg-name="南宁影视娱乐" group-title="地方·广西",南宁影视娱乐
-http://hls.nntv.cn/nnlive/YSYL_244.m3u8
 #EXTINF:-1 tvg-name="广西国际" group-title="地方·广西",广西国际
 https://hlscdn.liangtv.cn/live/0234c48e0bc24fe1b41b9999a253e581/1075ee38e04f490690f6a36a16e09c79.m3u8
 #EXTINF:-1 tvg-name="广西新闻" group-title="地方·广西",广西新闻
@@ -154,14 +150,6 @@ http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
 #EXTINF:-1 tvg-name="江夏新闻综合" group-title="地方·湖北",江夏新闻综合
 http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd
 
-#地方·甘肃
-#EXTINF:-1 tvg-name="天祝综合" group-title="地方·甘肃",天祝综合
-https://play.kankanlive.com/live/1656487214793905.m3u8
-#EXTINF:-1 tvg-name="永昌综合" group-title="地方·甘肃",永昌综合
-https://play.kankanlive.com/live/1652755738635915.m3u8
-#EXTINF:-1 tvg-name="西峰综合" group-title="地方·甘肃",西峰综合
-https://play.kankanlive.com/live/1683944827526991.m3u8
-
 #地方·福建
 #EXTINF:-1 tvg-name="云霄综合" group-title="地方·福建",云霄综合
 http://live.zzyxxw.com:85/live/xwzh.m3u8
@@ -215,3 +203,15 @@ http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild
 http://stream.hrbtv.net/zxpd/sd/live.m3u8
 #EXTINF:-1 tvg-name="哈尔滨都市咨询" group-title="地方·黑龙江",哈尔滨都市咨询
 http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild
+
+#地方·广西
+#EXTINF:-1 tvg-name="南宁影视娱乐" group-title="地方·广西",南宁影视娱乐
+http://hls.nntv.cn/nnlive/YSYL_244.m3u8
+
+#地方·甘肃
+#EXTINF:-1 tvg-name="天祝综合" group-title="地方·甘肃",天祝综合
+https://play.kankanlive.com/live/1656487214793905.m3u8
+#EXTINF:-1 tvg-name="永昌综合" group-title="地方·甘肃",永昌综合
+https://play.kankanlive.com/live/1652755738635915.m3u8
+#EXTINF:-1 tvg-name="西峰综合" group-title="地方·甘肃",西峰综合
+https://play.kankanlive.com/live/1683944827526991.m3u8

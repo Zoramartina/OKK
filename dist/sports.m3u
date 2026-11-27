@@ -45,12 +45,8 @@ http://181.78.197.59:8000/play/a07z/index.m3u8
 http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
 #EXTINF:-1 tvg-id="ESPN 2 (United States) HD (720p)" tvg-name="ESPN 2 (United States) HD (720p)" group-title="体育·赛事台",ESPN 2 (United States) HD (720p)
 http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
-#EXTINF:-1 tvg-id="ESPN 2 Latin America Colombia (1080p)" tvg-name="ESPN 2 Latin America Colombia (1080p)" group-title="体育·赛事台",ESPN 2 Latin America Colombia (1080p)
-http://190.61.47.54:8000/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="ESPN 4 (Brazil) (1080p)" tvg-name="ESPN 4 (Brazil) (1080p)" group-title="体育·赛事台",ESPN 4 (Brazil) (1080p)
 http://181.78.197.59:8000/play/a07n/index.m3u8
-#EXTINF:-1 tvg-id="ESPN Latin America Colombia (1080p)" tvg-name="ESPN Latin America Colombia (1080p)" group-title="体育·赛事台",ESPN Latin America Colombia (1080p)
-http://190.61.47.54:8000/play/a004/index.m3u8
 #EXTINF:-1 tvg-id="ESPN Latin America Mexico (1080p)" tvg-name="ESPN Latin America Mexico (1080p)" group-title="体育·赛事台",ESPN Latin America Mexico (1080p)
 http://168.228.44.241:9997/play/a06p/index.m3u8
 #EXTINF:-1 tvg-id="Eleven Sports 1" tvg-name="Eleven Sports 1" group-title="体育·赛事台",Eleven Sports 1
@@ -79,6 +75,8 @@ https://skynewsau-live-premium.akamaized.net/hls/live/2105307/foxsportsnews/live
 https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="M4 Sport (1080p)" tvg-name="M4 Sport (1080p)" group-title="体育·赛事台" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",M4 Sport (1080p)
 http://88.212.7.14/live/uatlmvixrr/index.m3u8
+#EXTINF:-1 tvg-id="M4 Sport Ⓖ" tvg-name="M4 Sport Ⓖ" group-title="体育·赛事台",M4 Sport Ⓖ
+http://141.94.193.53:80/M4_Sport_HD/index.m3u8
 #EXTINF:-1 tvg-id="MNB Sport" tvg-name="MNB Sport" group-title="体育·赛事台",MNB Sport
 https://live.mnb.mn/hls/mnb_sport.stream.m3u8
 #EXTINF:-1 tvg-name="NBC Sports" group-title="体育·赛事台",NBC Sports
@@ -111,8 +109,6 @@ https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS XTRA en Espanol (1080p)" tvg-name="beIN SPORTS XTRA en Espanol (1080p)" group-title="体育·赛事台",beIN SPORTS XTRA en Espanol (1080p)
 https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
-#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" group-title="体育·赛事台" http-user-agent="iPhone",五星体育
-http://101.35.240.114:88/live.php?id=五星体育
 #EXTINF:-1 tvg-id="天津体育" tvg-name="天津体育" group-title="体育·赛事台",天津体育
 http://38.75.136.137:98/gslb/dsdqpub/tjtv5.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="天津体育" tvg-name="天津体育" group-title="体育·赛事台",天津体育
