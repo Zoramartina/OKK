@@ -1,22 +1,21 @@
 # 直播源清洗报告
 
-生成时间：2026-11-27 10:49 (UTC+8)
+生成时间：2026-11-28 10:27 (UTC+8)
 
 | 指标 | 数值 |
 | --- | --- |
 | 原始条目 | 1532 |
-| 实测通过 | 556 |
-| 未通过校验（保留待核） | 82 |
-| 本机判定不可达 | 894 |
-| 写入订阅 | 638 |
-| 有效频道数 | 569 |
-| 平均响应 | 1154 ms |
+| 实测通过 | 554 |
+| 未通过校验（保留待核） | 90 |
+| 本机判定不可达 | 888 |
+| 写入订阅 | 644 |
+| 有效频道数 | 572 |
+| 平均响应 | 1271 ms |
 
 ## 保留但未校验
 
 | 频道 | 原因 |
 | --- | --- |
-| 南宁影视娱乐 | 播放列表停滞（循环回放） |
 | 天祝综合 | 播放列表停滞（循环回放） |
 | 永昌综合 | 播放列表停滞（循环回放） |
 | 西峰综合 | 播放列表停滞（循环回放） |
@@ -46,6 +45,7 @@
 | 纬来精采 | 播放列表停滞（循环回放） |
 | TVBS新闻台 | 播放列表停滞（循环回放） |
 | 八大戏剧台 | 点播列表（非直播） |
+| ASTRO AOD | 播放列表停滞（循环回放） |
 
 ## 本机判定不可达（节选）
 
@@ -53,15 +53,16 @@
 | --- | --- | --- |
 | CCTV-16 | 返回非流内容 | `http://74.91.26.218:82/live/cctv16hd.m3u8` |
 | CCTV4K真4K | 连接被拒 | `http://vip1.xinketongxun.fun:8082/tsfile/live/1026_1.m3u8` |
+| 吉林卫视 | 连接被拒 | `http://107.150.60.122/live/jlwshd.m3u8` |
 | 河南卫视 | 连接被拒 | `http://107.150.60.122/live/hawshd.m3u8` |
 | 海南卫视 | HTTP 404 | `http://nn.7x9d.cn/地方台8563/海南.php?id=hnws` |
 | 黑龙江卫视 | URLError | `https://idclive.hljtv.com:4430/live/hljws_own.m3u8` |
-| 太谷新闻综合 | RemoteDisconnected | `https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814` |
-| 汾西综合 | 连接超时 | `https://qmmqvzoz.live.sxmty.com/live/hls/f24f8a390c084386a564074c92601` |
+| 汾西综合 | HTTP 404 | `https://qmmqvzoz.live.sxmty.com/live/hls/f24f8a390c084386a564074c92601` |
 | 黑龙江农业科教频道 | URLError | `https://idclive.hljtv.com:4430/live/hljgg_hd.m3u8` |
 | 黑龙江文体 | URLError | `https://idclive.hljtv.com:4430/live/hljwy_hd.m3u8` |
 | 黑龙江都市 | URLError | `https://idclive.hljtv.com:4430/live/dushi_hd.m3u8` |
 | 绍兴电视台公共 | 连接超时 | `http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6` |
+| 诸暨新闻综合 | TLS 握手失败 | `https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8` |
 | 山东教育 | HTTP 404 | `https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8` |
 | 新野综合 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://tvpull.dxhmt.cn:9081/tv/11329-1.m3u8` |
 | 永城综合 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://tvpull.dxhmt.cn:9081/tv/11481-1.m3u8` |
@@ -99,9 +100,10 @@
 | NewTV家庭剧场 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c59_fast_999_1080P_t10/c` |
 | NewTV泰语剧场 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c58_fast_949_1080P_t10/c` |
 | NewTV爱情剧场 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c59_fast_967_1080P_t10/c` |
-| 美亚电影 | RemoteDisconnected | `http://iptv.4666888.xyz/iptv2A.php?id=30` |
+| 美亚电影 | 连接超时 | `http://iptv.4666888.xyz/iptv2A.php?id=30` |
+| RMTV | HTTP 404 | `https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8` |
 | Jade | 连接超时 | `http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8` |
-| CCTV2 | 连接超时 | `http://101.35.240.114:88/live.php?id=CCTV2` |
+| CCTV2 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://101.35.240.114:88/live.php?id=CCTV2` |
 | Asian Drama | 连接超时 | `http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8` |
 | Mei Ah Movie Channel | 连接超时 | `http://103.172.187.30:12000/stream/mytv/null-2/master.m3u8` |
 | 五星体育 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://101.35.240.114:88/live.php?id=五星体育` |
@@ -109,31 +111,29 @@
 | CCTV-16 | 连接超时 | `http://207.56.13.146:81/cdnlive/cctv16.m3u8` |
 | Arena Sport Premium M3 | 复核仍失败（HTTP 403（限流/地区限制）） | `http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vgvje3t-Jiqa5d9` |
 | ESPN 2 Latin America Colombia (1080p) | 复核仍失败（HTTP 403（限流/地区限制）） | `http://190.61.47.54:8000/play/a005/index.m3u8` |
-| ESPN Latin America Colombia (1080p) | 复核仍失败（HTTP 403（限流/地区限制）） | `http://190.61.47.54:8000/play/a004/index.m3u8` |
-| Eurosport (720p) | HTTP 404 | `https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8` |
-| … | 另有 834 条 | |
+| … | 另有 828 条 | |
 
 ## 移出订阅的原因
 
 | 原因 | 条数 |
 | --- | --- |
-| 连接超时 | 222 |
-| HTTP 404 | 152 |
-| 连接被拒 | 124 |
-| 复核仍失败（HTTP 403（限流/地区限制）） | 79 |
-| TLS 握手失败 | 71 |
-| URLError | 69 |
+| 连接超时 | 205 |
+| HTTP 404 | 158 |
+| 连接被拒 | 129 |
+| 复核仍失败（HTTP 403（限流/地区限制）） | 85 |
+| TLS 握手失败 | 72 |
+| URLError | 56 |
 | 域名解析失败 | 51 |
 | HTTP 500 | 42 |
-| 返回非流内容 | 27 |
+| 返回非流内容 | 23 |
 | HTTP 502 | 20 |
-| HTTP 302 | 15 |
+| HTTP 302 | 16 |
+| RemoteDisconnected | 14 |
 | HTTP 418 | 8 |
-| HTTP 523 | 5 |
-| RemoteDisconnected | 3 |
 | HTTP 400 | 3 |
+| 复核仍失败（HTTP 429（限流/地区限制）） | 2 |
 
-完整逐条清单见 `removed.tsv`（894 条）。
+完整逐条清单见 `removed.tsv`（888 条）。
 未通过校验但未判死的源另存于 `pending.m3u`，需要时可自行加回。
 
 ## 判定边界
